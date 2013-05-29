@@ -67,6 +67,9 @@ GEM
     formatador (0.2.4)
     gherkin (2.12.0)
       multi_json (~> 1.3)
+    google_custom_search_api (1.0.0)
+      addressable
+      httparty
     guard (1.8.0)
       formatador (>= 0.2.4)
       listen (>= 1.0.0)
@@ -139,8 +142,6 @@ GEM
       ffi (>= 0.5.0)
     rb-kqueue (0.2.0)
       ffi (>= 0.5.0)
-    rbing (1.1.0)
-      httparty (>= 0.4.0)
     rdoc (3.12.2)
       json (~> 1.4)
     rspec (2.13.0)
@@ -194,13 +195,13 @@ DEPENDENCIES
   coffee-rails (~> 3.2.1)
   cucumber-rails
   database_cleaner
+  google_custom_search_api
   guard-cucumber
   guard-rspec
   guard-spork
   jquery-rails
   json (~> 1.7.7)
   rails (= 3.2.13)
-  rbing
   rspec-rails
   sass-rails (~> 3.2.3)
   sqlite3
