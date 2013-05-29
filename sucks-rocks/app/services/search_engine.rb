@@ -4,19 +4,11 @@ class SearchEngine
 		0
 	end
 
-	def self.search(term,start,acc)
+	def self.search(term)
 
-		if start.nil?
-			puts "COUNT: #{acc}"
-			return acc
-	    else
-		  results = GoogleCustomSearchApi.search(term,:start => start)
-		  if !results.items.empty? && results.queries.keys.include?("nextPage")
-		    	start = results.queries.nextPage.first.startIndex
-		  else
-		      	start = nil
-		  end
-		  search(term,start, acc + results.items.size)
-		end
+		google_books_engine = BentoSearch.get_engine("gbs")
+
+		google_books_engine.search(term, :semantic_search_field => :title).pagination.count
+
 	end
 end
