@@ -1,0 +1,1183 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.googleapis.com/books/v1/volumes?key=<GOGGLE APP ID>&maxResults=10&q=intitle:windows
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Expires:
+      - Fri, 31 May 2013 01:02:15 GMT
+      Date:
+      - Fri, 31 May 2013 01:02:15 GMT
+      Cache-Control:
+      - private, max-age=0, must-revalidate, no-transform
+      Etag:
+      - ! '"I09ELXbrmOlE-RFCkDsRbIJj278/FpBi80zyESlO_-JjygXJQMvejpU"'
+      Content-Type:
+      - application/json; charset=UTF-8
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      Server:
+      - GSE
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: US-ASCII
+      string: ! "{\n \"kind\": \"books#volumes\",\n \"totalItems\": 598,\n \"items\":
+        [\n  {\n   \"kind\": \"books#volume\",\n   \"id\": \"0Z1bXwAACAAJ\",\n   \"etag\":
+        \"ouyht+hPZ9w\",\n   \"selfLink\": \"https://www.googleapis.com/books/v1/volumes/0Z1bXwAACAAJ\",\n
+        \  \"volumeInfo\": {\n    \"title\": \"Articles on Microsoft Windows, Including\",\n
+        \   \"subtitle\": \"Cleartype, History of Microsoft Windows, VBScript, Windows
+        XP, Windows 2000, DLL Hell, Windows 98, Windows Me, Graphics Device Interface,
+        Opentype, Windows Update, Windows 9x, Fixedsys\",\n    \"authors\": [\n     \"Hephaestus
+        Books\"\n    ],\n    \"publishedDate\": \"2011-08-22\",\n    \"description\":
+        \"Please note that the content of this book primarily consists of articles
+        available from Wikipedia or other free sources online. Hephaestus Books represents
+        a new publishing paradigm, allowing disparate content sources to be curated
+        into cohesive, relevant, and informative books. To date, this content has
+        been curated from Wikipedia articles and images under Creative Commons licensing,
+        although as Hephaestus Books continues to increase in scope and dimension,
+        more licensed and public domain content is being added. We believe books such
+        as this represent a new and exciting lexicon in the sharing of human knowledge.
+        This particular book is a collaboration focused on Microsoft Windows.\",\n
+        \   \"industryIdentifiers\": [\n     {\n      \"type\": \"ISBN_10\",\n      \"identifier\":
+        \"1242608109\"\n     },\n     {\n      \"type\": \"ISBN_13\",\n      \"identifier\":
+        \"9781242608100\"\n     }\n    ],\n    \"pageCount\": 400,\n    \"printType\":
+        \"BOOK\",\n    \"contentVersion\": \"preview-1.0.0\",\n    \"imageLinks\":
+        {\n     \"smallThumbnail\": \"http://bks1.books.google.com/books?id=0Z1bXwAACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api\",\n
+        \    \"thumbnail\": \"http://bks1.books.google.com/books?id=0Z1bXwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api\"\n
+        \   },\n    \"language\": \"en\",\n    \"previewLink\": \"http://books.google.com/books?id=0Z1bXwAACAAJ&dq=intitle:windows&hl=&cd=1&source=gbs_api\",\n
+        \   \"infoLink\": \"http://books.google.com/books?id=0Z1bXwAACAAJ&dq=intitle:windows&hl=&source=gbs_api\",\n
+        \   \"canonicalVolumeLink\": \"http://books.google.com/books/about/Articles_on_Microsoft_Windows_Including.html?hl=&id=0Z1bXwAACAAJ\"\n
+        \  },\n   \"saleInfo\": {\n    \"country\": \"US\",\n    \"saleability\":
+        \"NOT_FOR_SALE\",\n    \"isEbook\": false\n   },\n   \"accessInfo\": {\n    \"country\":
+        \"US\",\n    \"viewability\": \"NO_PAGES\",\n    \"embeddable\": false,\n
+        \   \"publicDomain\": false,\n    \"textToSpeechPermission\": \"ALLOWED\",\n
+        \   \"epub\": {\n     \"isAvailable\": false\n    },\n    \"pdf\": {\n     \"isAvailable\":
+        false\n    },\n    \"webReaderLink\": \"http://books.google.com/books/reader?id=0Z1bXwAACAAJ&hl=&printsec=frontcover&output=reader&source=gbs_api\",\n
+        \   \"accessViewStatus\": \"NONE\"\n   },\n   \"searchInfo\": {\n    \"textSnippet\":
+        \"Please note that the content of this book primarily consists of articles
+        available from Wikipedia or other free sources online.\"\n   }\n  },\n  {\n
+        \  \"kind\": \"books#volume\",\n   \"id\": \"eR9OGwAACAAJ\",\n   \"etag\":
+        \"/Al/2w1RZ0M\",\n   \"selfLink\": \"https://www.googleapis.com/books/v1/volumes/eR9OGwAACAAJ\",\n
+        \  \"volumeInfo\": {\n    \"title\": \"Truscon Drafting Room Standards for
+        Pivoted Steel Windows, Continuous Steel Windows, Donovan Awning-type Windows,
+        Counterbalanced Windows, Solid Steel Double-hung Windows, Architectural &
+        Commercial Projected Windows, Standard Casements, Basement Windows, Pressed
+        Steel Frames, Mechanical Operators, [and] Steel Doors ...\",\n    \"authors\":
+        [\n     \"Truscon Steel Company\"\n    ],\n    \"publishedDate\": \"1927\",\n
+        \   \"industryIdentifiers\": [\n     {\n      \"type\": \"OTHER\",\n      \"identifier\":
+        \"OCLC:43967042\"\n     }\n    ],\n    \"pageCount\": 127,\n    \"printType\":
+        \"BOOK\",\n    \"contentVersion\": \"preview-1.0.0\",\n    \"language\": \"en\",\n
+        \   \"previewLink\": \"http://books.google.com/books?id=eR9OGwAACAAJ&dq=intitle:windows&hl=&cd=2&source=gbs_api\",\n
+        \   \"infoLink\": \"http://books.google.com/books?id=eR9OGwAACAAJ&dq=intitle:windows&hl=&source=gbs_api\",\n
+        \   \"canonicalVolumeLink\": \"http://books.google.com/books/about/Truscon_Drafting_Room_Standards_for_Pivo.html?hl=&id=eR9OGwAACAAJ\"\n
+        \  },\n   \"saleInfo\": {\n    \"country\": \"US\",\n    \"saleability\":
+        \"NOT_FOR_SALE\",\n    \"isEbook\": false\n   },\n   \"accessInfo\": {\n    \"country\":
+        \"US\",\n    \"viewability\": \"NO_PAGES\",\n    \"embeddable\": false,\n
+        \   \"publicDomain\": false,\n    \"textToSpeechPermission\": \"ALLOWED\",\n
+        \   \"epub\": {\n     \"isAvailable\": false\n    },\n    \"pdf\": {\n     \"isAvailable\":
+        false\n    },\n    \"webReaderLink\": \"http://books.google.com/books/reader?id=eR9OGwAACAAJ&hl=&printsec=frontcover&output=reader&source=gbs_api\",\n
+        \   \"accessViewStatus\": \"NONE\"\n   }\n  },\n  {\n   \"kind\": \"books#volume\",\n
+        \  \"id\": \"otuWtgAACAAJ\",\n   \"etag\": \"9oSoEX0V0Ts\",\n   \"selfLink\":
+        \"https://www.googleapis.com/books/v1/volumes/otuWtgAACAAJ\",\n   \"volumeInfo\":
+        {\n    \"title\": \"Articles on Windows Code Pages, Including\",\n    \"subtitle\":
+        \"Windows-1252, Windows-1258, Windows-1251, Windows-1250, Windows-1253, Windows-1254,
+        Windows-1255, Windows-1256, Windows-1257, Gbk, Windows Code Page, Code Page
+        936, Code Page 950, Code Page 932\",\n    \"authors\": [\n     \"Hephaestus
+        Books\"\n    ],\n    \"publishedDate\": \"2011-08-22\",\n    \"description\":
+        \"Please note that the content of this book primarily consists of articles
+        available from Wikipedia or other free sources online. Hephaestus Books represents
+        a new publishing paradigm, allowing disparate content sources to be curated
+        into cohesive, relevant, and informative books. To date, this content has
+        been curated from Wikipedia articles and images under Creative Commons licensing,
+        although as Hephaestus Books continues to increase in scope and dimension,
+        more licensed and public domain content is being added. We believe books such
+        as this represent a new and exciting lexicon in the sharing of human knowledge.
+        This particular book is a collaboration focused on Windows code pages.More
+        info: Windows code pages are sets of characters or code pages (known as character
+        encodings in other operating systems) used in Microsoft Windows systems from
+        the 1980s and 1990s.\",\n    \"industryIdentifiers\": [\n     {\n      \"type\":
+        \"ISBN_10\",\n      \"identifier\": \"1242601325\"\n     },\n     {\n      \"type\":
+        \"ISBN_13\",\n      \"identifier\": \"9781242601323\"\n     }\n    ],\n    \"pageCount\":
+        40,\n    \"printType\": \"BOOK\",\n    \"contentVersion\": \"preview-1.0.0\",\n
+        \   \"imageLinks\": {\n     \"smallThumbnail\": \"http://bks1.books.google.com/books?id=otuWtgAACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api\",\n
+        \    \"thumbnail\": \"http://bks1.books.google.com/books?id=otuWtgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api\"\n
+        \   },\n    \"language\": \"en\",\n    \"previewLink\": \"http://books.google.com/books?id=otuWtgAACAAJ&dq=intitle:windows&hl=&cd=3&source=gbs_api\",\n
+        \   \"infoLink\": \"http://books.google.com/books?id=otuWtgAACAAJ&dq=intitle:windows&hl=&source=gbs_api\",\n
+        \   \"canonicalVolumeLink\": \"http://books.google.com/books/about/Articles_on_Windows_Code_Pages_Including.html?hl=&id=otuWtgAACAAJ\"\n
+        \  },\n   \"saleInfo\": {\n    \"country\": \"US\",\n    \"saleability\":
+        \"NOT_FOR_SALE\",\n    \"isEbook\": false\n   },\n   \"accessInfo\": {\n    \"country\":
+        \"US\",\n    \"viewability\": \"NO_PAGES\",\n    \"embeddable\": false,\n
+        \   \"publicDomain\": false,\n    \"textToSpeechPermission\": \"ALLOWED\",\n
+        \   \"epub\": {\n     \"isAvailable\": false\n    },\n    \"pdf\": {\n     \"isAvailable\":
+        false\n    },\n    \"webReaderLink\": \"http://books.google.com/books/reader?id=otuWtgAACAAJ&hl=&printsec=frontcover&output=reader&source=gbs_api\",\n
+        \   \"accessViewStatus\": \"NONE\"\n   },\n   \"searchInfo\": {\n    \"textSnippet\":
+        \"Please note that the content of this book primarily consists of articles
+        available from Wikipedia or other free sources online.\"\n   }\n  },\n  {\n
+        \  \"kind\": \"books#volume\",\n   \"id\": \"ffy0tgAACAAJ\",\n   \"etag\":
+        \"kQOjEgs/Bes\",\n   \"selfLink\": \"https://www.googleapis.com/books/v1/volumes/ffy0tgAACAAJ\",\n
+        \  \"volumeInfo\": {\n    \"title\": \"Articles on Microsoft Windows Multimedia
+        Technology, Including\",\n    \"subtitle\": \"Wav, Windows Media Audio, Audio
+        Video Interleave, Windows Media Player, Windows Metafile, Windows Media Video,
+        BMP File Format, Advanced Stream Redirector\",\n    \"authors\": [\n     \"Hephaestus
+        Books\"\n    ],\n    \"publishedDate\": \"2011-08-22\",\n    \"description\":
+        \"Please note that the content of this book primarily consists of articles
+        available from Wikipedia or other free sources online. Hephaestus Books represents
+        a new publishing paradigm, allowing disparate content sources to be curated
+        into cohesive, relevant, and informative books. To date, this content has
+        been curated from Wikipedia articles and images under Creative Commons licensing,
+        although as Hephaestus Books continues to increase in scope and dimension,
+        more licensed and public domain content is being added. We believe books such
+        as this represent a new and exciting lexicon in the sharing of human knowledge.
+        This particular book is a collaboration focused on Microsoft Windows multimedia
+        technology.\",\n    \"industryIdentifiers\": [\n     {\n      \"type\": \"ISBN_10\",\n
+        \     \"identifier\": \"1242603255\"\n     },\n     {\n      \"type\": \"ISBN_13\",\n
+        \     \"identifier\": \"9781242603259\"\n     }\n    ],\n    \"pageCount\":
+        200,\n    \"printType\": \"BOOK\",\n    \"contentVersion\": \"preview-1.0.0\",\n
+        \   \"imageLinks\": {\n     \"smallThumbnail\": \"http://bks7.books.google.com/books?id=ffy0tgAACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api\",\n
+        \    \"thumbnail\": \"http://bks7.books.google.com/books?id=ffy0tgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api\"\n
+        \   },\n    \"language\": \"en\",\n    \"previewLink\": \"http://books.google.com/books?id=ffy0tgAACAAJ&dq=intitle:windows&hl=&cd=4&source=gbs_api\",\n
+        \   \"infoLink\": \"http://books.google.com/books?id=ffy0tgAACAAJ&dq=intitle:windows&hl=&source=gbs_api\",\n
+        \   \"canonicalVolumeLink\": \"http://books.google.com/books/about/Articles_on_Microsoft_Windows_Multimedia.html?hl=&id=ffy0tgAACAAJ\"\n
+        \  },\n   \"saleInfo\": {\n    \"country\": \"US\",\n    \"saleability\":
+        \"NOT_FOR_SALE\",\n    \"isEbook\": false\n   },\n   \"accessInfo\": {\n    \"country\":
+        \"US\",\n    \"viewability\": \"NO_PAGES\",\n    \"embeddable\": false,\n
+        \   \"publicDomain\": false,\n    \"textToSpeechPermission\": \"ALLOWED\",\n
+        \   \"epub\": {\n     \"isAvailable\": false\n    },\n    \"pdf\": {\n     \"isAvailable\":
+        false\n    },\n    \"webReaderLink\": \"http://books.google.com/books/reader?id=ffy0tgAACAAJ&hl=&printsec=frontcover&output=reader&source=gbs_api\",\n
+        \   \"accessViewStatus\": \"NONE\"\n   },\n   \"searchInfo\": {\n    \"textSnippet\":
+        \"Please note that the content of this book primarily consists of articles
+        available from Wikipedia or other free sources online.\"\n   }\n  },\n  {\n
+        \  \"kind\": \"books#volume\",\n   \"id\": \"OFgPAQAAMAAJ\",\n   \"etag\":
+        \"LMGMs8wmGpU\",\n   \"selfLink\": \"https://www.googleapis.com/books/v1/volumes/OFgPAQAAMAAJ\",\n
+        \  \"volumeInfo\": {\n    \"title\": \"Microsoft Windows 3.1, Microsoft Word
+        6.0 for Windows, Microsoft Excel 5.0 for Windows, Microsoft Access 2.0 for
+        Windows\",\n    \"subtitle\": \"illustrated\",\n    \"authors\": [\n     \"Marie
+        L. Swanson\",\n     \"Reding\",\n     \"Elizabeth Eisner Reding\",\n     \"Gregory
+        Schultz\",\n     \"Swan\"\n    ],\n    \"publisher\": \"Arden Shakespeare\",\n
+        \   \"publishedDate\": \"1994-02-01\",\n    \"industryIdentifiers\": [\n     {\n
+        \     \"type\": \"ISBN_10\",\n      \"identifier\": \"1565275535\"\n     },\n
+        \    {\n      \"type\": \"ISBN_13\",\n      \"identifier\": \"9781565275539\"\n
+        \    }\n    ],\n    \"printType\": \"BOOK\",\n    \"categories\": [\n     \"Computers\"\n
+        \   ],\n    \"contentVersion\": \"preview-1.0.0\",\n    \"imageLinks\": {\n
+        \    \"smallThumbnail\": \"http://bks6.books.google.com/books?id=OFgPAQAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api\",\n
+        \    \"thumbnail\": \"http://bks6.books.google.com/books?id=OFgPAQAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api\"\n
+        \   },\n    \"language\": \"en\",\n    \"previewLink\": \"http://books.google.com/books?id=OFgPAQAAMAAJ&dq=intitle:windows&hl=&cd=5&source=gbs_api\",\n
+        \   \"infoLink\": \"http://books.google.com/books?id=OFgPAQAAMAAJ&dq=intitle:windows&hl=&source=gbs_api\",\n
+        \   \"canonicalVolumeLink\": \"http://books.google.com/books/about/Microsoft_Windows_3_1_Microsoft_Word_6_0.html?hl=&id=OFgPAQAAMAAJ\"\n
+        \  },\n   \"saleInfo\": {\n    \"country\": \"US\",\n    \"saleability\":
+        \"NOT_FOR_SALE\",\n    \"isEbook\": false\n   },\n   \"accessInfo\": {\n    \"country\":
+        \"US\",\n    \"viewability\": \"NO_PAGES\",\n    \"embeddable\": false,\n
+        \   \"publicDomain\": false,\n    \"textToSpeechPermission\": \"ALLOWED\",\n
+        \   \"epub\": {\n     \"isAvailable\": false\n    },\n    \"pdf\": {\n     \"isAvailable\":
+        false\n    },\n    \"webReaderLink\": \"http://books.google.com/books/reader?id=OFgPAQAAMAAJ&hl=&printsec=frontcover&output=reader&source=gbs_api\",\n
+        \   \"accessViewStatus\": \"NONE\"\n   }\n  },\n  {\n   \"kind\": \"books#volume\",\n
+        \  \"id\": \"JayoXwAACAAJ\",\n   \"etag\": \"+vPKsWGs07o\",\n   \"selfLink\":
+        \"https://www.googleapis.com/books/v1/volumes/JayoXwAACAAJ\",\n   \"volumeInfo\":
+        {\n    \"title\": \"Ceco Residence Casements, Casement Doors, Architectural
+        Projected Windows, Commercial Projected Windows, Pivoted Windows, Basement
+        Windows, Industrial Doors, Continuous Windows, Mechanical Operators\",\n    \"subtitle\":
+        \"In Metal by Concrete Engineering Company\",\n    \"authors\": [\n     \"Concrete
+        Engineering Company\"\n    ],\n    \"publishedDate\": \"1930\",\n    \"industryIdentifiers\":
+        [\n     {\n      \"type\": \"OTHER\",\n      \"identifier\": \"OCLC:84444547\"\n
+        \    }\n    ],\n    \"pageCount\": 48,\n    \"printType\": \"BOOK\",\n    \"contentVersion\":
+        \"preview-1.0.0\",\n    \"language\": \"en\",\n    \"previewLink\": \"http://books.google.com/books?id=JayoXwAACAAJ&dq=intitle:windows&hl=&cd=6&source=gbs_api\",\n
+        \   \"infoLink\": \"http://books.google.com/books?id=JayoXwAACAAJ&dq=intitle:windows&hl=&source=gbs_api\",\n
+        \   \"canonicalVolumeLink\": \"http://books.google.com/books/about/Ceco_Residence_Casements_Casement_Doors.html?hl=&id=JayoXwAACAAJ\"\n
+        \  },\n   \"saleInfo\": {\n    \"country\": \"US\",\n    \"saleability\":
+        \"NOT_FOR_SALE\",\n    \"isEbook\": false\n   },\n   \"accessInfo\": {\n    \"country\":
+        \"US\",\n    \"viewability\": \"NO_PAGES\",\n    \"embeddable\": false,\n
+        \   \"publicDomain\": false,\n    \"textToSpeechPermission\": \"ALLOWED\",\n
+        \   \"epub\": {\n     \"isAvailable\": false\n    },\n    \"pdf\": {\n     \"isAvailable\":
+        false\n    },\n    \"webReaderLink\": \"http://books.google.com/books/reader?id=JayoXwAACAAJ&hl=&printsec=frontcover&output=reader&source=gbs_api\",\n
+        \   \"accessViewStatus\": \"NONE\"\n   }\n  },\n  {\n   \"kind\": \"books#volume\",\n
+        \  \"id\": \"LcTMmgEACAAJ\",\n   \"etag\": \"agFmfR0U0VM\",\n   \"selfLink\":
+        \"https://www.googleapis.com/books/v1/volumes/LcTMmgEACAAJ\",\n   \"volumeInfo\":
+        {\n    \"title\": \"Windows 3.1 Essentials. 1-2-3 Release 5 for Windows Essentials.
+        WordPerfect 6.1 for Windows Essentials. Netscape Essentials\",\n    \"authors\":
+        [\n     \"Donna M. Matherly\",\n     \"Laura Acklen\",\n     \"Susan Plumley\",\n
+        \    \"Linda Hefferin\",\n     \"Patrick Clancy\"\n    ],\n    \"publishedDate\":
+        \"1996*\",\n    \"industryIdentifiers\": [\n     {\n      \"type\": \"ISBN_10\",\n
+        \     \"identifier\": \"1575763672\"\n     },\n     {\n      \"type\": \"ISBN_13\",\n
+        \     \"identifier\": \"9781575763675\"\n     }\n    ],\n    \"pageCount\":
+        687,\n    \"printType\": \"BOOK\",\n    \"categories\": [\n     \"Microsoft
+        Windows (Computer file)\"\n    ],\n    \"contentVersion\": \"preview-1.0.0\",\n
+        \   \"imageLinks\": {\n     \"smallThumbnail\": \"http://bks6.books.google.com/books?id=LcTMmgEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api\",\n
+        \    \"thumbnail\": \"http://bks6.books.google.com/books?id=LcTMmgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api\"\n
+        \   },\n    \"language\": \"en\",\n    \"previewLink\": \"http://books.google.com/books?id=LcTMmgEACAAJ&dq=intitle:windows&hl=&cd=7&source=gbs_api\",\n
+        \   \"infoLink\": \"http://books.google.com/books?id=LcTMmgEACAAJ&dq=intitle:windows&hl=&source=gbs_api\",\n
+        \   \"canonicalVolumeLink\": \"http://books.google.com/books/about/Windows_3_1_Essentials_1_2_3_Release_5_f.html?hl=&id=LcTMmgEACAAJ\"\n
+        \  },\n   \"saleInfo\": {\n    \"country\": \"US\",\n    \"saleability\":
+        \"NOT_FOR_SALE\",\n    \"isEbook\": false\n   },\n   \"accessInfo\": {\n    \"country\":
+        \"US\",\n    \"viewability\": \"NO_PAGES\",\n    \"embeddable\": false,\n
+        \   \"publicDomain\": false,\n    \"textToSpeechPermission\": \"ALLOWED\",\n
+        \   \"epub\": {\n     \"isAvailable\": false\n    },\n    \"pdf\": {\n     \"isAvailable\":
+        false\n    },\n    \"webReaderLink\": \"http://books.google.com/books/reader?id=LcTMmgEACAAJ&hl=&printsec=frontcover&output=reader&source=gbs_api\",\n
+        \   \"accessViewStatus\": \"NONE\"\n   }\n  },\n  {\n   \"kind\": \"books#volume\",\n
+        \  \"id\": \"0jsSLgEACAAJ\",\n   \"etag\": \"5KufCIgYuUc\",\n   \"selfLink\":
+        \"https://www.googleapis.com/books/v1/volumes/0jsSLgEACAAJ\",\n   \"volumeInfo\":
+        {\n    \"title\": \"Microsoft Windows NT Resource Kit for Windows NT Workstation
+        and Windows NT Server Version 3.5\",\n    \"subtitle\": \"Version 3.51 update
+        2\",\n    \"publishedDate\": \"1995\",\n    \"industryIdentifiers\": [\n     {\n
+        \     \"type\": \"ISBN_10\",\n      \"identifier\": \"1556159293\"\n     },\n
+        \    {\n      \"type\": \"ISBN_13\",\n      \"identifier\": \"9781556159299\"\n
+        \    }\n    ],\n    \"pageCount\": 330,\n    \"printType\": \"BOOK\",\n    \"contentVersion\":
+        \"preview-1.0.0\",\n    \"imageLinks\": {\n     \"smallThumbnail\": \"http://bks0.books.google.com/books?id=0jsSLgEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api\",\n
+        \    \"thumbnail\": \"http://bks0.books.google.com/books?id=0jsSLgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api\"\n
+        \   },\n    \"language\": \"en\",\n    \"previewLink\": \"http://books.google.com/books?id=0jsSLgEACAAJ&dq=intitle:windows&hl=&cd=8&source=gbs_api\",\n
+        \   \"infoLink\": \"http://books.google.com/books?id=0jsSLgEACAAJ&dq=intitle:windows&hl=&source=gbs_api\",\n
+        \   \"canonicalVolumeLink\": \"http://books.google.com/books/about/Microsoft_Windows_NT_Resource_Kit_for_Wi.html?hl=&id=0jsSLgEACAAJ\"\n
+        \  },\n   \"saleInfo\": {\n    \"country\": \"US\",\n    \"saleability\":
+        \"NOT_FOR_SALE\",\n    \"isEbook\": false\n   },\n   \"accessInfo\": {\n    \"country\":
+        \"US\",\n    \"viewability\": \"NO_PAGES\",\n    \"embeddable\": false,\n
+        \   \"publicDomain\": false,\n    \"textToSpeechPermission\": \"ALLOWED\",\n
+        \   \"epub\": {\n     \"isAvailable\": false\n    },\n    \"pdf\": {\n     \"isAvailable\":
+        false\n    },\n    \"webReaderLink\": \"http://books.google.com/books/reader?id=0jsSLgEACAAJ&hl=&printsec=frontcover&output=reader&source=gbs_api\",\n
+        \   \"accessViewStatus\": \"NONE\"\n   }\n  },\n  {\n   \"kind\": \"books#volume\",\n
+        \  \"id\": \"LLEXYAAACAAJ\",\n   \"etag\": \"6/Fh+JzSjRw\",\n   \"selfLink\":
+        \"https://www.googleapis.com/books/v1/volumes/LLEXYAAACAAJ\",\n   \"volumeInfo\":
+        {\n    \"title\": \"Articles on Windows NT Architecture, Including\",\n    \"subtitle\":
+        \"Local Security Authority Subsystem Service, System Idle Process, Windows
+        User, Architecture of Windows NT, Security Identifier, Session Manager Subsystem,
+        Microsoft Windows Library Files\",\n    \"authors\": [\n     \"Hephaestus
+        Books\"\n    ],\n    \"publishedDate\": \"2011-08-22\",\n    \"description\":
+        \"Please note that the content of this book primarily consists of articles
+        available from Wikipedia or other free sources online. Hephaestus Books represents
+        a new publishing paradigm, allowing disparate content sources to be curated
+        into cohesive, relevant, and informative books. To date, this content has
+        been curated from Wikipedia articles and images under Creative Commons licensing,
+        although as Hephaestus Books continues to increase in scope and dimension,
+        more licensed and public domain content is being added. We believe books such
+        as this represent a new and exciting lexicon in the sharing of human knowledge.
+        This particular book is a collaboration focused on Windows NT architecture.\",\n
+        \   \"industryIdentifiers\": [\n     {\n      \"type\": \"ISBN_10\",\n      \"identifier\":
+        \"1242599428\"\n     },\n     {\n      \"type\": \"ISBN_13\",\n      \"identifier\":
+        \"9781242599422\"\n     }\n    ],\n    \"pageCount\": 46,\n    \"printType\":
+        \"BOOK\",\n    \"contentVersion\": \"preview-1.0.0\",\n    \"imageLinks\":
+        {\n     \"smallThumbnail\": \"http://bks3.books.google.com/books?id=LLEXYAAACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api\",\n
+        \    \"thumbnail\": \"http://bks3.books.google.com/books?id=LLEXYAAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api\"\n
+        \   },\n    \"language\": \"en\",\n    \"previewLink\": \"http://books.google.com/books?id=LLEXYAAACAAJ&dq=intitle:windows&hl=&cd=9&source=gbs_api\",\n
+        \   \"infoLink\": \"http://books.google.com/books?id=LLEXYAAACAAJ&dq=intitle:windows&hl=&source=gbs_api\",\n
+        \   \"canonicalVolumeLink\": \"http://books.google.com/books/about/Articles_on_Windows_NT_Architecture_Incl.html?hl=&id=LLEXYAAACAAJ\"\n
+        \  },\n   \"saleInfo\": {\n    \"country\": \"US\",\n    \"saleability\":
+        \"NOT_FOR_SALE\",\n    \"isEbook\": false\n   },\n   \"accessInfo\": {\n    \"country\":
+        \"US\",\n    \"viewability\": \"NO_PAGES\",\n    \"embeddable\": false,\n
+        \   \"publicDomain\": false,\n    \"textToSpeechPermission\": \"ALLOWED\",\n
+        \   \"epub\": {\n     \"isAvailable\": false\n    },\n    \"pdf\": {\n     \"isAvailable\":
+        false\n    },\n    \"webReaderLink\": \"http://books.google.com/books/reader?id=LLEXYAAACAAJ&hl=&printsec=frontcover&output=reader&source=gbs_api\",\n
+        \   \"accessViewStatus\": \"NONE\"\n   },\n   \"searchInfo\": {\n    \"textSnippet\":
+        \"Please note that the content of this book primarily consists of articles
+        available from Wikipedia or other free sources online.\"\n   }\n  },\n  {\n
+        \  \"kind\": \"books#volume\",\n   \"id\": \"uJkEAAAACAAJ\",\n   \"etag\":
+        \"odRWQm9P/bM\",\n   \"selfLink\": \"https://www.googleapis.com/books/v1/volumes/uJkEAAAACAAJ\",\n
+        \  \"volumeInfo\": {\n    \"title\": \"Network Clients for Os/2 Warp Server
+        Os/2 Warp4, Dos/Windows, Windows 95/Nt, and Apple Macintosh\",\n    \"authors\":
+        [\n     \"IBM Redbooks\"\n    ],\n    \"publisher\": \"IBM\",\n    \"publishedDate\":
+        \"1997-09\",\n    \"industryIdentifiers\": [\n     {\n      \"type\": \"ISBN_10\",\n
+        \     \"identifier\": \"0738404373\"\n     },\n     {\n      \"type\": \"ISBN_13\",\n
+        \     \"identifier\": \"9780738404370\"\n     }\n    ],\n    \"pageCount\":
+        442,\n    \"printType\": \"BOOK\",\n    \"contentVersion\": \"preview-1.0.0\",\n
+        \   \"imageLinks\": {\n     \"smallThumbnail\": \"http://bks2.books.google.com/books?id=uJkEAAAACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api\",\n
+        \    \"thumbnail\": \"http://bks2.books.google.com/books?id=uJkEAAAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api\"\n
+        \   },\n    \"language\": \"en\",\n    \"previewLink\": \"http://books.google.com/books?id=uJkEAAAACAAJ&dq=intitle:windows&hl=&cd=10&source=gbs_api\",\n
+        \   \"infoLink\": \"http://books.google.com/books?id=uJkEAAAACAAJ&dq=intitle:windows&hl=&source=gbs_api\",\n
+        \   \"canonicalVolumeLink\": \"http://books.google.com/books/about/Network_Clients_for_Os_2_Warp_Server_Os.html?hl=&id=uJkEAAAACAAJ\"\n
+        \  },\n   \"saleInfo\": {\n    \"country\": \"US\",\n    \"saleability\":
+        \"NOT_FOR_SALE\",\n    \"isEbook\": false\n   },\n   \"accessInfo\": {\n    \"country\":
+        \"US\",\n    \"viewability\": \"NO_PAGES\",\n    \"embeddable\": false,\n
+        \   \"publicDomain\": false,\n    \"textToSpeechPermission\": \"ALLOWED\",\n
+        \   \"epub\": {\n     \"isAvailable\": false\n    },\n    \"pdf\": {\n     \"isAvailable\":
+        false\n    },\n    \"webReaderLink\": \"http://books.google.com/books/reader?id=uJkEAAAACAAJ&hl=&printsec=frontcover&output=reader&source=gbs_api\",\n
+        \   \"accessViewStatus\": \"NONE\"\n   }\n  }\n ]\n}\n"
+    http_version: 
+  recorded_at: Fri, 31 May 2013 01:02:15 GMT
+- request:
+    method: get
+    uri: https://www.googleapis.com/books/v1/volumes?key=<GOGGLE APP ID>&maxResults=10&q=subject:windows
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: !binary |-
+        T0s=
+    headers:
+      !binary "RXhwaXJlcw==":
+      - !binary |-
+        RnJpLCAzMSBNYXkgMjAxMyAwMTowMjoxNSBHTVQ=
+      !binary "RGF0ZQ==":
+      - !binary |-
+        RnJpLCAzMSBNYXkgMjAxMyAwMTowMjoxNSBHTVQ=
+      !binary "Q2FjaGUtQ29udHJvbA==":
+      - !binary |-
+        cHJpdmF0ZSwgbWF4LWFnZT0wLCBtdXN0LXJldmFsaWRhdGUsIG5vLXRyYW5z
+        Zm9ybQ==
+      !binary "RXRhZw==":
+      - !binary |-
+        IkkwOUVMWGJybU9sRS1SRkNrRHNSYklKajI3OC9qSGZXTTczRng3RUFmNEFF
+        MzFwaEZSUUl4T1Ui
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        YXBwbGljYXRpb24vanNvbjsgY2hhcnNldD1VVEYtOA==
+      !binary "WC1Db250ZW50LVR5cGUtT3B0aW9ucw==":
+      - !binary |-
+        bm9zbmlmZg==
+      !binary "WC1GcmFtZS1PcHRpb25z":
+      - !binary |-
+        U0FNRU9SSUdJTg==
+      !binary "WC1Yc3MtUHJvdGVjdGlvbg==":
+      - !binary |-
+        MTsgbW9kZT1ibG9jaw==
+      !binary "U2VydmVy":
+      - !binary |-
+        R1NF
+      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
+      - !binary |-
+        Y2h1bmtlZA==
+    body:
+      encoding: UTF-8
+      string: ! "{\n \"kind\": \"books#volumes\",\n \"totalItems\": 492,\n \"items\":
+        [\n  {\n   \"kind\": \"books#volume\",\n   \"id\": \"PYri6O1zbDYC\",\n   \"etag\":
+        \"8MisKiuyx6A\",\n   \"selfLink\": \"https://www.googleapis.com/books/v1/volumes/PYri6O1zbDYC\",\n
+        \  \"volumeInfo\": {\n    \"title\": \"type P オーナーズブック\",\n    \"subtitle\":
+        \"Kyūkyoku no mini nōto pasokon kanzen kōryaku masutā : Windows Vista taiōban\",\n
+        \   \"authors\": [\n     \"ゲイザー\"\n    ],\n    \"publishedDate\": \"2009-04-17\",\n
+        \   \"description\": \"究極のミニノートパソコンを完全攻略マスター。すべての使い方をシンプル解説。基本操作から快速・快適設定まで、完全図解の取扱説明書。\",\n
+        \   \"industryIdentifiers\": [\n     {\n      \"type\": \"ISBN_10\",\n      \"identifier\":
+        \"4798022373\"\n     },\n     {\n      \"type\": \"ISBN_13\",\n      \"identifier\":
+        \"9784798022376\"\n     }\n    ],\n    \"pageCount\": 175,\n    \"printType\":
+        \"BOOK\",\n    \"contentVersion\": \"0.0.1.0.preview.1\",\n    \"imageLinks\":
+        {\n     \"smallThumbnail\": \"http://bks9.books.google.com/books?id=PYri6O1zbDYC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api\",\n
+        \    \"thumbnail\": \"http://bks9.books.google.com/books?id=PYri6O1zbDYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api\"\n
+        \   },\n    \"language\": \"ja\",\n    \"previewLink\": \"http://books.google.com/books?id=PYri6O1zbDYC&printsec=frontcover&dq=subject:windows&hl=&cd=1&source=gbs_api\",\n
+        \   \"infoLink\": \"http://books.google.com/books?id=PYri6O1zbDYC&dq=subject:windows&hl=&source=gbs_api\",\n
+        \   \"canonicalVolumeLink\": \"http://books.google.com/books/about/type_P_%E3%82%AA%E3%83%BC%E3%83%8A%E3%83%BC%E3%82%BA%E3%83%96%E3%83%83%E3%82%AF.html?hl=&id=PYri6O1zbDYC\"\n
+        \  },\n   \"saleInfo\": {\n    \"country\": \"US\",\n    \"saleability\":
+        \"NOT_FOR_SALE\",\n    \"isEbook\": false\n   },\n   \"accessInfo\": {\n    \"country\":
+        \"US\",\n    \"viewability\": \"PARTIAL\",\n    \"embeddable\": true,\n    \"publicDomain\":
+        false,\n    \"textToSpeechPermission\": \"ALLOWED\",\n    \"epub\": {\n     \"isAvailable\":
+        false\n    },\n    \"pdf\": {\n     \"isAvailable\": false\n    },\n    \"webReaderLink\":
+        \"http://books.google.com/books/reader?id=PYri6O1zbDYC&hl=&printsec=frontcover&output=reader&source=gbs_api\",\n
+        \   \"accessViewStatus\": \"SAMPLE\"\n   }\n  },\n  {\n   \"kind\": \"books#volume\",\n
+        \  \"id\": \"bbZPPwAACAAJ\",\n   \"etag\": \"GIeaSuBdJRg\",\n   \"selfLink\":
+        \"https://www.googleapis.com/books/v1/volumes/bbZPPwAACAAJ\",\n   \"volumeInfo\":
+        {\n    \"title\": \"The Virtual Window\",\n    \"subtitle\": \"From Alberti
+        to Microsoft\",\n    \"authors\": [\n     \"Anne Friedberg\"\n    ],\n    \"publisher\":
+        \"MIT Press (MA)\",\n    \"publishedDate\": \"2009-04-30\",\n    \"description\":
+        \"From the Renaissance idea of the painting as an open window to the nested
+        windows and multiple images on today's cinema, television, and computer screens:
+        a cultural history of the metaphoric, literal, and virtual window.\",\n    \"industryIdentifiers\":
+        [\n     {\n      \"type\": \"ISBN_10\",\n      \"identifier\": \"0262512505\"\n
+        \    },\n     {\n      \"type\": \"ISBN_13\",\n      \"identifier\": \"9780262512503\"\n
+        \    }\n    ],\n    \"pageCount\": 357,\n    \"printType\": \"BOOK\",\n    \"averageRating\":
+        3.5,\n    \"ratingsCount\": 4,\n    \"contentVersion\": \"preview-1.0.0\",\n
+        \   \"imageLinks\": {\n     \"smallThumbnail\": \"http://bks0.books.google.com/books?id=bbZPPwAACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api\",\n
+        \    \"thumbnail\": \"http://bks0.books.google.com/books?id=bbZPPwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api\"\n
+        \   },\n    \"language\": \"en\",\n    \"previewLink\": \"http://books.google.com/books?id=bbZPPwAACAAJ&dq=subject:windows&hl=&cd=2&source=gbs_api\",\n
+        \   \"infoLink\": \"http://books.google.com/books?id=bbZPPwAACAAJ&dq=subject:windows&hl=&source=gbs_api\",\n
+        \   \"canonicalVolumeLink\": \"http://books.google.com/books/about/The_Virtual_Window.html?hl=&id=bbZPPwAACAAJ\"\n
+        \  },\n   \"saleInfo\": {\n    \"country\": \"US\",\n    \"saleability\":
+        \"NOT_FOR_SALE\",\n    \"isEbook\": false\n   },\n   \"accessInfo\": {\n    \"country\":
+        \"US\",\n    \"viewability\": \"NO_PAGES\",\n    \"embeddable\": false,\n
+        \   \"publicDomain\": false,\n    \"textToSpeechPermission\": \"ALLOWED\",\n
+        \   \"epub\": {\n     \"isAvailable\": false\n    },\n    \"pdf\": {\n     \"isAvailable\":
+        false\n    },\n    \"webReaderLink\": \"http://books.google.com/books/reader?id=bbZPPwAACAAJ&hl=&printsec=frontcover&output=reader&source=gbs_api\",\n
+        \   \"accessViewStatus\": \"NONE\"\n   }\n  },\n  {\n   \"kind\": \"books#volume\",\n
+        \  \"id\": \"12exLkj4jNMC\",\n   \"etag\": \"QgrCVo8kuuQ\",\n   \"selfLink\":
+        \"https://www.googleapis.com/books/v1/volumes/12exLkj4jNMC\",\n   \"volumeInfo\":
+        {\n    \"title\": \"Master the basics of architectural drafting using VectorWorks
+        2008\",\n    \"subtitle\": \"\",\n    \"authors\": [\n     \"山田幸司\"\n    ],\n
+        \   \"publishedDate\": \"2008-04\",\n    \"description\": \"基本的な作図・編集テクニックから、実践で役立つ建築・機械図面の書き方までを徹底解説。最新のVectorWorks2008を中心にver10~12でも使えるテクニックを掲載。\",\n
+        \   \"industryIdentifiers\": [\n     {\n      \"type\": \"ISBN_10\",\n      \"identifier\":
+        \"4798019534\"\n     },\n     {\n      \"type\": \"ISBN_13\",\n      \"identifier\":
+        \"9784798019536\"\n     }\n    ],\n    \"pageCount\": 415,\n    \"printType\":
+        \"BOOK\",\n    \"contentVersion\": \"0.0.1.0.preview.1\",\n    \"imageLinks\":
+        {\n     \"smallThumbnail\": \"http://bks4.books.google.com/books?id=12exLkj4jNMC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api\",\n
+        \    \"thumbnail\": \"http://bks4.books.google.com/books?id=12exLkj4jNMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api\"\n
+        \   },\n    \"language\": \"ja\",\n    \"previewLink\": \"http://books.google.com/books?id=12exLkj4jNMC&printsec=frontcover&dq=subject:windows&hl=&cd=3&source=gbs_api\",\n
+        \   \"infoLink\": \"http://books.google.com/books?id=12exLkj4jNMC&dq=subject:windows&hl=&source=gbs_api\",\n
+        \   \"canonicalVolumeLink\": \"http://books.google.com/books/about/Master_the_basics_of_architectural_draft.html?hl=&id=12exLkj4jNMC\"\n
+        \  },\n   \"saleInfo\": {\n    \"country\": \"US\",\n    \"saleability\":
+        \"NOT_FOR_SALE\",\n    \"isEbook\": false\n   },\n   \"accessInfo\": {\n    \"country\":
+        \"US\",\n    \"viewability\": \"PARTIAL\",\n    \"embeddable\": true,\n    \"publicDomain\":
+        false,\n    \"textToSpeechPermission\": \"ALLOWED\",\n    \"epub\": {\n     \"isAvailable\":
+        false\n    },\n    \"pdf\": {\n     \"isAvailable\": false\n    },\n    \"webReaderLink\":
+        \"http://books.google.com/books/reader?id=12exLkj4jNMC&hl=&printsec=frontcover&output=reader&source=gbs_api\",\n
+        \   \"accessViewStatus\": \"SAMPLE\"\n   }\n  },\n  {\n   \"kind\": \"books#volume\",\n
+        \  \"id\": \"IcP5ZM5rwrYC\",\n   \"etag\": \"BW56Fbd60pM\",\n   \"selfLink\":
+        \"https://www.googleapis.com/books/v1/volumes/IcP5ZM5rwrYC\",\n   \"volumeInfo\":
+        {\n    \"title\": \"Black & Decker The Complete Guide to Windows & Entryways\",\n
+        \   \"subtitle\": \"Repair - Renew - Replace\",\n    \"authors\": [\n     \"Chris
+        Marshall\"\n    ],\n    \"publisher\": \"Creative Publishing international\",\n
+        \   \"publishedDate\": \"2008-03-01\",\n    \"description\": \"Your passageway
+        to efficiency and beauty Both for practicality and curb appeal, windows and
+        doors are the most crucial mechanical feature of any home, and this book helps
+        homeowners preserve and improve these essential elements. A fabulous door
+        can add thousands of dollars in \\\"perceived value\\\" to a plain house,
+        just as a few new windows can shave off a decade or two in apparent age. Black
+        & Decker The Complete Guide to Windows & Entryways is a fully-updated revision
+        of Black & Decker The Complete Guide to Windows & Doors. At 288 pages, it
+        features more than 600 beautiful color photographs that are rich with current
+        information. It contains virtually everything readers need to plan and complete
+        any kind of window and door installation. The new version also features an
+        expanded section on door and window hardware, as the types, styles and finishes
+        change frequently. Also new in this edition: an expanded the section on installing
+        and maintaining garage doors; a complete start-to-finish project for enlarging
+        a basement window opening and installing an egress window; a quick and easy
+        technique for giving your fiberglass door the appearance of woodgrain; and
+        much, much more. You'll find no better single book that better covers the
+        ever-changing topic of choosing, installing and maintaining doors and windows.\",\n
+        \   \"industryIdentifiers\": [\n     {\n      \"type\": \"ISBN_10\",\n      \"identifier\":
+        \"1616733594\"\n     },\n     {\n      \"type\": \"ISBN_13\",\n      \"identifier\":
+        \"9781616733599\"\n     }\n    ],\n    \"pageCount\": 304,\n    \"printType\":
+        \"BOOK\",\n    \"categories\": [\n     \"House & Home\"\n    ],\n    \"contentVersion\":
+        \"0.8.5.0.preview.3\",\n    \"imageLinks\": {\n     \"smallThumbnail\": \"http://bks7.books.google.com/books?id=IcP5ZM5rwrYC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api\",\n
+        \    \"thumbnail\": \"http://bks7.books.google.com/books?id=IcP5ZM5rwrYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api\"\n
+        \   },\n    \"language\": \"en\",\n    \"previewLink\": \"http://books.google.com/books?id=IcP5ZM5rwrYC&printsec=frontcover&dq=subject:windows&hl=&cd=4&source=gbs_api\",\n
+        \   \"infoLink\": \"http://books.google.com/books?id=IcP5ZM5rwrYC&dq=subject:windows&hl=&source=gbs_api\",\n
+        \   \"canonicalVolumeLink\": \"http://books.google.com/books/about/Black_Decker_The_Complete_Guide_to_Windo.html?hl=&id=IcP5ZM5rwrYC\"\n
+        \  },\n   \"saleInfo\": {\n    \"country\": \"US\",\n    \"saleability\":
+        \"NOT_FOR_SALE\",\n    \"isEbook\": false\n   },\n   \"accessInfo\": {\n    \"country\":
+        \"US\",\n    \"viewability\": \"PARTIAL\",\n    \"embeddable\": true,\n    \"publicDomain\":
+        false,\n    \"textToSpeechPermission\": \"ALLOWED\",\n    \"epub\": {\n     \"isAvailable\":
+        true,\n     \"acsTokenLink\": \"http://books.google.com/books/download/Black_Decker_The_Complete_Guide_to_Windo-sample-epub.acsm?id=IcP5ZM5rwrYC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api\"\n
+        \   },\n    \"pdf\": {\n     \"isAvailable\": true,\n     \"acsTokenLink\":
+        \"http://books.google.com/books/download/Black_Decker_The_Complete_Guide_to_Windo-sample-pdf.acsm?id=IcP5ZM5rwrYC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api\"\n
+        \   },\n    \"webReaderLink\": \"http://books.google.com/books/reader?id=IcP5ZM5rwrYC&hl=&printsec=frontcover&output=reader&source=gbs_api\",\n
+        \   \"accessViewStatus\": \"SAMPLE\"\n   }\n  },\n  {\n   \"kind\": \"books#volume\",\n
+        \  \"id\": \"iR1ANqR7MWkC\",\n   \"etag\": \"/Ajj4zIxtB8\",\n   \"selfLink\":
+        \"https://www.googleapis.com/books/v1/volumes/iR1ANqR7MWkC\",\n   \"volumeInfo\":
+        {\n    \"title\": \"Windows XP\",\n    \"authors\": [\n     \"David Aaron
+        Karp\"\n    ],\n    \"publisher\": \"O'Reilly\",\n    \"publishedDate\": \"2002\",\n
+        \   \"description\": \"Discusses how to install, run, and configure Windows
+        XP for both the home and office, explaining how to connect to the Internet,
+        design a LAN, and share drives and printers, and includes tips and troubleshooting
+        techniques.\",\n    \"industryIdentifiers\": [\n     {\n      \"type\": \"ISBN_10\",\n
+        \     \"identifier\": \"0596002491\"\n     },\n     {\n      \"type\": \"ISBN_13\",\n
+        \     \"identifier\": \"9780596002497\"\n     }\n    ],\n    \"pageCount\":
+        616,\n    \"printType\": \"BOOK\",\n    \"categories\": [\n     \"Computers\"\n
+        \   ],\n    \"averageRating\": 2.0,\n    \"ratingsCount\": 1,\n    \"contentVersion\":
+        \"1.0.0.0.preview.1\",\n    \"imageLinks\": {\n     \"smallThumbnail\": \"http://bks2.books.google.com/books?id=iR1ANqR7MWkC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api\",\n
+        \    \"thumbnail\": \"http://bks2.books.google.com/books?id=iR1ANqR7MWkC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api\"\n
+        \   },\n    \"language\": \"en\",\n    \"previewLink\": \"http://books.google.com/books?id=iR1ANqR7MWkC&printsec=frontcover&dq=subject:windows&hl=&cd=5&source=gbs_api\",\n
+        \   \"infoLink\": \"http://books.google.com/books?id=iR1ANqR7MWkC&dq=subject:windows&hl=&source=gbs_api\",\n
+        \   \"canonicalVolumeLink\": \"http://books.google.com/books/about/Windows_XP.html?hl=&id=iR1ANqR7MWkC\"\n
+        \  },\n   \"saleInfo\": {\n    \"country\": \"US\",\n    \"saleability\":
+        \"NOT_FOR_SALE\",\n    \"isEbook\": false\n   },\n   \"accessInfo\": {\n    \"country\":
+        \"US\",\n    \"viewability\": \"PARTIAL\",\n    \"embeddable\": true,\n    \"publicDomain\":
+        false,\n    \"textToSpeechPermission\": \"ALLOWED\",\n    \"epub\": {\n     \"isAvailable\":
+        false\n    },\n    \"pdf\": {\n     \"isAvailable\": true\n    },\n    \"webReaderLink\":
+        \"http://books.google.com/books/reader?id=iR1ANqR7MWkC&hl=&printsec=frontcover&output=reader&source=gbs_api\",\n
+        \   \"accessViewStatus\": \"SAMPLE\"\n   }\n  },\n  {\n   \"kind\": \"books#volume\",\n
+        \  \"id\": \"JzTtj1oAcs8C\",\n   \"etag\": \"QuKdV5uwiwg\",\n   \"selfLink\":
+        \"https://www.googleapis.com/books/v1/volumes/JzTtj1oAcs8C\",\n   \"volumeInfo\":
+        {\n    \"title\": \"Das Erscheinungsfenster innerhalb der amarnazeitlichen
+        Palastarchitektur\",\n    \"subtitle\": \"Herkunft, Entwicklung, Fortleben\",\n
+        \   \"authors\": [\n     \"Petra Vomberg\"\n    ],\n    \"publisher\": \"Otto
+        Harrassowitz\",\n    \"industryIdentifiers\": [\n     {\n      \"type\": \"ISBN_10\",\n
+        \     \"identifier\": \"3447050497\"\n     },\n     {\n      \"type\": \"ISBN_13\",\n
+        \     \"identifier\": \"9783447050494\"\n     }\n    ],\n    \"printType\":
+        \"BOOK\",\n    \"contentVersion\": \"0.0.1.0.preview.1\",\n    \"imageLinks\":
+        {\n     \"smallThumbnail\": \"http://bks8.books.google.com/books?id=JzTtj1oAcs8C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api\",\n
+        \    \"thumbnail\": \"http://bks8.books.google.com/books?id=JzTtj1oAcs8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api\"\n
+        \   },\n    \"language\": \"de\",\n    \"previewLink\": \"http://books.google.com/books?id=JzTtj1oAcs8C&printsec=frontcover&dq=subject:windows&hl=&cd=6&source=gbs_api\",\n
+        \   \"infoLink\": \"http://books.google.com/books?id=JzTtj1oAcs8C&dq=subject:windows&hl=&source=gbs_api\",\n
+        \   \"canonicalVolumeLink\": \"http://books.google.com/books/about/Das_Erscheinungsfenster_innerhalb_der_am.html?hl=&id=JzTtj1oAcs8C\"\n
+        \  },\n   \"saleInfo\": {\n    \"country\": \"US\",\n    \"saleability\":
+        \"NOT_FOR_SALE\",\n    \"isEbook\": false\n   },\n   \"accessInfo\": {\n    \"country\":
+        \"US\",\n    \"viewability\": \"PARTIAL\",\n    \"embeddable\": true,\n    \"publicDomain\":
+        false,\n    \"textToSpeechPermission\": \"ALLOWED\",\n    \"epub\": {\n     \"isAvailable\":
+        false\n    },\n    \"pdf\": {\n     \"isAvailable\": false\n    },\n    \"webReaderLink\":
+        \"http://books.google.com/books/reader?id=JzTtj1oAcs8C&hl=&printsec=frontcover&output=reader&source=gbs_api\",\n
+        \   \"accessViewStatus\": \"SAMPLE\"\n   }\n  },\n  {\n   \"kind\": \"books#volume\",\n
+        \  \"id\": \"XWLVIotoe2kC\",\n   \"etag\": \"Qphbe+NPk48\",\n   \"selfLink\":
+        \"https://www.googleapis.com/books/v1/volumes/XWLVIotoe2kC\",\n   \"volumeInfo\":
+        {\n    \"title\": \"Window\",\n    \"authors\": [\n     \"Jeannie Baker\"\n
+        \   ],\n    \"publisher\": \"Greenwillow\",\n    \"publishedDate\": \"1991\",\n
+        \   \"description\": \"Chronicles the events and changes in a young boy's
+        life and in his environment, from babyhood to grownup, through wordless scenes
+        observed from the window of his room.\",\n    \"industryIdentifiers\": [\n
+        \    {\n      \"type\": \"ISBN_10\",\n      \"identifier\": \"0688089178\"\n
+        \    },\n     {\n      \"type\": \"ISBN_13\",\n      \"identifier\": \"9780688089177\"\n
+        \    }\n    ],\n    \"pageCount\": 32,\n    \"printType\": \"BOOK\",\n    \"categories\":
+        [\n     \"Juvenile Fiction\"\n    ],\n    \"averageRating\": 4.0,\n    \"ratingsCount\":
+        30,\n    \"contentVersion\": \"preview-1.0.0\",\n    \"imageLinks\": {\n     \"smallThumbnail\":
+        \"http://bks5.books.google.com/books?id=XWLVIotoe2kC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api\",\n
+        \    \"thumbnail\": \"http://bks5.books.google.com/books?id=XWLVIotoe2kC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api\"\n
+        \   },\n    \"language\": \"en\",\n    \"previewLink\": \"http://books.google.com/books?id=XWLVIotoe2kC&printsec=frontcover&dq=subject:windows&hl=&cd=7&source=gbs_api\",\n
+        \   \"infoLink\": \"http://books.google.com/books?id=XWLVIotoe2kC&dq=subject:windows&hl=&source=gbs_api\",\n
+        \   \"canonicalVolumeLink\": \"http://books.google.com/books/about/Window.html?hl=&id=XWLVIotoe2kC\"\n
+        \  },\n   \"saleInfo\": {\n    \"country\": \"US\",\n    \"saleability\":
+        \"NOT_FOR_SALE\",\n    \"isEbook\": false\n   },\n   \"accessInfo\": {\n    \"country\":
+        \"US\",\n    \"viewability\": \"PARTIAL\",\n    \"embeddable\": false,\n    \"publicDomain\":
+        false,\n    \"textToSpeechPermission\": \"ALLOWED_FOR_ACCESSIBILITY\",\n    \"epub\":
+        {\n     \"isAvailable\": false\n    },\n    \"pdf\": {\n     \"isAvailable\":
+        false\n    },\n    \"webReaderLink\": \"http://books.google.com/books/reader?id=XWLVIotoe2kC&hl=&printsec=frontcover&output=reader&source=gbs_api\",\n
+        \   \"accessViewStatus\": \"SAMPLE\"\n   }\n  },\n  {\n   \"kind\": \"books#volume\",\n
+        \  \"id\": \"w7te7qbpXZMC\",\n   \"etag\": \"lvKl4AumuLA\",\n   \"selfLink\":
+        \"https://www.googleapis.com/books/v1/volumes/w7te7qbpXZMC\",\n   \"volumeInfo\":
+        {\n    \"title\": \"Open / Close\",\n    \"subtitle\": \"Windows, Doors, Gates,
+        Loggias, Filters\",\n    \"authors\": [\n     \"Anette Hochberg\",\n     \"Jan-Henrik
+        Hafke\",\n     \"J. Raab\"\n    ],\n    \"publisher\": \"Birkhäuser Verlag
+        AG\",\n    \"publishedDate\": \"2010\",\n    \"description\": \"In this first
+        volume in the SCALE series, \\\"Open / Close', a simple yet significant part
+        of any building - the \\\"opening\\\" - is illustrated in all its different
+        aspects, from idea to implementation. As well as the different types of component-windows,
+        doors, gates, loggias, filters-this volume deals with bu.ldinq structures.
+        It is also concerned with the significance of the \\\"opening in building
+        design. Openings define the relationship between a bullding and the space
+        outside it, helping to characterize a location. In this book, all of the elements
+        that mediate between interior and exterior spaces are classified both in terms
+        of construction and design. Each of them is described and dealt With indetail.
+        All the internationally renowned projects used here as examples are both practical
+        and generally applicable. The projects have not beenchosed for their homogeneous
+        architectural language, but for the high quality of their architecture.\",\n
+        \   \"industryIdentifiers\": [\n     {\n      \"type\": \"ISBN_10\",\n      \"identifier\":
+        \"3764399619\"\n     },\n     {\n      \"type\": \"ISBN_13\",\n      \"identifier\":
+        \"9783764399610\"\n     }\n    ],\n    \"pageCount\": 175,\n    \"printType\":
+        \"BOOK\",\n    \"categories\": [\n     \"Architecture\"\n    ],\n    \"contentVersion\":
+        \"0.1.0.0.preview.1\",\n    \"imageLinks\": {\n     \"smallThumbnail\": \"http://bks4.books.google.com/books?id=w7te7qbpXZMC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api\",\n
+        \    \"thumbnail\": \"http://bks4.books.google.com/books?id=w7te7qbpXZMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api\"\n
+        \   },\n    \"language\": \"en\",\n    \"previewLink\": \"http://books.google.com/books?id=w7te7qbpXZMC&printsec=frontcover&dq=subject:windows&hl=&cd=8&source=gbs_api\",\n
+        \   \"infoLink\": \"http://books.google.com/books?id=w7te7qbpXZMC&dq=subject:windows&hl=&source=gbs_api\",\n
+        \   \"canonicalVolumeLink\": \"http://books.google.com/books/about/Open_Close.html?hl=&id=w7te7qbpXZMC\"\n
+        \  },\n   \"saleInfo\": {\n    \"country\": \"US\",\n    \"saleability\":
+        \"NOT_FOR_SALE\",\n    \"isEbook\": false\n   },\n   \"accessInfo\": {\n    \"country\":
+        \"US\",\n    \"viewability\": \"PARTIAL\",\n    \"embeddable\": true,\n    \"publicDomain\":
+        false,\n    \"textToSpeechPermission\": \"ALLOWED\",\n    \"epub\": {\n     \"isAvailable\":
+        false\n    },\n    \"pdf\": {\n     \"isAvailable\": false\n    },\n    \"webReaderLink\":
+        \"http://books.google.com/books/reader?id=w7te7qbpXZMC&hl=&printsec=frontcover&output=reader&source=gbs_api\",\n
+        \   \"accessViewStatus\": \"SAMPLE\"\n   }\n  },\n  {\n   \"kind\": \"books#volume\",\n
+        \  \"id\": \"PGGPbEACpGUC\",\n   \"etag\": \"wHTF3sb6XMk\",\n   \"selfLink\":
+        \"https://www.googleapis.com/books/v1/volumes/PGGPbEACpGUC\",\n   \"volumeInfo\":
+        {\n    \"title\": \"Historic Millwork\",\n    \"subtitle\": \"A Guide to Restoring
+        and Re-creating Doors, Windows, and Moldings of the Late Nineteenth Through
+        Mid-Twentieth Centuries\",\n    \"publisher\": \"John Wiley & Sons Incorporated\",\n
+        \   \"publishedDate\": \"2003-02-18\",\n    \"description\": \"&Quot;In a
+        highly practical, categorical format, Historic Millwork compiles and interprets
+        designs from historic trade catalogs and period trade journals to produce
+        an accurate, indispensable guide to millwork from 1870 to 1940.\\\" \\\"In
+        this burgeoning field where authenticity dictates, Historic Millwork is an
+        essential resource for anyone interested in restoring, re-creating, or preserving
+        historic millwork from this expressive era.\\\"--platnica.\",\n    \"industryIdentifiers\":
+        [\n     {\n      \"type\": \"ISBN_10\",\n      \"identifier\": \"0471416223\"\n
+        \    },\n     {\n      \"type\": \"ISBN_13\",\n      \"identifier\": \"9780471416227\"\n
+        \    }\n    ],\n    \"pageCount\": 204,\n    \"printType\": \"BOOK\",\n    \"categories\":
+        [\n     \"House & Home\"\n    ],\n    \"contentVersion\": \"preview-1.0.0\",\n
+        \   \"imageLinks\": {\n     \"smallThumbnail\": \"http://bks1.books.google.com/books?id=PGGPbEACpGUC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api\",\n
+        \    \"thumbnail\": \"http://bks1.books.google.com/books?id=PGGPbEACpGUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api\"\n
+        \   },\n    \"language\": \"en\",\n    \"previewLink\": \"http://books.google.com/books?id=PGGPbEACpGUC&printsec=frontcover&dq=subject:windows&hl=&cd=9&source=gbs_api\",\n
+        \   \"infoLink\": \"http://books.google.com/books?id=PGGPbEACpGUC&dq=subject:windows&hl=&source=gbs_api\",\n
+        \   \"canonicalVolumeLink\": \"http://books.google.com/books/about/Historic_Millwork.html?hl=&id=PGGPbEACpGUC\"\n
+        \  },\n   \"saleInfo\": {\n    \"country\": \"US\",\n    \"saleability\":
+        \"NOT_FOR_SALE\",\n    \"isEbook\": false\n   },\n   \"accessInfo\": {\n    \"country\":
+        \"US\",\n    \"viewability\": \"PARTIAL\",\n    \"embeddable\": true,\n    \"publicDomain\":
+        false,\n    \"textToSpeechPermission\": \"ALLOWED\",\n    \"epub\": {\n     \"isAvailable\":
+        false\n    },\n    \"pdf\": {\n     \"isAvailable\": false\n    },\n    \"webReaderLink\":
+        \"http://books.google.com/books/reader?id=PGGPbEACpGUC&hl=&printsec=frontcover&output=reader&source=gbs_api\",\n
+        \   \"accessViewStatus\": \"SAMPLE\"\n   }\n  },\n  {\n   \"kind\": \"books#volume\",\n
+        \  \"id\": \"c712HXOfQPMC\",\n   \"etag\": \"R4W8E/veDR8\",\n   \"selfLink\":
+        \"https://www.googleapis.com/books/v1/volumes/c712HXOfQPMC\",\n   \"volumeInfo\":
+        {\n    \"title\": \"Window Maker\",\n    \"authors\": [\n     \"Charles W.
+        Allen\"\n    ],\n    \"publisher\": \"Allyn House Publishing\",\n    \"publishedDate\":
+        \"2002\",\n    \"description\": \"This book was written by Nauvoo Temple window
+        and door maker, Charles W. Allen. It quotes directly from his personal journal
+        that he kept daily during the project. It describes overwhelming responsibilities
+        associated with the invitation to build the temple windows and front doors.
+        It shares a few personal experiences that the author had over his lifetime
+        to be ready to accept the challenge. It relates how others were prepared and
+        available to do the work with him.\",\n    \"industryIdentifiers\": [\n     {\n
+        \     \"type\": \"ISBN_10\",\n      \"identifier\": \"0971913218\"\n     },\n
+        \    {\n      \"type\": \"ISBN_13\",\n      \"identifier\": \"9780971913219\"\n
+        \    }\n    ],\n    \"pageCount\": 250,\n    \"printType\": \"BOOK\",\n    \"categories\":
+        [\n     \"Woodworkers\"\n    ],\n    \"averageRating\": 4.0,\n    \"ratingsCount\":
+        4,\n    \"contentVersion\": \"0.0.1.0.preview.1\",\n    \"imageLinks\": {\n
+        \    \"smallThumbnail\": \"http://bks7.books.google.com/books?id=c712HXOfQPMC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api\",\n
+        \    \"thumbnail\": \"http://bks7.books.google.com/books?id=c712HXOfQPMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api\"\n
+        \   },\n    \"language\": \"en\",\n    \"previewLink\": \"http://books.google.com/books?id=c712HXOfQPMC&printsec=frontcover&dq=subject:windows&hl=&cd=10&source=gbs_api\",\n
+        \   \"infoLink\": \"http://books.google.com/books?id=c712HXOfQPMC&dq=subject:windows&hl=&source=gbs_api\",\n
+        \   \"canonicalVolumeLink\": \"http://books.google.com/books/about/Window_Maker.html?hl=&id=c712HXOfQPMC\"\n
+        \  },\n   \"saleInfo\": {\n    \"country\": \"US\",\n    \"saleability\":
+        \"NOT_FOR_SALE\",\n    \"isEbook\": false\n   },\n   \"accessInfo\": {\n    \"country\":
+        \"US\",\n    \"viewability\": \"PARTIAL\",\n    \"embeddable\": true,\n    \"publicDomain\":
+        false,\n    \"textToSpeechPermission\": \"ALLOWED\",\n    \"epub\": {\n     \"isAvailable\":
+        false\n    },\n    \"pdf\": {\n     \"isAvailable\": false\n    },\n    \"webReaderLink\":
+        \"http://books.google.com/books/reader?id=c712HXOfQPMC&hl=&printsec=frontcover&output=reader&source=gbs_api\",\n
+        \   \"accessViewStatus\": \"SAMPLE\"\n   }\n  }\n ]\n}\n"
+    http_version: 
+  recorded_at: Fri, 31 May 2013 01:02:16 GMT
+- request:
+    method: get
+    uri: https://www.googleapis.com/books/v1/volumes?key=<GOGGLE APP ID>&maxResults=10&q=intitle:beos
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: !binary |-
+        T0s=
+    headers:
+      !binary "RXhwaXJlcw==":
+      - !binary |-
+        RnJpLCAzMSBNYXkgMjAxMyAwMTowMjoxNiBHTVQ=
+      !binary "RGF0ZQ==":
+      - !binary |-
+        RnJpLCAzMSBNYXkgMjAxMyAwMTowMjoxNiBHTVQ=
+      !binary "Q2FjaGUtQ29udHJvbA==":
+      - !binary |-
+        cHJpdmF0ZSwgbWF4LWFnZT0wLCBtdXN0LXJldmFsaWRhdGUsIG5vLXRyYW5z
+        Zm9ybQ==
+      !binary "RXRhZw==":
+      - !binary |-
+        IkkwOUVMWGJybU9sRS1SRkNrRHNSYklKajI3OC9JUmZScmdicVRjeTVNMzNM
+        bWlnSkdiZXZyclki
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        YXBwbGljYXRpb24vanNvbjsgY2hhcnNldD1VVEYtOA==
+      !binary "WC1Db250ZW50LVR5cGUtT3B0aW9ucw==":
+      - !binary |-
+        bm9zbmlmZg==
+      !binary "WC1GcmFtZS1PcHRpb25z":
+      - !binary |-
+        U0FNRU9SSUdJTg==
+      !binary "WC1Yc3MtUHJvdGVjdGlvbg==":
+      - !binary |-
+        MTsgbW9kZT1ibG9jaw==
+      !binary "U2VydmVy":
+      - !binary |-
+        R1NF
+      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
+      - !binary |-
+        Y2h1bmtlZA==
+    body:
+      encoding: US-ASCII
+      string: ! "{\n \"kind\": \"books#volumes\",\n \"totalItems\": 57,\n \"items\":
+        [\n  {\n   \"kind\": \"books#volume\",\n   \"id\": \"gqLSygAACAAJ\",\n   \"etag\":
+        \"SzArQqN44nQ\",\n   \"selfLink\": \"https://www.googleapis.com/books/v1/volumes/gqLSygAACAAJ\",\n
+        \  \"volumeInfo\": {\n    \"title\": \"Articles on Be Inc., Including\",\n
+        \   \"subtitle\": \"Beos, Haiku (Operating System), Be File System, Beia,
+        Begeistert, Yellowtab, Magnussoft Zeta, Kdl, Beos R5, Hitachi Flora Prius,
+        Beos R5.1d0, Gobe Software, Beos API, Net Server, Magnussoft, Poorman, Benews\",\n
+        \   \"authors\": [\n     \"Hephaestus Books\"\n    ],\n    \"publishedDate\":
+        \"2011-09-30\",\n    \"description\": \"Please note that the content of this
+        book primarily consists of articles available from Wikipedia or other free
+        sources online. Hephaestus Books represents a new publishing paradigm, allowing
+        disparate content sources to be curated into cohesive, relevant, and informative
+        books. To date, this content has been curated from Wikipedia articles and
+        images under Creative Commons licensing, although as Hephaestus Books continues
+        to increase in scope and dimension, more licensed and public domain content
+        is being added. We believe books such as this represent a new and exciting
+        lexicon in the sharing of human knowledge. This particular book contains chapters
+        focused on Be Inc., BeOS, BeOS software, and Be employees. More info: Be Incorporated
+        was an American computer company founded in 1990, best known for the Be Operating
+        System (BeOS) and BeBox personal computer. Be was founded by former Apple
+        Computer executive Jean-Louis Gass e with capital from Seymour Cray.\",\n
+        \   \"industryIdentifiers\": [\n     {\n      \"type\": \"ISBN_10\",\n      \"identifier\":
+        \"1244653322\"\n     },\n     {\n      \"type\": \"ISBN_13\",\n      \"identifier\":
+        \"9781244653320\"\n     }\n    ],\n    \"pageCount\": 58,\n    \"printType\":
+        \"BOOK\",\n    \"contentVersion\": \"preview-1.0.0\",\n    \"imageLinks\":
+        {\n     \"smallThumbnail\": \"http://bks0.books.google.com/books?id=gqLSygAACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api\",\n
+        \    \"thumbnail\": \"http://bks0.books.google.com/books?id=gqLSygAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api\"\n
+        \   },\n    \"language\": \"en\",\n    \"previewLink\": \"http://books.google.com/books?id=gqLSygAACAAJ&dq=intitle:beos&hl=&cd=1&source=gbs_api\",\n
+        \   \"infoLink\": \"http://books.google.com/books?id=gqLSygAACAAJ&dq=intitle:beos&hl=&source=gbs_api\",\n
+        \   \"canonicalVolumeLink\": \"http://books.google.com/books/about/Articles_on_Be_Inc_Including.html?hl=&id=gqLSygAACAAJ\"\n
+        \  },\n   \"saleInfo\": {\n    \"country\": \"US\",\n    \"saleability\":
+        \"NOT_FOR_SALE\",\n    \"isEbook\": false\n   },\n   \"accessInfo\": {\n    \"country\":
+        \"US\",\n    \"viewability\": \"NO_PAGES\",\n    \"embeddable\": false,\n
+        \   \"publicDomain\": false,\n    \"textToSpeechPermission\": \"ALLOWED\",\n
+        \   \"epub\": {\n     \"isAvailable\": false\n    },\n    \"pdf\": {\n     \"isAvailable\":
+        false\n    },\n    \"webReaderLink\": \"http://books.google.com/books/reader?id=gqLSygAACAAJ&hl=&printsec=frontcover&output=reader&source=gbs_api\",\n
+        \   \"accessViewStatus\": \"NONE\"\n   },\n   \"searchInfo\": {\n    \"textSnippet\":
+        \"Please note that the content of this book primarily consists of articles
+        available from Wikipedia or other free sources online.\"\n   }\n  },\n  {\n
+        \  \"kind\": \"books#volume\",\n   \"id\": \"NTOyuAAACAAJ\",\n   \"etag\":
+        \"+DU/fYCG8BY\",\n   \"selfLink\": \"https://www.googleapis.com/books/v1/volumes/NTOyuAAACAAJ\",\n
+        \  \"volumeInfo\": {\n    \"title\": \"Articles on Beos, Including\",\n    \"subtitle\":
+        \"Haiku (Operating System), Be File System, Beia, Begeistert, Yellowtab, Magnussoft
+        Zeta, List of Beos Programs, Kdl, Beos R5, Hitachi Flora Prius, Beos R5.1d0,
+        Gobe Software, Beos API, Net Server, Magnussoft\",\n    \"authors\": [\n     \"Hephaestus
+        Books\"\n    ],\n    \"publishedDate\": \"2011-08-22\",\n    \"description\":
+        \"Please note that the content of this book primarily consists of articles
+        available from Wikipedia or other free sources online. Hephaestus Books represents
+        a new publishing paradigm, allowing disparate content sources to be curated
+        into cohesive, relevant, and informative books. To date, this content has
+        been curated from Wikipedia articles and images under Creative Commons licensing,
+        although as Hephaestus Books continues to increase in scope and dimension,
+        more licensed and public domain content is being added. We believe books such
+        as this represent a new and exciting lexicon in the sharing of human knowledge.
+        This particular book is a collaboration focused on BeOS.More info: BeOS is
+        an operating system for personal computers which began development by Be Inc.
+        in 1991. It was first written to run on BeBox hardware. BeOS was optimized
+        for digital media work and was written to take advantage of modern hardware
+        facilities such as symmetric multiprocessing by utilizing modular I/O bandwidth,
+        pervasive multithreading, preemptive multitasking and a custom 64-bit journaling
+        file system known as BFS. The BeOS GUI was developed on the principles of
+        clarity and a clean, uncluttered design. The API was written in C++ for ease
+        of programming. It has POSIX compatibility and access to a command-line interface
+        through Bash, although internally it is not a Unix-derived operating system.\",\n
+        \   \"industryIdentifiers\": [\n     {\n      \"type\": \"ISBN_10\",\n      \"identifier\":
+        \"1242603816\"\n     },\n     {\n      \"type\": \"ISBN_13\",\n      \"identifier\":
+        \"9781242603815\"\n     }\n    ],\n    \"pageCount\": 52,\n    \"printType\":
+        \"BOOK\",\n    \"contentVersion\": \"preview-1.0.0\",\n    \"imageLinks\":
+        {\n     \"smallThumbnail\": \"http://bks6.books.google.com/books?id=NTOyuAAACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api\",\n
+        \    \"thumbnail\": \"http://bks6.books.google.com/books?id=NTOyuAAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api\"\n
+        \   },\n    \"language\": \"en\",\n    \"previewLink\": \"http://books.google.com/books?id=NTOyuAAACAAJ&dq=intitle:beos&hl=&cd=2&source=gbs_api\",\n
+        \   \"infoLink\": \"http://books.google.com/books?id=NTOyuAAACAAJ&dq=intitle:beos&hl=&source=gbs_api\",\n
+        \   \"canonicalVolumeLink\": \"http://books.google.com/books/about/Articles_on_Beos_Including.html?hl=&id=NTOyuAAACAAJ\"\n
+        \  },\n   \"saleInfo\": {\n    \"country\": \"US\",\n    \"saleability\":
+        \"NOT_FOR_SALE\",\n    \"isEbook\": false\n   },\n   \"accessInfo\": {\n    \"country\":
+        \"US\",\n    \"viewability\": \"NO_PAGES\",\n    \"embeddable\": false,\n
+        \   \"publicDomain\": false,\n    \"textToSpeechPermission\": \"ALLOWED\",\n
+        \   \"epub\": {\n     \"isAvailable\": false\n    },\n    \"pdf\": {\n     \"isAvailable\":
+        false\n    },\n    \"webReaderLink\": \"http://books.google.com/books/reader?id=NTOyuAAACAAJ&hl=&printsec=frontcover&output=reader&source=gbs_api\",\n
+        \   \"accessViewStatus\": \"NONE\"\n   },\n   \"searchInfo\": {\n    \"textSnippet\":
+        \"Please note that the content of this book primarily consists of articles
+        available from Wikipedia or other free sources online.\"\n   }\n  },\n  {\n
+        \  \"kind\": \"books#volume\",\n   \"id\": \"Qa1JSgAACAAJ\",\n   \"etag\":
+        \"IcHqCq7MykU\",\n   \"selfLink\": \"https://www.googleapis.com/books/v1/volumes/Qa1JSgAACAAJ\",\n
+        \  \"volumeInfo\": {\n    \"title\": \"Discontinued Operating Systems\",\n
+        \   \"subtitle\": \"Beos, OS/2, NeXTSTEP, Rsx-11, Multics, Ucsd Pascal, 386bsd,
+        Tripos, IBM PC DOS\",\n    \"authors\": [\n     \"Source Wikipedia\",\n     \"Books,
+        LLC\"\n    ],\n    \"publisher\": \"Books LLC, Wiki Series\",\n    \"publishedDate\":
+        \"2011-08-17\",\n    \"description\": \"Please note that the content of this
+        book primarily consists of articles available from Wikipedia or other free
+        sources online. Pages: 86. Chapters: BeOS, OS/2, NeXTSTEP, RSX-11, Multics,
+        UCSD Pascal, 386BSD, TRIPOS, IBM PC DOS, Kent Applicative Operating System,
+        AtheOS, SunOS, RSTS/E, OpenSolaris, Mac OS X Tiger, System 7, Mac OS 9, Mac
+        OS 8, System 6, Acorn MOS, Apple DOS, Apple ProDOS, Newton OS, Ultrix, 86-DOS,
+        Atari DOS, ORVYL and WYLBUR, Mac OS X v10.2, Banyan VINES, Apple SOS, Mac
+        OS X v10.0, Rhapsody, Atari TOS, Domain/OS, Mac OS X v10.1, Mac OS X Panther,
+        Plurix, THE multiprogramming system, A/UX, ARX, RISC iX, TSS/360, Coherent,
+        M-DOS, Research Unix, Sprite, MagiC, Version 7 Unix, Sinclair QDOS, Project
+        Monterey, BSD/OS, Apple Pascal, Version 6 Unix, University of Michigan Executive
+        System, Apple GS/OS, Amiga Unix, Not Another Completely Heuristic Operating
+        System, MIPS RISC/os, UniFLEX, Idris, UNIX/32V, Ancient UNIX, SMSQ/E, GM-NAA
+        I/O, LUnix, MDOS, TUNIS, UNIX System III, Transaction Management eXecutive,
+        CatOS, BLIS/COBOL, MNOS, Version 8 Unix, CDC SCOPE, VSTa, CDC KRONOS, USIX,
+        IBM Academic Operating System, Eumel, nOS, Minix-vmd, CB UNIX, Xerox Operating
+        System, Minerva, Operating System Projects, HPBSD, Wollongong Unix, Atlas
+        Supervisor, Universal Time-Sharing System, Version 10 Unix, Versados, Version
+        9 Unix, SMS2, PC-UX, JexeOS. Excerpt: OS/2 is a computer operating system,
+        initially created by Microsoft and IBM, then later developed by IBM exclusively.
+        The name stands for \\\"Operating System/2,\\\" because it was introduced
+        as part of the same generation change release as IBM's \\\"Personal System/2
+        (PS/2)\\\" line of second-generation personal computers. OS/2 is no longer
+        marketed by IBM, and IBM standard support for OS/2 was discontinued on 31
+        December 2006. Currently, Serenity Systems International sells OS/2 under
+        the brand name eComStation. OS/2 was intended as a protected mode successor
+        of PC-DOS. Notably, basic system calls were modeled after MS-...\",\n    \"industryIdentifiers\":
+        [\n     {\n      \"type\": \"ISBN_10\",\n      \"identifier\": \"1156701538\"\n
+        \    },\n     {\n      \"type\": \"ISBN_13\",\n      \"identifier\": \"9781156701539\"\n
+        \    }\n    ],\n    \"pageCount\": 88,\n    \"printType\": \"BOOK\",\n    \"contentVersion\":
+        \"preview-1.0.0\",\n    \"imageLinks\": {\n     \"smallThumbnail\": \"http://bks1.books.google.com/books?id=Qa1JSgAACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api\",\n
+        \    \"thumbnail\": \"http://bks1.books.google.com/books?id=Qa1JSgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api\"\n
+        \   },\n    \"language\": \"en\",\n    \"previewLink\": \"http://books.google.com/books?id=Qa1JSgAACAAJ&dq=intitle:beos&hl=&cd=3&source=gbs_api\",\n
+        \   \"infoLink\": \"http://books.google.com/books?id=Qa1JSgAACAAJ&dq=intitle:beos&hl=&source=gbs_api\",\n
+        \   \"canonicalVolumeLink\": \"http://books.google.com/books/about/Discontinued_Operating_Systems.html?hl=&id=Qa1JSgAACAAJ\"\n
+        \  },\n   \"saleInfo\": {\n    \"country\": \"US\",\n    \"saleability\":
+        \"NOT_FOR_SALE\",\n    \"isEbook\": false\n   },\n   \"accessInfo\": {\n    \"country\":
+        \"US\",\n    \"viewability\": \"NO_PAGES\",\n    \"embeddable\": false,\n
+        \   \"publicDomain\": false,\n    \"textToSpeechPermission\": \"ALLOWED\",\n
+        \   \"epub\": {\n     \"isAvailable\": false\n    },\n    \"pdf\": {\n     \"isAvailable\":
+        false\n    },\n    \"webReaderLink\": \"http://books.google.com/books/reader?id=Qa1JSgAACAAJ&hl=&printsec=frontcover&output=reader&source=gbs_api\",\n
+        \   \"accessViewStatus\": \"NONE\"\n   },\n   \"searchInfo\": {\n    \"textSnippet\":
+        \"Please note that the content of this book primarily consists of articles
+        available from Wikipedia or other free sources online.\"\n   }\n  },\n  {\n
+        \  \"kind\": \"books#volume\",\n   \"id\": \"D3lTuAAACAAJ\",\n   \"etag\":
+        \"9WJZRnxurl0\",\n   \"selfLink\": \"https://www.googleapis.com/books/v1/volumes/D3lTuAAACAAJ\",\n
+        \  \"volumeInfo\": {\n    \"title\": \"Articles on Beos, Including\",\n    \"subtitle\":
+        \"Haiku (Operating System), Be File System, Beia, Begeistert, Yellowtab, Magnussoft
+        Zeta, Kdl, Beos R5, Hitachi Flora Prius, Beos R5.1d0, Gobe Software, Beos
+        API, Net Server, Magnussoft, Poorman, Benews\",\n    \"authors\": [\n     \"Hephaestus
+        Books\"\n    ],\n    \"publishedDate\": \"2011-09-29\",\n    \"description\":
+        \"Please note that the content of this book primarily consists of articles
+        available from Wikipedia or other free sources online. Hephaestus Books represents
+        a new publishing paradigm, allowing disparate content sources to be curated
+        into cohesive, relevant, and informative books. To date, this content has
+        been curated from Wikipedia articles and images under Creative Commons licensing,
+        although as Hephaestus Books continues to increase in scope and dimension,
+        more licensed and public domain content is being added. We believe books such
+        as this represent a new and exciting lexicon in the sharing of human knowledge.
+        This particular book contains chapters focused on BeOS, and BeOS software.
+        More info: BeOS is an operating system for personal computers which began
+        development by Be Inc. in 1991. It was first written to run on BeBox hardware.
+        BeOS was optimized for digital media work and was written to take advantage
+        of modern hardware facilities such as symmetric multiprocessing by utilizing
+        modular I/O bandwidth, pervasive multithreading, preemptive multitasking and
+        a custom 64-bit journaling file system known as BFS. The BeOS GUI was developed
+        on the principles of clarity and a clean, uncluttered design. The API was
+        written in C++ for ease of programming. It has POSIX compatibility and access
+        to a command-line interface through Bash, although internally it is not a
+        Unix-derived operating system.\",\n    \"industryIdentifiers\": [\n     {\n
+        \     \"type\": \"ISBN_10\",\n      \"identifier\": \"1244508667\"\n     },\n
+        \    {\n      \"type\": \"ISBN_13\",\n      \"identifier\": \"9781244508668\"\n
+        \    }\n    ],\n    \"pageCount\": 48,\n    \"printType\": \"BOOK\",\n    \"contentVersion\":
+        \"preview-1.0.0\",\n    \"imageLinks\": {\n     \"smallThumbnail\": \"http://bks0.books.google.com/books?id=D3lTuAAACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api\",\n
+        \    \"thumbnail\": \"http://bks0.books.google.com/books?id=D3lTuAAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api\"\n
+        \   },\n    \"language\": \"en\",\n    \"previewLink\": \"http://books.google.com/books?id=D3lTuAAACAAJ&dq=intitle:beos&hl=&cd=4&source=gbs_api\",\n
+        \   \"infoLink\": \"http://books.google.com/books?id=D3lTuAAACAAJ&dq=intitle:beos&hl=&source=gbs_api\",\n
+        \   \"canonicalVolumeLink\": \"http://books.google.com/books/about/Articles_on_Beos_Including.html?hl=&id=D3lTuAAACAAJ\"\n
+        \  },\n   \"saleInfo\": {\n    \"country\": \"US\",\n    \"saleability\":
+        \"NOT_FOR_SALE\",\n    \"isEbook\": false\n   },\n   \"accessInfo\": {\n    \"country\":
+        \"US\",\n    \"viewability\": \"NO_PAGES\",\n    \"embeddable\": false,\n
+        \   \"publicDomain\": false,\n    \"textToSpeechPermission\": \"ALLOWED\",\n
+        \   \"epub\": {\n     \"isAvailable\": false\n    },\n    \"pdf\": {\n     \"isAvailable\":
+        false\n    },\n    \"webReaderLink\": \"http://books.google.com/books/reader?id=D3lTuAAACAAJ&hl=&printsec=frontcover&output=reader&source=gbs_api\",\n
+        \   \"accessViewStatus\": \"NONE\"\n   },\n   \"searchInfo\": {\n    \"textSnippet\":
+        \"Please note that the content of this book primarily consists of articles
+        available from Wikipedia or other free sources online.\"\n   }\n  },\n  {\n
+        \  \"kind\": \"books#volume\",\n   \"id\": \"uAgDywAACAAJ\",\n   \"etag\":
+        \"8D1Yijnu9Ac\",\n   \"selfLink\": \"https://www.googleapis.com/books/v1/volumes/uAgDywAACAAJ\",\n
+        \  \"volumeInfo\": {\n    \"title\": \"Articles on Discontinued Operating
+        Systems, Including\",\n    \"subtitle\": \"Beos, Kent Applicative Operating
+        System, Multics, OS/2, SunOS, Ucsd Pascal, 386bsd, NeXTSTEP, Rsx-11, Tripos,
+        IBM PC DOS, Atheos, Arthur (Operating System), 86-DOS, Ultrix, Mac OS 9\",\n
+        \   \"authors\": [\n     \"Hephaestus Books\"\n    ],\n    \"publishedDate\":
+        \"2011-09-12\",\n    \"description\": \"Please note that the content of this
+        book primarily consists of articles available from Wikipedia or other free
+        sources online. Hephaestus Books represents a new publishing paradigm, allowing
+        disparate content sources to be curated into cohesive, relevant, and informative
+        books. To date, this content has been curated from Wikipedia articles and
+        images under Creative Commons licensing, although as Hephaestus Books continues
+        to increase in scope and dimension, more licensed and public domain content
+        is being added. We believe books such as this represent a new and exciting
+        lexicon in the sharing of human knowledge. This particular book is a collaboration
+        focused on Discontinued operating systems.\",\n    \"industryIdentifiers\":
+        [\n     {\n      \"type\": \"ISBN_10\",\n      \"identifier\": \"1244114871\"\n
+        \    },\n     {\n      \"type\": \"ISBN_13\",\n      \"identifier\": \"9781244114876\"\n
+        \    }\n    ],\n    \"pageCount\": 308,\n    \"printType\": \"BOOK\",\n    \"contentVersion\":
+        \"preview-1.0.0\",\n    \"imageLinks\": {\n     \"smallThumbnail\": \"http://bks3.books.google.com/books?id=uAgDywAACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api\",\n
+        \    \"thumbnail\": \"http://bks3.books.google.com/books?id=uAgDywAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api\"\n
+        \   },\n    \"language\": \"en\",\n    \"previewLink\": \"http://books.google.com/books?id=uAgDywAACAAJ&dq=intitle:beos&hl=&cd=5&source=gbs_api\",\n
+        \   \"infoLink\": \"http://books.google.com/books?id=uAgDywAACAAJ&dq=intitle:beos&hl=&source=gbs_api\",\n
+        \   \"canonicalVolumeLink\": \"http://books.google.com/books/about/Articles_on_Discontinued_Operating_Syste.html?hl=&id=uAgDywAACAAJ\"\n
+        \  },\n   \"saleInfo\": {\n    \"country\": \"US\",\n    \"saleability\":
+        \"NOT_FOR_SALE\",\n    \"isEbook\": false\n   },\n   \"accessInfo\": {\n    \"country\":
+        \"US\",\n    \"viewability\": \"NO_PAGES\",\n    \"embeddable\": false,\n
+        \   \"publicDomain\": false,\n    \"textToSpeechPermission\": \"ALLOWED\",\n
+        \   \"epub\": {\n     \"isAvailable\": false\n    },\n    \"pdf\": {\n     \"isAvailable\":
+        false\n    },\n    \"webReaderLink\": \"http://books.google.com/books/reader?id=uAgDywAACAAJ&hl=&printsec=frontcover&output=reader&source=gbs_api\",\n
+        \   \"accessViewStatus\": \"NONE\"\n   },\n   \"searchInfo\": {\n    \"textSnippet\":
+        \"Please note that the content of this book primarily consists of articles
+        available from Wikipedia or other free sources online.\"\n   }\n  },\n  {\n
+        \  \"kind\": \"books#volume\",\n   \"id\": \"UG-bMQEACAAJ\",\n   \"etag\":
+        \"+RKBMLeI1hY\",\n   \"selfLink\": \"https://www.googleapis.com/books/v1/volumes/UG-bMQEACAAJ\",\n
+        \  \"volumeInfo\": {\n    \"title\": \"Beos R5.1d0\",\n    \"authors\": [\n
+        \    \"Jesse Russell\",\n     \"Ronald Cohn\"\n    ],\n    \"publisher\":
+        \"Book on Demand Limited\",\n    \"publishedDate\": \"2012-06\",\n    \"description\":
+        \"High Quality Content by WIKIPEDIA articles! BeOS R5.1d0 or Dano/EXP (also
+        known as EXP, Dano, and incorrectly as Dan0/EXP or Dan0) is the build codename
+        and most commonly used name to refer to a leaked R5.1 prerelease of the Be
+        Operating System. Dano's build date is 15 November 2001, the day of Be Inc.'s
+        closure. Dano features an improved network stack called BONE, initial support
+        for 802.11b wireless networking, some 3D acceleration-capable graphics drivers,
+        a redesigned graphical user interface, a replacement USB subsystem with USB
+        mass storage support, and other improvements. Many of these features had been
+        promised for BeOS R5 a year earlier and not delivered.\",\n    \"industryIdentifiers\":
+        [\n     {\n      \"type\": \"ISBN_10\",\n      \"identifier\": \"551278210X\"\n
+        \    },\n     {\n      \"type\": \"ISBN_13\",\n      \"identifier\": \"9785512782101\"\n
+        \    }\n    ],\n    \"pageCount\": 144,\n    \"printType\": \"BOOK\",\n    \"contentVersion\":
+        \"preview-1.0.0\",\n    \"imageLinks\": {\n     \"smallThumbnail\": \"http://bks3.books.google.com/books?id=UG-bMQEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api\",\n
+        \    \"thumbnail\": \"http://bks3.books.google.com/books?id=UG-bMQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api\"\n
+        \   },\n    \"language\": \"en\",\n    \"previewLink\": \"http://books.google.com/books?id=UG-bMQEACAAJ&dq=intitle:beos&hl=&cd=6&source=gbs_api\",\n
+        \   \"infoLink\": \"http://books.google.com/books?id=UG-bMQEACAAJ&dq=intitle:beos&hl=&source=gbs_api\",\n
+        \   \"canonicalVolumeLink\": \"http://books.google.com/books/about/Beos_R5_1d0.html?hl=&id=UG-bMQEACAAJ\"\n
+        \  },\n   \"saleInfo\": {\n    \"country\": \"US\",\n    \"saleability\":
+        \"NOT_FOR_SALE\",\n    \"isEbook\": false\n   },\n   \"accessInfo\": {\n    \"country\":
+        \"US\",\n    \"viewability\": \"NO_PAGES\",\n    \"embeddable\": false,\n
+        \   \"publicDomain\": false,\n    \"textToSpeechPermission\": \"ALLOWED\",\n
+        \   \"epub\": {\n     \"isAvailable\": false\n    },\n    \"pdf\": {\n     \"isAvailable\":
+        false\n    },\n    \"webReaderLink\": \"http://books.google.com/books/reader?id=UG-bMQEACAAJ&hl=&printsec=frontcover&output=reader&source=gbs_api\",\n
+        \   \"accessViewStatus\": \"NONE\"\n   },\n   \"searchInfo\": {\n    \"textSnippet\":
+        \"BeOS R5.1d0 or Dano/EXP (also known as EXP, Dano, and incorrectly as Dan0/EXP
+        or Dan0) is the build codename and most commonly used name to refer to a leaked
+        R5.1 prerelease of the Be Operating System.\"\n   }\n  },\n  {\n   \"kind\":
+        \"books#volume\",\n   \"id\": \"U_-PSQAACAAJ\",\n   \"etag\": \"MGBQzhHDE0Q\",\n
+        \  \"selfLink\": \"https://www.googleapis.com/books/v1/volumes/U_-PSQAACAAJ\",\n
+        \  \"volumeInfo\": {\n    \"title\": \"Beos Software\",\n    \"subtitle\":
+        \"Vlc Media Player, Scummvm, Netsurf, Transmission, Visualboyadvance, Netpositive,
+        Vmac, Vice, Opentracker, Softwarevalet, Bootman\",\n    \"authors\": [\n     \"General
+        Books LLC\"\n    ],\n    \"publishedDate\": \"2010-05\",\n    \"industryIdentifiers\":
+        [\n     {\n      \"type\": \"ISBN_10\",\n      \"identifier\": \"1156823382\"\n
+        \    },\n     {\n      \"type\": \"ISBN_13\",\n      \"identifier\": \"9781156823385\"\n
+        \    }\n    ],\n    \"pageCount\": 58,\n    \"printType\": \"BOOK\",\n    \"contentVersion\":
+        \"preview-1.0.0\",\n    \"imageLinks\": {\n     \"smallThumbnail\": \"http://bks1.books.google.com/books?id=U_-PSQAACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api\",\n
+        \    \"thumbnail\": \"http://bks1.books.google.com/books?id=U_-PSQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api\"\n
+        \   },\n    \"language\": \"en\",\n    \"previewLink\": \"http://books.google.com/books?id=U_-PSQAACAAJ&dq=intitle:beos&hl=&cd=7&source=gbs_api\",\n
+        \   \"infoLink\": \"http://books.google.com/books?id=U_-PSQAACAAJ&dq=intitle:beos&hl=&source=gbs_api\",\n
+        \   \"canonicalVolumeLink\": \"http://books.google.com/books/about/Beos_Software.html?hl=&id=U_-PSQAACAAJ\"\n
+        \  },\n   \"saleInfo\": {\n    \"country\": \"US\",\n    \"saleability\":
+        \"NOT_FOR_SALE\",\n    \"isEbook\": false\n   },\n   \"accessInfo\": {\n    \"country\":
+        \"US\",\n    \"viewability\": \"NO_PAGES\",\n    \"embeddable\": false,\n
+        \   \"publicDomain\": false,\n    \"textToSpeechPermission\": \"ALLOWED\",\n
+        \   \"epub\": {\n     \"isAvailable\": false\n    },\n    \"pdf\": {\n     \"isAvailable\":
+        false\n    },\n    \"webReaderLink\": \"http://books.google.com/books/reader?id=U_-PSQAACAAJ&hl=&printsec=frontcover&output=reader&source=gbs_api\",\n
+        \   \"accessViewStatus\": \"NONE\"\n   }\n  },\n  {\n   \"kind\": \"books#volume\",\n
+        \  \"id\": \"G39UkgEACAAJ\",\n   \"etag\": \"fU/sGAJqNSQ\",\n   \"selfLink\":
+        \"https://www.googleapis.com/books/v1/volumes/G39UkgEACAAJ\",\n   \"volumeInfo\":
+        {\n    \"title\": \"Core Porting to the Beos\",\n    \"authors\": [\n     \"Martin
+        Brown\",\n     \"Theodore E Brown\"\n    ],\n    \"publisher\": \"Ziff Davis
+        Press\",\n    \"publishedDate\": \"1997-08-01\",\n    \"industryIdentifiers\":
+        [\n     {\n      \"type\": \"ISBN_10\",\n      \"identifier\": \"1562765485\"\n
+        \    },\n     {\n      \"type\": \"ISBN_13\",\n      \"identifier\": \"9781562765484\"\n
+        \    }\n    ],\n    \"pageCount\": 600,\n    \"printType\": \"BOOK\",\n    \"contentVersion\":
+        \"preview-1.0.0\",\n    \"language\": \"en\",\n    \"previewLink\": \"http://books.google.com/books?id=G39UkgEACAAJ&dq=intitle:beos&hl=&cd=8&source=gbs_api\",\n
+        \   \"infoLink\": \"http://books.google.com/books?id=G39UkgEACAAJ&dq=intitle:beos&hl=&source=gbs_api\",\n
+        \   \"canonicalVolumeLink\": \"http://books.google.com/books/about/Core_Porting_to_the_Beos.html?hl=&id=G39UkgEACAAJ\"\n
+        \  },\n   \"saleInfo\": {\n    \"country\": \"US\",\n    \"saleability\":
+        \"NOT_FOR_SALE\",\n    \"isEbook\": false\n   },\n   \"accessInfo\": {\n    \"country\":
+        \"US\",\n    \"viewability\": \"NO_PAGES\",\n    \"embeddable\": false,\n
+        \   \"publicDomain\": false,\n    \"textToSpeechPermission\": \"ALLOWED\",\n
+        \   \"epub\": {\n     \"isAvailable\": false\n    },\n    \"pdf\": {\n     \"isAvailable\":
+        false\n    },\n    \"webReaderLink\": \"http://books.google.com/books/reader?id=G39UkgEACAAJ&hl=&printsec=frontcover&output=reader&source=gbs_api\",\n
+        \   \"accessViewStatus\": \"NONE\"\n   }\n  },\n  {\n   \"kind\": \"books#volume\",\n
+        \  \"id\": \"4cqUYTtvkn8C\",\n   \"etag\": \"SVxBXKOmznU\",\n   \"selfLink\":
+        \"https://www.googleapis.com/books/v1/volumes/4cqUYTtvkn8C\",\n   \"volumeInfo\":
+        {\n    \"title\": \"BeOS\",\n    \"subtitle\": \"Porting UNIX Applications\",\n
+        \   \"authors\": [\n     \"Martin C. Brown\"\n    ],\n    \"publisher\": \"Morgan
+        Kaufmann Pub\",\n    \"publishedDate\": \"1998\",\n    \"description\": \"While
+        the BeOS is a fundamentally new operating system, under the hood it contains
+        a lot of UNIX-like features, and aims to be largely POSIX compliant. This
+        book explores the BeOS from a POSIX programmer's vantage point, providing
+        the programmer a comprehensive guide to getting these applications to run
+        on this new platform.\",\n    \"industryIdentifiers\": [\n     {\n      \"type\":
+        \"ISBN_10\",\n      \"identifier\": \"1558605320\"\n     },\n     {\n      \"type\":
+        \"ISBN_13\",\n      \"identifier\": \"9781558605329\"\n     }\n    ],\n    \"pageCount\":
+        484,\n    \"printType\": \"BOOK\",\n    \"categories\": [\n     \"Computers\"\n
+        \   ],\n    \"averageRating\": 5.0,\n    \"ratingsCount\": 1,\n    \"contentVersion\":
+        \"1.0.1.0.preview.3\",\n    \"imageLinks\": {\n     \"smallThumbnail\": \"http://bks8.books.google.com/books?id=4cqUYTtvkn8C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api\",\n
+        \    \"thumbnail\": \"http://bks8.books.google.com/books?id=4cqUYTtvkn8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api\"\n
+        \   },\n    \"language\": \"en\",\n    \"previewLink\": \"http://books.google.com/books?id=4cqUYTtvkn8C&printsec=frontcover&dq=intitle:beos&hl=&cd=9&source=gbs_api\",\n
+        \   \"infoLink\": \"http://books.google.com/books?id=4cqUYTtvkn8C&dq=intitle:beos&hl=&source=gbs_api\",\n
+        \   \"canonicalVolumeLink\": \"http://books.google.com/books/about/BeOS.html?hl=&id=4cqUYTtvkn8C\"\n
+        \  },\n   \"saleInfo\": {\n    \"country\": \"US\",\n    \"saleability\":
+        \"NOT_FOR_SALE\",\n    \"isEbook\": false\n   },\n   \"accessInfo\": {\n    \"country\":
+        \"US\",\n    \"viewability\": \"PARTIAL\",\n    \"embeddable\": true,\n    \"publicDomain\":
+        false,\n    \"textToSpeechPermission\": \"ALLOWED\",\n    \"epub\": {\n     \"isAvailable\":
+        true,\n     \"acsTokenLink\": \"http://books.google.com/books/download/BeOS-sample-epub.acsm?id=4cqUYTtvkn8C&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api\"\n
+        \   },\n    \"pdf\": {\n     \"isAvailable\": false\n    },\n    \"webReaderLink\":
+        \"http://books.google.com/books/reader?id=4cqUYTtvkn8C&hl=&printsec=frontcover&output=reader&source=gbs_api\",\n
+        \   \"accessViewStatus\": \"SAMPLE\"\n   },\n   \"searchInfo\": {\n    \"textSnippet\":
+        \"This book explores the BeOS from a POSIX programmer&#39;s vantage point,
+        providing the programmer a comprehensive guide to getting these applications
+        to run on this new platform.\"\n   }\n  },\n  {\n   \"kind\": \"books#volume\",\n
+        \  \"id\": \"OFBkNQEACAAJ\",\n   \"etag\": \"easTmrmXQDk\",\n   \"selfLink\":
+        \"https://www.googleapis.com/books/v1/volumes/OFBkNQEACAAJ\",\n   \"volumeInfo\":
+        {\n    \"title\": \"BeOS User's Guide\",\n    \"subtitle\": \"Release 4 and
+        4.5\",\n    \"publishedDate\": \"1999\",\n    \"industryIdentifiers\": [\n
+        \    {\n      \"type\": \"OTHER\",\n      \"identifier\": \"OCLC:49598542\"\n
+        \    }\n    ],\n    \"pageCount\": 135,\n    \"printType\": \"BOOK\",\n    \"contentVersion\":
+        \"preview-1.0.0\",\n    \"language\": \"en\",\n    \"previewLink\": \"http://books.google.com/books?id=OFBkNQEACAAJ&dq=intitle:beos&hl=&cd=10&source=gbs_api\",\n
+        \   \"infoLink\": \"http://books.google.com/books?id=OFBkNQEACAAJ&dq=intitle:beos&hl=&source=gbs_api\",\n
+        \   \"canonicalVolumeLink\": \"http://books.google.com/books/about/BeOS_User_s_Guide.html?hl=&id=OFBkNQEACAAJ\"\n
+        \  },\n   \"saleInfo\": {\n    \"country\": \"US\",\n    \"saleability\":
+        \"NOT_FOR_SALE\",\n    \"isEbook\": false\n   },\n   \"accessInfo\": {\n    \"country\":
+        \"US\",\n    \"viewability\": \"NO_PAGES\",\n    \"embeddable\": false,\n
+        \   \"publicDomain\": false,\n    \"textToSpeechPermission\": \"ALLOWED\",\n
+        \   \"epub\": {\n     \"isAvailable\": false\n    },\n    \"pdf\": {\n     \"isAvailable\":
+        false\n    },\n    \"webReaderLink\": \"http://books.google.com/books/reader?id=OFBkNQEACAAJ&hl=&printsec=frontcover&output=reader&source=gbs_api\",\n
+        \   \"accessViewStatus\": \"NONE\"\n   }\n  }\n ]\n}\n"
+    http_version: 
+  recorded_at: Fri, 31 May 2013 01:02:16 GMT
+- request:
+    method: get
+    uri: https://www.googleapis.com/books/v1/volumes?key=<GOGGLE APP ID>&maxResults=10&q=subject:beos
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: !binary |-
+        T0s=
+    headers:
+      !binary "RXhwaXJlcw==":
+      - !binary |-
+        RnJpLCAzMSBNYXkgMjAxMyAwMTowMjoxNiBHTVQ=
+      !binary "RGF0ZQ==":
+      - !binary |-
+        RnJpLCAzMSBNYXkgMjAxMyAwMTowMjoxNiBHTVQ=
+      !binary "Q2FjaGUtQ29udHJvbA==":
+      - !binary |-
+        cHJpdmF0ZSwgbWF4LWFnZT0wLCBtdXN0LXJldmFsaWRhdGUsIG5vLXRyYW5z
+        Zm9ybQ==
+      !binary "RXRhZw==":
+      - !binary |-
+        IkkwOUVMWGJybU9sRS1SRkNrRHNSYklKajI3OC8zSERzMkx2X1R2Vk96Uk44
+        MzNCUDBfQkNtdDgi
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        YXBwbGljYXRpb24vanNvbjsgY2hhcnNldD1VVEYtOA==
+      !binary "WC1Db250ZW50LVR5cGUtT3B0aW9ucw==":
+      - !binary |-
+        bm9zbmlmZg==
+      !binary "WC1GcmFtZS1PcHRpb25z":
+      - !binary |-
+        U0FNRU9SSUdJTg==
+      !binary "WC1Yc3MtUHJvdGVjdGlvbg==":
+      - !binary |-
+        MTsgbW9kZT1ibG9jaw==
+      !binary "U2VydmVy":
+      - !binary |-
+        R1NF
+      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
+      - !binary |-
+        Y2h1bmtlZA==
+    body:
+      encoding: US-ASCII
+      string: ! "{\n \"kind\": \"books#volumes\",\n \"totalItems\": 6,\n \"items\":
+        [\n  {\n   \"kind\": \"books#volume\",\n   \"id\": \"4cqUYTtvkn8C\",\n   \"etag\":
+        \"oXFAmVbF2Zw\",\n   \"selfLink\": \"https://www.googleapis.com/books/v1/volumes/4cqUYTtvkn8C\",\n
+        \  \"volumeInfo\": {\n    \"title\": \"BeOS\",\n    \"subtitle\": \"Porting
+        UNIX Applications\",\n    \"authors\": [\n     \"Martin C. Brown\"\n    ],\n
+        \   \"publisher\": \"Morgan Kaufmann Pub\",\n    \"publishedDate\": \"1998\",\n
+        \   \"description\": \"While the BeOS is a fundamentally new operating system,
+        under the hood it contains a lot of UNIX-like features, and aims to be largely
+        POSIX compliant. This book explores the BeOS from a POSIX programmer's vantage
+        point, providing the programmer a comprehensive guide to getting these applications
+        to run on this new platform.\",\n    \"industryIdentifiers\": [\n     {\n
+        \     \"type\": \"ISBN_10\",\n      \"identifier\": \"1558605320\"\n     },\n
+        \    {\n      \"type\": \"ISBN_13\",\n      \"identifier\": \"9781558605329\"\n
+        \    }\n    ],\n    \"pageCount\": 484,\n    \"printType\": \"BOOK\",\n    \"categories\":
+        [\n     \"Computers\"\n    ],\n    \"averageRating\": 5.0,\n    \"ratingsCount\":
+        1,\n    \"contentVersion\": \"1.0.1.0.preview.3\",\n    \"imageLinks\": {\n
+        \    \"smallThumbnail\": \"http://bks8.books.google.com/books?id=4cqUYTtvkn8C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api\",\n
+        \    \"thumbnail\": \"http://bks8.books.google.com/books?id=4cqUYTtvkn8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api\"\n
+        \   },\n    \"language\": \"en\",\n    \"previewLink\": \"http://books.google.com/books?id=4cqUYTtvkn8C&printsec=frontcover&dq=subject:beos&hl=&cd=1&source=gbs_api\",\n
+        \   \"infoLink\": \"http://books.google.com/books?id=4cqUYTtvkn8C&dq=subject:beos&hl=&source=gbs_api\",\n
+        \   \"canonicalVolumeLink\": \"http://books.google.com/books/about/BeOS.html?hl=&id=4cqUYTtvkn8C\"\n
+        \  },\n   \"saleInfo\": {\n    \"country\": \"US\",\n    \"saleability\":
+        \"NOT_FOR_SALE\",\n    \"isEbook\": false\n   },\n   \"accessInfo\": {\n    \"country\":
+        \"US\",\n    \"viewability\": \"PARTIAL\",\n    \"embeddable\": true,\n    \"publicDomain\":
+        false,\n    \"textToSpeechPermission\": \"ALLOWED\",\n    \"epub\": {\n     \"isAvailable\":
+        true,\n     \"acsTokenLink\": \"http://books.google.com/books/download/BeOS-sample-epub.acsm?id=4cqUYTtvkn8C&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api\"\n
+        \   },\n    \"pdf\": {\n     \"isAvailable\": false\n    },\n    \"webReaderLink\":
+        \"http://books.google.com/books/reader?id=4cqUYTtvkn8C&hl=&printsec=frontcover&output=reader&source=gbs_api\",\n
+        \   \"accessViewStatus\": \"SAMPLE\"\n   }\n  },\n  {\n   \"kind\": \"books#volume\",\n
+        \  \"id\": \"WoQ_AQAAIAAJ\",\n   \"etag\": \"x0KxyN8ag2M\",\n   \"selfLink\":
+        \"https://www.googleapis.com/books/v1/volumes/WoQ_AQAAIAAJ\",\n   \"volumeInfo\":
+        {\n    \"title\": \"Be developer's guide\",\n    \"authors\": [\n     \"The
+        Be Development Team\"\n    ],\n    \"publisher\": \"O'Reilly Media\",\n    \"publishedDate\":
+        \"1997-12-01\",\n    \"description\": \"The Be Book the official reference
+        manual for BeOS, gives high-end multimedia developers direct access In the
+        internals of this revolutionary new operating system for Macintosh and clone
+        systems. Includes two volumes and two CD-ROMs that contain the entire operating
+        system as well as a collection of shareware, freeware, and information from
+        the third party BE developer community.\",\n    \"industryIdentifiers\": [\n
+        \    {\n      \"type\": \"ISBN_10\",\n      \"identifier\": \"1565922875\"\n
+        \    },\n     {\n      \"type\": \"ISBN_13\",\n      \"identifier\": \"9781565922877\"\n
+        \    }\n    ],\n    \"pageCount\": 934,\n    \"printType\": \"BOOK\",\n    \"contentVersion\":
+        \"preview-1.0.0\",\n    \"imageLinks\": {\n     \"smallThumbnail\": \"http://bks5.books.google.com/books?id=WoQ_AQAAIAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api\",\n
+        \    \"thumbnail\": \"http://bks5.books.google.com/books?id=WoQ_AQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api\"\n
+        \   },\n    \"language\": \"en\",\n    \"previewLink\": \"http://books.google.com/books?id=WoQ_AQAAIAAJ&dq=subject:beos&hl=&cd=2&source=gbs_api\",\n
+        \   \"infoLink\": \"http://books.google.com/books?id=WoQ_AQAAIAAJ&dq=subject:beos&hl=&source=gbs_api\",\n
+        \   \"canonicalVolumeLink\": \"http://books.google.com/books/about/Be_developer_s_guide.html?hl=&id=WoQ_AQAAIAAJ\"\n
+        \  },\n   \"saleInfo\": {\n    \"country\": \"US\",\n    \"saleability\":
+        \"NOT_FOR_SALE\",\n    \"isEbook\": false\n   },\n   \"accessInfo\": {\n    \"country\":
+        \"US\",\n    \"viewability\": \"NO_PAGES\",\n    \"embeddable\": false,\n
+        \   \"publicDomain\": false,\n    \"textToSpeechPermission\": \"ALLOWED\",\n
+        \   \"epub\": {\n     \"isAvailable\": false\n    },\n    \"pdf\": {\n     \"isAvailable\":
+        false\n    },\n    \"webReaderLink\": \"http://books.google.com/books/reader?id=WoQ_AQAAIAAJ&hl=&printsec=frontcover&output=reader&source=gbs_api\",\n
+        \   \"accessViewStatus\": \"NONE\"\n   }\n  },\n  {\n   \"kind\": \"books#volume\",\n
+        \  \"id\": \"9YB5QgAACAAJ\",\n   \"etag\": \"Ecz0IGLTHqQ\",\n   \"selfLink\":
+        \"https://www.googleapis.com/books/v1/volumes/9YB5QgAACAAJ\",\n   \"volumeInfo\":
+        {\n    \"title\": \"The BeOS Bible.\",\n    \"subtitle\": \"The definitive
+        BeOS user guide. Covers version R4 of BeOS on Intel/PowerPC.\",\n    \"authors\":
+        [\n     \"Scot Hacker\",\n     \"Henry Bortman\",\n     \"Chris Heborth\"\n
+        \   ],\n    \"publisher\": \"Addison Wesley Longman\",\n    \"publishedDate\":
+        \"1999\",\n    \"description\": \"Just as LINUX gave the world an inexpensive
+        way to run a UNIX workstation, the BeOS gives users an affordable way to run
+        a graphics and multimedia workstation. Its complete, fully updated \\\"bible\\\"
+        contains everything users need to know to use, configure, print, network and
+        run applications.\",\n    \"industryIdentifiers\": [\n     {\n      \"type\":
+        \"ISBN_10\",\n      \"identifier\": \"0201353776\"\n     },\n     {\n      \"type\":
+        \"ISBN_13\",\n      \"identifier\": \"9780201353778\"\n     }\n    ],\n    \"pageCount\":
+        916,\n    \"printType\": \"BOOK\",\n    \"contentVersion\": \"preview-1.0.0\",\n
+        \   \"imageLinks\": {\n     \"smallThumbnail\": \"http://bks9.books.google.com/books?id=9YB5QgAACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api\",\n
+        \    \"thumbnail\": \"http://bks9.books.google.com/books?id=9YB5QgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api\"\n
+        \   },\n    \"language\": \"en\",\n    \"previewLink\": \"http://books.google.com/books?id=9YB5QgAACAAJ&dq=subject:beos&hl=&cd=3&source=gbs_api\",\n
+        \   \"infoLink\": \"http://books.google.com/books?id=9YB5QgAACAAJ&dq=subject:beos&hl=&source=gbs_api\",\n
+        \   \"canonicalVolumeLink\": \"http://books.google.com/books/about/The_BeOS_Bible.html?hl=&id=9YB5QgAACAAJ\"\n
+        \  },\n   \"saleInfo\": {\n    \"country\": \"US\",\n    \"saleability\":
+        \"NOT_FOR_SALE\",\n    \"isEbook\": false\n   },\n   \"accessInfo\": {\n    \"country\":
+        \"US\",\n    \"viewability\": \"NO_PAGES\",\n    \"embeddable\": false,\n
+        \   \"publicDomain\": false,\n    \"textToSpeechPermission\": \"ALLOWED\",\n
+        \   \"epub\": {\n     \"isAvailable\": false\n    },\n    \"pdf\": {\n     \"isAvailable\":
+        false\n    },\n    \"webReaderLink\": \"http://books.google.com/books/reader?id=9YB5QgAACAAJ&hl=&printsec=frontcover&output=reader&source=gbs_api\",\n
+        \   \"accessViewStatus\": \"NONE\"\n   }\n  },\n  {\n   \"kind\": \"books#volume\",\n
+        \  \"id\": \"Zn4ZAQAAIAAJ\",\n   \"etag\": \"xJ+0kGYrGQs\",\n   \"selfLink\":
+        \"https://www.googleapis.com/books/v1/volumes/Zn4ZAQAAIAAJ\",\n   \"volumeInfo\":
+        {\n    \"title\": \"Programming the Be operating system\",\n    \"authors\":
+        [\n     \"Dan Parks Sydow\"\n    ],\n    \"publisher\": \"O'Reilly Media\",\n
+        \   \"publishedDate\": \"1999-06-08\",\n    \"description\": \"A beginner's
+        programming guide explains how C++++ programmers can develop applications
+        for the Be operating system, introducing basic OS features including threads
+        and file handling, graphical interface tools, and more. Original. (Beginner).\",\n
+        \   \"industryIdentifiers\": [\n     {\n      \"type\": \"ISBN_10\",\n      \"identifier\":
+        \"1565924673\"\n     },\n     {\n      \"type\": \"ISBN_13\",\n      \"identifier\":
+        \"9781565924673\"\n     }\n    ],\n    \"pageCount\": 390,\n    \"printType\":
+        \"BOOK\",\n    \"categories\": [\n     \"Computers\"\n    ],\n    \"contentVersion\":
+        \"0.0.1.0.preview.0\",\n    \"imageLinks\": {\n     \"smallThumbnail\": \"http://bks5.books.google.com/books?id=Zn4ZAQAAIAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api\",\n
+        \    \"thumbnail\": \"http://bks5.books.google.com/books?id=Zn4ZAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api\"\n
+        \   },\n    \"language\": \"en\",\n    \"previewLink\": \"http://books.google.com/books?id=Zn4ZAQAAIAAJ&dq=subject:beos&hl=&cd=4&source=gbs_api\",\n
+        \   \"infoLink\": \"http://books.google.com/books?id=Zn4ZAQAAIAAJ&dq=subject:beos&hl=&source=gbs_api\",\n
+        \   \"canonicalVolumeLink\": \"http://books.google.com/books/about/Programming_the_Be_operating_system.html?hl=&id=Zn4ZAQAAIAAJ\"\n
+        \  },\n   \"saleInfo\": {\n    \"country\": \"US\",\n    \"saleability\":
+        \"NOT_FOR_SALE\",\n    \"isEbook\": false\n   },\n   \"accessInfo\": {\n    \"country\":
+        \"US\",\n    \"viewability\": \"NO_PAGES\",\n    \"embeddable\": false,\n
+        \   \"publicDomain\": false,\n    \"textToSpeechPermission\": \"ALLOWED\",\n
+        \   \"epub\": {\n     \"isAvailable\": false\n    },\n    \"pdf\": {\n     \"isAvailable\":
+        false\n    },\n    \"webReaderLink\": \"http://books.google.com/books/reader?id=Zn4ZAQAAIAAJ&hl=&printsec=frontcover&output=reader&source=gbs_api\",\n
+        \   \"accessViewStatus\": \"NONE\"\n   }\n  },\n  {\n   \"kind\": \"books#volume\",\n
+        \  \"id\": \"OFBkNQEACAAJ\",\n   \"etag\": \"ib2PaU15bTk\",\n   \"selfLink\":
+        \"https://www.googleapis.com/books/v1/volumes/OFBkNQEACAAJ\",\n   \"volumeInfo\":
+        {\n    \"title\": \"BeOS User's Guide\",\n    \"subtitle\": \"Release 4 and
+        4.5\",\n    \"publishedDate\": \"1999\",\n    \"industryIdentifiers\": [\n
+        \    {\n      \"type\": \"OTHER\",\n      \"identifier\": \"OCLC:49598542\"\n
+        \    }\n    ],\n    \"pageCount\": 135,\n    \"printType\": \"BOOK\",\n    \"contentVersion\":
+        \"preview-1.0.0\",\n    \"language\": \"en\",\n    \"previewLink\": \"http://books.google.com/books?id=OFBkNQEACAAJ&dq=subject:beos&hl=&cd=5&source=gbs_api\",\n
+        \   \"infoLink\": \"http://books.google.com/books?id=OFBkNQEACAAJ&dq=subject:beos&hl=&source=gbs_api\",\n
+        \   \"canonicalVolumeLink\": \"http://books.google.com/books/about/BeOS_User_s_Guide.html?hl=&id=OFBkNQEACAAJ\"\n
+        \  },\n   \"saleInfo\": {\n    \"country\": \"US\",\n    \"saleability\":
+        \"NOT_FOR_SALE\",\n    \"isEbook\": false\n   },\n   \"accessInfo\": {\n    \"country\":
+        \"US\",\n    \"viewability\": \"NO_PAGES\",\n    \"embeddable\": false,\n
+        \   \"publicDomain\": false,\n    \"textToSpeechPermission\": \"ALLOWED\",\n
+        \   \"epub\": {\n     \"isAvailable\": false\n    },\n    \"pdf\": {\n     \"isAvailable\":
+        false\n    },\n    \"webReaderLink\": \"http://books.google.com/books/reader?id=OFBkNQEACAAJ&hl=&printsec=frontcover&output=reader&source=gbs_api\",\n
+        \   \"accessViewStatus\": \"NONE\"\n   }\n  },\n  {\n   \"kind\": \"books#volume\",\n
+        \  \"id\": \"5YJWNQEACAAJ\",\n   \"etag\": \"QsDtXLQS924\",\n   \"selfLink\":
+        \"https://www.googleapis.com/books/v1/volumes/5YJWNQEACAAJ\",\n   \"volumeInfo\":
+        {\n    \"title\": \"Be Operating System User's Guide for 4.0 & 4.5\",\n    \"publishedDate\":
+        \"1998\",\n    \"industryIdentifiers\": [\n     {\n      \"type\": \"OTHER\",\n
+        \     \"identifier\": \"OCLC:49792374\"\n     }\n    ],\n    \"pageCount\":
+        119,\n    \"printType\": \"BOOK\",\n    \"contentVersion\": \"preview-1.0.0\",\n
+        \   \"language\": \"en\",\n    \"previewLink\": \"http://books.google.com/books?id=5YJWNQEACAAJ&dq=subject:beos&hl=&cd=6&source=gbs_api\",\n
+        \   \"infoLink\": \"http://books.google.com/books?id=5YJWNQEACAAJ&dq=subject:beos&hl=&source=gbs_api\",\n
+        \   \"canonicalVolumeLink\": \"http://books.google.com/books/about/Be_Operating_System_User_s_Guide_for_4_0.html?hl=&id=5YJWNQEACAAJ\"\n
+        \  },\n   \"saleInfo\": {\n    \"country\": \"US\",\n    \"saleability\":
+        \"NOT_FOR_SALE\",\n    \"isEbook\": false\n   },\n   \"accessInfo\": {\n    \"country\":
+        \"US\",\n    \"viewability\": \"NO_PAGES\",\n    \"embeddable\": false,\n
+        \   \"publicDomain\": false,\n    \"textToSpeechPermission\": \"ALLOWED\",\n
+        \   \"epub\": {\n     \"isAvailable\": false\n    },\n    \"pdf\": {\n     \"isAvailable\":
+        false\n    },\n    \"webReaderLink\": \"http://books.google.com/books/reader?id=5YJWNQEACAAJ&hl=&printsec=frontcover&output=reader&source=gbs_api\",\n
+        \   \"accessViewStatus\": \"NONE\"\n   }\n  }\n ]\n}\n"
+    http_version: 
+  recorded_at: Fri, 31 May 2013 01:02:17 GMT
+recorded_with: VCR 2.5.0
