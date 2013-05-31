@@ -1,0 +1,2128 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.googleapis.com/customsearch/v1?cx=<GOGGLE SEARCH ENGINE ID>&key=<GOGGLE
+      APP ID>&num=10&q=microsoft%20rocks
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Expires:
+      - Fri, 31 May 2013 03:15:42 GMT
+      Date:
+      - Fri, 31 May 2013 03:15:42 GMT
+      Cache-Control:
+      - private, max-age=0, must-revalidate, no-transform
+      Etag:
+      - ! '"zKAGlL0tXPBGgoCGi0Rlupf--BY/vjxljrdzb87-c6q93w72KgDhxUQ"'
+      Content-Type:
+      - application/json; charset=UTF-8
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      Server:
+      - GSE
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: ! "{\n \"kind\": \"customsearch#search\",\n \"url\": {\n  \"type\":
+        \"application/json\",\n  \"template\": \"https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&cref={cref?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&relatedSite={relatedSite?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json\"\n
+        },\n \"queries\": {\n  \"nextPage\": [\n   {\n    \"title\": \"Google Custom
+        Search - microsoft rocks\",\n    \"totalResults\": \"178000\",\n    \"searchTerms\":
+        \"microsoft rocks\",\n    \"count\": 10,\n    \"startIndex\": 11,\n    \"inputEncoding\":
+        \"utf8\",\n    \"outputEncoding\": \"utf8\",\n    \"safe\": \"off\",\n    \"cx\":
+        \"<GOGGLE SEARCH ENGINE ID>\"\n   }\n  ],\n  \"request\": [\n   {\n    \"title\":
+        \"Google Custom Search - microsoft rocks\",\n    \"totalResults\": \"178000\",\n
+        \   \"searchTerms\": \"microsoft rocks\",\n    \"count\": 10,\n    \"startIndex\":
+        1,\n    \"inputEncoding\": \"utf8\",\n    \"outputEncoding\": \"utf8\",\n
+        \   \"safe\": \"off\",\n    \"cx\": \"<GOGGLE SEARCH ENGINE ID>\"\n   }\n
+        \ ]\n },\n \"context\": {\n  \"title\": \"Google\"\n },\n \"searchInformation\":
+        {\n  \"searchTime\": 0.293082,\n  \"formattedSearchTime\": \"0.29\",\n  \"totalResults\":
+        \"178000\",\n  \"formattedTotalResults\": \"178,000\"\n },\n \"items\": [\n
+        \ {\n   \"kind\": \"customsearch#result\",\n   \"title\": \"Benefits – Google
+        Apps for Business | United States\",\n   \"htmlTitle\": \"Benefits – Google
+        Apps for Business | United States\",\n   \"link\": \"http://www.google.com/enterprise/apps/business/benefits.html\",\n
+        \  \"displayLink\": \"www.google.com\",\n   \"snippet\": \"Security first.
+        Google Apps includes dozens of critical security features   specifically designed
+        to keep your data safe, secure and in your control. Your   data ...\",\n   \"htmlSnippet\":
+        \"Security first. Google Apps includes dozens of critical security features
+        \\u003cbr\\u003e  specifically designed to keep your data safe, secure and
+        in your control. Your \\u003cbr\\u003e  data \\u003cb\\u003e...\\u003c/b\\u003e\",\n
+        \  \"cacheId\": \"IYsGw2v3oz4J\",\n   \"formattedUrl\": \"www.google.com/enterprise/apps/business/benefits.html\",\n
+        \  \"htmlFormattedUrl\": \"www.google.com/enterprise/apps/business/benefits.html\",\n
+        \  \"pagemap\": {\n    \"metatags\": [\n     {\n      \"viewport\": \"width=990\"\n
+        \    }\n    ]\n   }\n  },\n  {\n   \"kind\": \"customsearch#result\",\n   \"title\":
+        \"20 Year Archive on Google Groups\",\n   \"htmlTitle\": \"20 Year Archive
+        on Google Groups\",\n   \"link\": \"http://www.google.com/googlegroups/archive_announce_20.html\",\n
+        \  \"displayLink\": \"www.google.com\",\n   \"snippet\": \"11 May 1981 Oldest
+        Usenet article in the Google Groups Archive | -------- May   1981 First mention
+        of Microsoft | -------- Jun 1981 A logical map of Usenet when it ...\",\n
+        \  \"htmlSnippet\": \"11 May 1981 Oldest Usenet article in the Google Groups
+        Archive | -------- May \\u003cbr\\u003e  1981 First mention of \\u003cb\\u003eMicrosoft\\u003c/b\\u003e
+        | -------- Jun 1981 A logical map of Usenet when it \\u003cb\\u003e...\\u003c/b\\u003e\",\n
+        \  \"cacheId\": \"OEsFXj_XbWUJ\",\n   \"formattedUrl\": \"www.google.com/googlegroups/archive_announce_20.html\",\n
+        \  \"htmlFormattedUrl\": \"www.google.com/googlegroups/archive_announce_20.html\"\n
+        \ },\n  {\n   \"kind\": \"customsearch#result\",\n   \"title\": \"Google Apps
+        Marketplace - Wrike: FREE Project Management for ...\",\n   \"htmlTitle\":
+        \"Google Apps Marketplace - Wrike: FREE Project Management for \\u003cb\\u003e...\\u003c/b\\u003e\",\n
+        \  \"link\": \"http://www.google.com/enterprise/marketplace/viewListing?productListingId=4419+16026085342796214108\",\n
+        \  \"displayLink\": \"www.google.com\",\n   \"snippet\": \"Add Wrike to your
+        apps now and rock your team's productivity! ... Google   Calendar, Dropbox,
+        Microsoft Project; Advanced Scheduling; Real-Time   Discussions ...\",\n   \"htmlSnippet\":
+        \"Add Wrike to your apps now and \\u003cb\\u003erock\\u003c/b\\u003e your
+        team&#39;s productivity! \\u003cb\\u003e...\\u003c/b\\u003e Google \\u003cbr\\u003e
+        \ Calendar, Dropbox, \\u003cb\\u003eMicrosoft\\u003c/b\\u003e Project; Advanced
+        Scheduling; Real-Time \\u003cbr\\u003e  Discussions \\u003cb\\u003e...\\u003c/b\\u003e\",\n
+        \  \"cacheId\": \"G_FlYy4sp1gJ\",\n   \"formattedUrl\": \"www.google.com/enterprise/marketplace/viewListing?...4419...\",\n
+        \  \"htmlFormattedUrl\": \"www.google.com/enterprise/marketplace/viewListing?...4419...\",\n
+        \  \"pagemap\": {\n    \"cse_image\": [\n     {\n      \"src\": \"http://lh6.googleusercontent.com/4wyqRY2zJj89v1LKe-ID-Mcnkg-bwQ4fPFbgVirRoMxDYZSNsKHWyLEvZr2lkz_3taLlDOlSKsRIq2bU=s120?gr=13464c107e6\"\n
+        \    }\n    ],\n    \"organization\": [\n     {\n      \"url\": \"Wrike\",\n
+        \     \"name\": \"Wrike\"\n     }\n    ],\n    \"cse_thumbnail\": [\n     {\n
+        \     \"width\": \"106\",\n      \"height\": \"56\",\n      \"src\": \"https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSHxJa2bqhRjk_HGcZDpWbBXlg3AixtrGtmeaI8UY0ICvtzFs7AwzNT\"\n
+        \    }\n    ],\n    \"aggregaterating\": [\n     {\n      \"ratingvalue\":
+        \"4\",\n      \"reviewcount\": \"129\"\n     }\n    ],\n    \"softwareapplication\":
+        [\n     {\n      \"softwareapplicationcategory\": \"http://schema.org/BusinessApplication\",\n
+        \     \"softwareapplicationsubcategory\": \"Project Management\",\n      \"name\":
+        \"Wrike: FREE Project Management for UNLIMITED Collaborators\",\n      \"image\":
+        \"http://lh3.googleusercontent.com/5aZYB5-jClgwbbkop8i5v9tzYKhQXVUyjq_CjMt8S_WlkBcD-H3vtQF0s_EuAYI-XhbNXdmhJ-YIt0Lt3c4=s120?gr=13359d05190\",\n
+        \     \"description\": \"Rock your team’s productivity with a combo of task
+        lists, spreadsheets, Gantt charts and Activity Stream in 1 app! Wrike brings
+        all data in one place making project management fast, easy...\"\n     }\n
+        \   ]\n   }\n  },\n  {\n   \"kind\": \"customsearch#result\",\n   \"title\":
+        \"Google Offers - 20% off your purchase\",\n   \"htmlTitle\": \"Google Offers
+        - 20% off your purchase\",\n   \"link\": \"https://www.google.com/offers/savable/mc/EJPUNACCSCXHQ-20OFFPURCH\",\n
+        \  \"displayLink\": \"www.google.com\",\n   \"snippet\": \"Mar 24, 2013...
+        unlocked phones, graphing calculators, Microsoft Office, GPS systems &   accessories,
+        video game consoles & accessories ... 3535 N Rock Rd ...\",\n   \"htmlSnippet\":
+        \"Mar 24, 2013\\u003cb\\u003e...\\u003c/b\\u003e unlocked phones, graphing
+        calculators, \\u003cb\\u003eMicrosoft\\u003c/b\\u003e Office, GPS systems
+        &amp; \\u003cbr\\u003e  accessories, video game consoles &amp; accessories
+        \\u003cb\\u003e...\\u003c/b\\u003e 3535 N \\u003cb\\u003eRock\\u003c/b\\u003e
+        Rd \\u003cb\\u003e...\\u003c/b\\u003e\",\n   \"cacheId\": \"N3Lsaypn6GEJ\",\n
+        \  \"formattedUrl\": \"https://www.google.com/offers/.../EJPUNACCSCXHQ-20OFFPURCH\",\n
+        \  \"htmlFormattedUrl\": \"https://www.google.com/offers/.../EJPUNACCSCXHQ-20OFFPURCH\",\n
+        \  \"pagemap\": {\n    \"cse_image\": [\n     {\n      \"src\": \"https://lh3.ggpht.com/Sg2ILqHU8cZdTBxs_v8SGQ4YMosjQ6XMoekXmzUibHBrA1uzUqViS788bWlD=s0\"\n
+        \    }\n    ],\n    \"organization\": [\n     {\n      \"name\": \"OfficeMax\"\n
+        \    }\n    ],\n    \"cse_thumbnail\": [\n     {\n      \"width\": \"258\",\n
+        \     \"height\": \"196\",\n      \"src\": \"https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ07Y9Yv-luvGCXmO_-hj-TbSg2dF0AfWPozhjoQrQF9T8BkW9J-uJWIrQ\"\n
+        \    }\n    ],\n    \"postaladdress\": [\n     {\n      \"addresscountry\":
+        \"US\",\n      \"addresslocality\": \"Joplin\",\n      \"addressregion\":
+        \"MO\",\n      \"postalcode\": \"64801\",\n      \"streetaddress\": \"440
+        S Range Line Rd\",\n      \"telephone\": \"(417) 623-1007\"\n     },\n     {\n
+        \     \"addresscountry\": \"US\",\n      \"addresslocality\": \"Wichita\",\n
+        \     \"addressregion\": \"KS\",\n      \"postalcode\": \"67207\",\n      \"streetaddress\":
+        \"8147 E Kellogg Dr\",\n      \"telephone\": \"(316) 686-1401\"\n     },\n
+        \    {\n      \"addresscountry\": \"US\",\n      \"addresslocality\": \"Witchita\",\n
+        \     \"addressregion\": \"KS\",\n      \"postalcode\": \"67226\",\n      \"streetaddress\":
+        \"3535 N Rock Rd\",\n      \"telephone\": \"(316) 634-2496\"\n     },\n     {\n
+        \     \"addresscountry\": \"US\",\n      \"addresslocality\": \"Wichita\",\n
+        \     \"addressregion\": \"KS\",\n      \"postalcode\": \"67209\",\n      \"streetaddress\":
+        \"6930 W Kellogg Dr\",\n      \"telephone\": \"(316) 945-4677\"\n     },\n
+        \    {\n      \"addresscountry\": \"US\",\n      \"addresslocality\": \"Wichita\",\n
+        \     \"addressregion\": \"KS\",\n      \"postalcode\": \"67205\",\n      \"streetaddress\":
+        \"2414 N Maize Rd\",\n      \"telephone\": \"(316) 773-3062\"\n     }\n    ],\n
+        \   \"geocoordinates\": [\n     {\n      \"latitude\": \"37.086484999999996\",\n
+        \     \"longitude\": \"-94.47785400000001\"\n     },\n     {\n      \"latitude\":
+        \"37.678208\",\n      \"longitude\": \"-97.240076\"\n     },\n     {\n      \"latitude\":
+        \"37.747426\",\n      \"longitude\": \"-97.247226\"\n     },\n     {\n      \"latitude\":
+        \"37.674822\",\n      \"longitude\": \"-97.42448399999999\"\n     },\n     {\n
+        \     \"latitude\": \"37.726729999999996\",\n      \"longitude\": \"-97.461657\"\n
+        \    }\n    ],\n    \"localbusiness\": [\n     {\n      \"name\": \"OfficeMax\",\n
+        \     \"url\": \"www.officemax.com\"\n     },\n     {\n      \"name\": \"OfficeMax\",\n
+        \     \"url\": \"www.officemax.com\"\n     },\n     {\n      \"name\": \"OfficeMax\",\n
+        \     \"url\": \"www.officemax.com\"\n     },\n     {\n      \"name\": \"OfficeMax\",\n
+        \     \"url\": \"www.officemax.com\"\n     },\n     {\n      \"name\": \"OfficeMax\",\n
+        \     \"url\": \"www.officemax.com\"\n     }\n    ],\n    \"metatags\": [\n
+        \    {\n      \"gwt:property\": \"baseUrl=https://www.google.com/offers/\",\n
+        \     \"title\": \"Google Offers - 20% off your purchase\",\n      \"og:type\":
+        \"website\",\n      \"og:url\": \"https://www.google.com/offers/savable/mc/EJPUNACCSCXHQ-20OFFPURCH?gl=US\",\n
+        \     \"og:title\": \"Google Offers - 20% off your purchase\",\n      \"og:image\":
+        \"https://lh3.ggpht.com/Sg2ILqHU8cZdTBxs_v8SGQ4YMosjQ6XMoekXmzUibHBrA1uzUqViS788bWlD=s0\"\n
+        \    }\n    ],\n    \"googleoffer\": [\n     {\n      \"description\": \"Get
+        20% off of all case paper, supplies, ink, toner, storage, software, and select
+        Print Center services..\",\n      \"url\": \"https://www.google.com/offers/savable/mc/EJPUNACCSCXHQ-20OFFPURCH?gl=US\",\n
+        \     \"name\": \"Google Offers - 20% off your purchase\",\n      \"image\":
+        \"https://lh3.ggpht.com/Sg2ILqHU8cZdTBxs_v8SGQ4YMosjQ6XMoekXmzUibHBrA1uzUqViS788bWlD=s0\",\n
+        \     \"availabilitystarts\": \"2013-03-24T05:00:00.000Z\",\n      \"availabilityends\":
+        \"2013-03-31T04:59:00.000Z\",\n      \"validfrom\": \"2013-03-24T05:00:00.000Z\",\n
+        \     \"validthrough\": \"2013-03-31T04:59:00.000Z\",\n      \"shorttitle\":
+        \"20% off your purchase\",\n      \"fineprint\": \"Valid 3/24/13 thru 3/30/13.
+        Valid in-store and online. Limit one coupon per customer. Coupons are non-transferable.
+        20% discount applies to in-stock items only. Not applicable on special orders....\",\n
+        \     \"onlineredemptionurl\": \"http://www.officemax.com/\"\n     }\n    ]\n
+        \  }\n  },\n  {\n   \"kind\": \"customsearch#result\",\n   \"title\": \"Google
+        Toolbar Button Gallery\",\n   \"htmlTitle\": \"Google Toolbar Button Gallery\",\n
+        \  \"link\": \"http://www.google.com/gadgets/directory?synd=toolbar&cat=communication\",\n
+        \  \"displayLink\": \"www.google.com\",\n   \"snippet\": \"Microsoft Outlook.
+        Microsoft Outlook Inbox, Calendar, Tasks, and Contacts ... TV   shows including
+        Family Guy, 30 Rock, and the Daily Show with Jon Stewart, etc.\",\n   \"htmlSnippet\":
+        \"\\u003cb\\u003eMicrosoft\\u003c/b\\u003e Outlook. \\u003cb\\u003eMicrosoft\\u003c/b\\u003e
+        Outlook Inbox, Calendar, Tasks, and Contacts \\u003cb\\u003e...\\u003c/b\\u003e
+        TV \\u003cbr\\u003e  shows including Family Guy, 30 \\u003cb\\u003eRock\\u003c/b\\u003e,
+        and the Daily Show with Jon Stewart, etc.\",\n   \"cacheId\": \"apnQQNi27ogJ\",\n
+        \  \"formattedUrl\": \"www.google.com/gadgets/directory?synd=toolbar&cat...\",\n
+        \  \"htmlFormattedUrl\": \"www.google.com/gadgets/directory?synd=toolbar&amp;cat...\",\n
+        \  \"pagemap\": {\n    \"cse_image\": [\n     {\n      \"src\": \"http://www.gmodules.com/gadgets/proxy?refresh=86400&url=https://lh3.googleusercontent.com/-ZPnCevrOMog/T4LqmRsXb-I/AAAAAAAABns/L57DbjqbZDc/w402/2012-04-09_1555.png&container=toolbar&gadget=http://hosting.gmodules.com/ig/gadgets/file/111950271397992844779/Hulu.xml\"\n
+        \    }\n    ],\n    \"cse_thumbnail\": [\n     {\n      \"width\": \"281\",\n
+        \     \"height\": \"179\",\n      \"src\": \"https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRENciXlbjQCo6FY_dobzsJEzDmFeK0Rvl25nZIqlHX8IHg-1N1mOAax8Y\"\n
+        \    }\n    ]\n   }\n  },\n  {\n   \"kind\": \"customsearch#result\",\n   \"title\":
+        \"Google Apps for Business | United States\",\n   \"htmlTitle\": \"Google
+        Apps for Business | United States\",\n   \"link\": \"http://www.google.com/enterprise/apps/business/\",\n
+        \  \"displayLink\": \"www.google.com\",\n   \"snippet\": \"Join the 5 million
+        businesses using Google Apps. Google Apps is a cloud-based   productivity
+        suite that helps you and your team connect and get work done from ...\",\n
+        \  \"htmlSnippet\": \"Join the 5 million businesses using Google Apps. Google
+        Apps is a cloud-based \\u003cbr\\u003e  productivity suite that helps you
+        and your team connect and get work done from \\u003cb\\u003e...\\u003c/b\\u003e\",\n
+        \  \"cacheId\": \"mFRBeI3f4kQJ\",\n   \"formattedUrl\": \"www.google.com/enterprise/apps/business/\",\n
+        \  \"htmlFormattedUrl\": \"www.google.com/enterprise/apps/business/\",\n   \"pagemap\":
+        {\n    \"metatags\": [\n     {\n      \"viewport\": \"width=990\"\n     }\n
+        \   ]\n   }\n  },\n  {\n   \"kind\": \"customsearch#result\",\n   \"title\":
+        \"Google Fonts Lobster\",\n   \"htmlTitle\": \"Google Fonts Lobster\",\n   \"link\":
+        \"http://www.google.com/fonts/specimen/Lobster\",\n   \"displayLink\": \"www.google.com\",\n
+        \  \"snippet\": \"The Lobster font took a different approach. The new Open
+        Type fonts give us the   possibility to have multiple versions of each letter,
+        and that's exactly what we ...\",\n   \"htmlSnippet\": \"The Lobster font
+        took a different approach. The new Open Type fonts give us the \\u003cbr\\u003e
+        \ possibility to have multiple versions of each letter, and that&#39;s exactly
+        what we \\u003cb\\u003e...\\u003c/b\\u003e\",\n   \"cacheId\": \"PmyX7ZxR0l0J\",\n
+        \  \"formattedUrl\": \"www.google.com/fonts/specimen/Lobster\",\n   \"htmlFormattedUrl\":
+        \"www.google.com/fonts/specimen/Lobster\",\n   \"pagemap\": {\n    \"person\":
+        [\n     {\n      \"name\": \"Pablo Impallari\"\n     }\n    ],\n    \"organization\":
+        [\n     {\n      \"url\": \"Fonts\",\n      \"logo\": \"http://www.google.com/images/logos/google_logo_41.png\"\n
+        \    }\n    ],\n    \"webpage\": [\n     {\n      \"ispartof\": \"Open Lobster
+        in Google Fonts »\",\n      \"headline\": \"Lobster\",\n      \"description\":
+        \"The Lobster font took a different approach. The new Open Type fonts give
+        us the possibility to have multiple versions of each letter, and that's exactly
+        what we are doing: Instead of compromising...\"\n     }\n    ],\n    \"webpageelement\":
+        [\n     {\n      \"text\": \"Grumpy wizards make toxic brew for the evil Queen
+        and Jack.Normal 400Grumpy wizards make toxic brew for the evil QueenOne morning,
+        when Gregor Samsa woke from troubled dreams, he found himself...\"\n     }\n
+        \   ],\n    \"contactpoint\": [\n     {\n      \"url\": \"Pablo Impallari\"\n
+        \    }\n    ]\n   }\n  },\n  {\n   \"kind\": \"customsearch#result\",\n   \"title\":
+        \"Microsoft Prime Discount - Google Maps\",\n   \"htmlTitle\": \"\\u003cb\\u003eMicrosoft\\u003c/b\\u003e
+        Prime Discount - Google Maps\",\n   \"link\": \"http://www.google.com/maps/ms?ie=UTF8&oe=UTF8&msa=0&msid=108538817742127348522.000461bc35adc6bdd26a7\",\n
+        \  \"displayLink\": \"www.google.com\",\n   \"snippet\": \"Terrain. Microsoft
+        Prime Discount. Save to My Places ... Microsoft Prime   Discounts (1/30/09)
+        new york. Public · Open .... Rock Salt on Lake Union. 1232   Westlake ...\",\n
+        \  \"htmlSnippet\": \"Terrain. \\u003cb\\u003eMicrosoft\\u003c/b\\u003e Prime
+        Discount. Save to My Places \\u003cb\\u003e...\\u003c/b\\u003e \\u003cb\\u003eMicrosoft\\u003c/b\\u003e
+        Prime \\u003cbr\\u003e  Discounts (1/30/09) new york. Public · Open \\u003cb\\u003e....\\u003c/b\\u003e
+        \\u003cb\\u003eRock\\u003c/b\\u003e Salt on Lake Union. 1232 \\u003cbr\\u003e
+        \ Westlake \\u003cb\\u003e...\\u003c/b\\u003e\",\n   \"cacheId\": \"WGStbczIlVwJ\",\n
+        \  \"formattedUrl\": \"www.google.com/maps/ms?ie=UTF8&oe=UTF8&msa=0...\",\n
+        \  \"htmlFormattedUrl\": \"www.google.com/maps/\\u003cb\\u003ems\\u003c/b\\u003e?ie=UTF8&amp;oe=UTF8&amp;msa=0...\",\n
+        \  \"pagemap\": {\n    \"webpage\": [\n     {\n      \"image\": \"http://maps.gstatic.com/mapfiles/maps-64.png\"\n
+        \    }\n    ]\n   }\n  },\n  {\n   \"kind\": \"customsearch#result\",\n   \"title\":
+        \"Dell Inc.: NASDAQ:DELL quotes & news - Google Finance\",\n   \"htmlTitle\":
+        \"Dell Inc.: NASDAQ:DELL quotes &amp; news - Google Finance\",\n   \"link\":
+        \"http://www.google.com/finance?cid=153088\",\n   \"displayLink\": \"www.google.com\",\n
+        \  \"snippet\": \"Address. One Dell Way, Round Rock ROUND ROCK, TX 78682.
+        United States -   Map +1-800-2893355 (Phone) +1-302-6365454 (Fax) ...\",\n
+        \  \"htmlSnippet\": \"Address. One Dell Way, Round \\u003cb\\u003eRock\\u003c/b\\u003e
+        ROUND \\u003cb\\u003eROCK\\u003c/b\\u003e, TX 78682. United States - \\u003cbr\\u003e
+        \ Map +1-800-2893355 (Phone) +1-302-6365454 (Fax) \\u003cb\\u003e...\\u003c/b\\u003e\",\n
+        \  \"cacheId\": \"cGI79d5qWKQJ\",\n   \"formattedUrl\": \"www.google.com/finance?cid=153088\",\n
+        \  \"htmlFormattedUrl\": \"www.google.com/finance?cid=153088\",\n   \"pagemap\":
+        {\n    \"financialquote\": [\n     {\n      \"name\": \"Dell Inc.\",\n      \"url\":
+        \"https://www.google.com/finance?cid=153088\",\n      \"imageurl\": \"https://www.google.com/finance/chart?cht=g&q=NASDAQ:DELL&tkr=1&p=1d&enddatetime=2013-05-30T14:57:17Z\",\n
+        \     \"tickersymbol\": \"DELL\",\n      \"exchange\": \"NASDAQ\",\n      \"exchangetimezone\":
+        \"America/New_York\",\n      \"price\": \"13.35\",\n      \"pricechange\":
+        \"-0.01\",\n      \"pricechangepercent\": \"-0.07\",\n      \"quotetime\":
+        \"2013-05-30T14:57:17Z\",\n      \"datasource\": \"NASDAQ real-time data\",\n
+        \     \"datasourcedisclaimerurl\": \"//www.google.com/help/stock_disclaimer.html#realtime\",\n
+        \     \"pricecurrency\": \"USD\"\n     }\n    ]\n   }\n  },\n  {\n   \"kind\":
+        \"customsearch#result\",\n   \"title\": \"Google Fonts Oswald\",\n   \"htmlTitle\":
+        \"Google Fonts Oswald\",\n   \"link\": \"http://www.google.com/fonts/specimen/Oswald\",\n
+        \  \"displayLink\": \"www.google.com\",\n   \"snippet\": \"Oswald is a reworking
+        of the classic style historically represented by the '  Alternate Gothic'
+        sans serif typefaces. The characters of Oswald have been re-  drawn ...\",\n
+        \  \"htmlSnippet\": \"Oswald is a reworking of the classic style historically
+        represented by the &#39;\\u003cbr\\u003e  Alternate Gothic&#39; sans serif
+        typefaces. The characters of Oswald have been re-\\u003cbr\\u003e  drawn \\u003cb\\u003e...\\u003c/b\\u003e\",\n
+        \  \"cacheId\": \"L6I-k5sTa5EJ\",\n   \"formattedUrl\": \"www.google.com/fonts/specimen/Oswald\",\n
+        \  \"htmlFormattedUrl\": \"www.google.com/fonts/specimen/Oswald\",\n   \"pagemap\":
+        {\n    \"person\": [\n     {\n      \"name\": \"Vernon Adams\"\n     }\n    ],\n
+        \   \"organization\": [\n     {\n      \"url\": \"Fonts\",\n      \"logo\":
+        \"http://www.google.com/images/logos/google_logo_41.png\"\n     }\n    ],\n
+        \   \"webpage\": [\n     {\n      \"ispartof\": \"Open Oswald in Google Fonts
+        »\",\n      \"headline\": \"Oswald\",\n      \"description\": \"Oswald is
+        a reworking of the classic style historically represented by the 'Alternate
+        Gothic' sans serif typefaces. The characters of Oswald have been re-drawn
+        and reformed to better fit the...\"\n     }\n    ],\n    \"webpageelement\":
+        [\n     {\n      \"text\": \"Grumpy wizards make toxic brew for the evil Queen
+        and Jack.Book 300Grumpy wizards make toxic brew for the evil QueenNormal 400Grumpy
+        wizards make toxic brew for the evil QueenBold 700Grumpy...\"\n     }\n    ],\n
+        \   \"contactpoint\": [\n     {\n      \"url\": \"Vernon Adams\"\n     }\n
+        \   ]\n   }\n  }\n ]\n}\n"
+    http_version: 
+  recorded_at: Fri, 31 May 2013 03:15:42 GMT
+- request:
+    method: get
+    uri: https://www.googleapis.com/customsearch/v1?cx=<GOGGLE SEARCH ENGINE ID>&key=<GOGGLE
+      APP ID>&num=10&q=microsoft%20rocks
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: !binary |-
+        T0s=
+    headers:
+      !binary "RXhwaXJlcw==":
+      - !binary |-
+        RnJpLCAzMSBNYXkgMjAxMyAwMzoxNTo0MiBHTVQ=
+      !binary "RGF0ZQ==":
+      - !binary |-
+        RnJpLCAzMSBNYXkgMjAxMyAwMzoxNTo0MiBHTVQ=
+      !binary "Q2FjaGUtQ29udHJvbA==":
+      - !binary |-
+        cHJpdmF0ZSwgbWF4LWFnZT0wLCBtdXN0LXJldmFsaWRhdGUsIG5vLXRyYW5z
+        Zm9ybQ==
+      !binary "RXRhZw==":
+      - !binary |-
+        InpLQUdsTDB0WFBCR2dvQ0dpMFJsdXBmLS1CWS9QLTFSQ3daZ25USEZHNWE1
+        djViaVFUQ3BIQzgi
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        YXBwbGljYXRpb24vanNvbjsgY2hhcnNldD1VVEYtOA==
+      !binary "WC1Db250ZW50LVR5cGUtT3B0aW9ucw==":
+      - !binary |-
+        bm9zbmlmZg==
+      !binary "WC1GcmFtZS1PcHRpb25z":
+      - !binary |-
+        U0FNRU9SSUdJTg==
+      !binary "WC1Yc3MtUHJvdGVjdGlvbg==":
+      - !binary |-
+        MTsgbW9kZT1ibG9jaw==
+      !binary "U2VydmVy":
+      - !binary |-
+        R1NF
+      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
+      - !binary |-
+        Y2h1bmtlZA==
+    body:
+      encoding: UTF-8
+      string: ! "{\n \"kind\": \"customsearch#search\",\n \"url\": {\n  \"type\":
+        \"application/json\",\n  \"template\": \"https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&cref={cref?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&relatedSite={relatedSite?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json\"\n
+        },\n \"queries\": {\n  \"nextPage\": [\n   {\n    \"title\": \"Google Custom
+        Search - microsoft rocks\",\n    \"totalResults\": \"177000\",\n    \"searchTerms\":
+        \"microsoft rocks\",\n    \"count\": 10,\n    \"startIndex\": 11,\n    \"inputEncoding\":
+        \"utf8\",\n    \"outputEncoding\": \"utf8\",\n    \"safe\": \"off\",\n    \"cx\":
+        \"<GOGGLE SEARCH ENGINE ID>\"\n   }\n  ],\n  \"request\": [\n   {\n    \"title\":
+        \"Google Custom Search - microsoft rocks\",\n    \"totalResults\": \"177000\",\n
+        \   \"searchTerms\": \"microsoft rocks\",\n    \"count\": 10,\n    \"startIndex\":
+        1,\n    \"inputEncoding\": \"utf8\",\n    \"outputEncoding\": \"utf8\",\n
+        \   \"safe\": \"off\",\n    \"cx\": \"<GOGGLE SEARCH ENGINE ID>\"\n   }\n
+        \ ]\n },\n \"context\": {\n  \"title\": \"Google\"\n },\n \"searchInformation\":
+        {\n  \"searchTime\": 0.251244,\n  \"formattedSearchTime\": \"0.25\",\n  \"totalResults\":
+        \"177000\",\n  \"formattedTotalResults\": \"177,000\"\n },\n \"items\": [\n
+        \ {\n   \"kind\": \"customsearch#result\",\n   \"title\": \"Benefits – Google
+        Apps for Business | United States\",\n   \"htmlTitle\": \"Benefits – Google
+        Apps for Business | United States\",\n   \"link\": \"http://www.google.com/enterprise/apps/business/benefits.html\",\n
+        \  \"displayLink\": \"www.google.com\",\n   \"snippet\": \"Security first.
+        Google Apps includes dozens of critical security features   specifically designed
+        to keep your data safe, secure and in your control. Your   data ...\",\n   \"htmlSnippet\":
+        \"Security first. Google Apps includes dozens of critical security features
+        \\u003cbr\\u003e  specifically designed to keep your data safe, secure and
+        in your control. Your \\u003cbr\\u003e  data \\u003cb\\u003e...\\u003c/b\\u003e\",\n
+        \  \"cacheId\": \"IYsGw2v3oz4J\",\n   \"formattedUrl\": \"www.google.com/enterprise/apps/business/benefits.html\",\n
+        \  \"htmlFormattedUrl\": \"www.google.com/enterprise/apps/business/benefits.html\",\n
+        \  \"pagemap\": {\n    \"metatags\": [\n     {\n      \"viewport\": \"width=990\"\n
+        \    }\n    ]\n   }\n  },\n  {\n   \"kind\": \"customsearch#result\",\n   \"title\":
+        \"20 Year Archive on Google Groups\",\n   \"htmlTitle\": \"20 Year Archive
+        on Google Groups\",\n   \"link\": \"http://www.google.com/googlegroups/archive_announce_20.html\",\n
+        \  \"displayLink\": \"www.google.com\",\n   \"snippet\": \"11 May 1981 Oldest
+        Usenet article in the Google Groups Archive | -------- May   1981 First mention
+        of Microsoft | -------- Jun 1981 A logical map of Usenet when it ...\",\n
+        \  \"htmlSnippet\": \"11 May 1981 Oldest Usenet article in the Google Groups
+        Archive | -------- May \\u003cbr\\u003e  1981 First mention of \\u003cb\\u003eMicrosoft\\u003c/b\\u003e
+        | -------- Jun 1981 A logical map of Usenet when it \\u003cb\\u003e...\\u003c/b\\u003e\",\n
+        \  \"cacheId\": \"OEsFXj_XbWUJ\",\n   \"formattedUrl\": \"www.google.com/googlegroups/archive_announce_20.html\",\n
+        \  \"htmlFormattedUrl\": \"www.google.com/googlegroups/archive_announce_20.html\"\n
+        \ },\n  {\n   \"kind\": \"customsearch#result\",\n   \"title\": \"Google Apps
+        Marketplace - Wrike: FREE Project Management for ...\",\n   \"htmlTitle\":
+        \"Google Apps Marketplace - Wrike: FREE Project Management for \\u003cb\\u003e...\\u003c/b\\u003e\",\n
+        \  \"link\": \"http://www.google.com/enterprise/marketplace/viewListing?productListingId=4419+16026085342796214108\",\n
+        \  \"displayLink\": \"www.google.com\",\n   \"snippet\": \"Add Wrike to your
+        apps now and rock your team's productivity! ... Google   Calendar, Dropbox,
+        Microsoft Project; Advanced Scheduling; Real-Time   Discussions ...\",\n   \"htmlSnippet\":
+        \"Add Wrike to your apps now and \\u003cb\\u003erock\\u003c/b\\u003e your
+        team&#39;s productivity! \\u003cb\\u003e...\\u003c/b\\u003e Google \\u003cbr\\u003e
+        \ Calendar, Dropbox, \\u003cb\\u003eMicrosoft\\u003c/b\\u003e Project; Advanced
+        Scheduling; Real-Time \\u003cbr\\u003e  Discussions \\u003cb\\u003e...\\u003c/b\\u003e\",\n
+        \  \"cacheId\": \"G_FlYy4sp1gJ\",\n   \"formattedUrl\": \"www.google.com/enterprise/marketplace/viewListing?...4419...\",\n
+        \  \"htmlFormattedUrl\": \"www.google.com/enterprise/marketplace/viewListing?...4419...\",\n
+        \  \"pagemap\": {\n    \"cse_image\": [\n     {\n      \"src\": \"http://lh6.googleusercontent.com/4wyqRY2zJj89v1LKe-ID-Mcnkg-bwQ4fPFbgVirRoMxDYZSNsKHWyLEvZr2lkz_3taLlDOlSKsRIq2bU=s120?gr=13464c107e6\"\n
+        \    }\n    ],\n    \"organization\": [\n     {\n      \"url\": \"Wrike\",\n
+        \     \"name\": \"Wrike\"\n     }\n    ],\n    \"cse_thumbnail\": [\n     {\n
+        \     \"width\": \"106\",\n      \"height\": \"56\",\n      \"src\": \"https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSHxJa2bqhRjk_HGcZDpWbBXlg3AixtrGtmeaI8UY0ICvtzFs7AwzNT\"\n
+        \    }\n    ],\n    \"aggregaterating\": [\n     {\n      \"ratingvalue\":
+        \"4\",\n      \"reviewcount\": \"129\"\n     }\n    ],\n    \"softwareapplication\":
+        [\n     {\n      \"softwareapplicationcategory\": \"http://schema.org/BusinessApplication\",\n
+        \     \"softwareapplicationsubcategory\": \"Project Management\",\n      \"name\":
+        \"Wrike: FREE Project Management for UNLIMITED Collaborators\",\n      \"image\":
+        \"http://lh3.googleusercontent.com/5aZYB5-jClgwbbkop8i5v9tzYKhQXVUyjq_CjMt8S_WlkBcD-H3vtQF0s_EuAYI-XhbNXdmhJ-YIt0Lt3c4=s120?gr=13359d05190\",\n
+        \     \"description\": \"Rock your team’s productivity with a combo of task
+        lists, spreadsheets, Gantt charts and Activity Stream in 1 app! Wrike brings
+        all data in one place making project management fast, easy...\"\n     }\n
+        \   ]\n   }\n  },\n  {\n   \"kind\": \"customsearch#result\",\n   \"title\":
+        \"Google Offers - 20% off your purchase\",\n   \"htmlTitle\": \"Google Offers
+        - 20% off your purchase\",\n   \"link\": \"https://www.google.com/offers/savable/mc/EJPUNACCSCXHQ-20OFFPURCH\",\n
+        \  \"displayLink\": \"www.google.com\",\n   \"snippet\": \"Mar 24, 2013...
+        unlocked phones, graphing calculators, Microsoft Office, GPS systems &   accessories,
+        video game consoles & accessories ... 3535 N Rock Rd ...\",\n   \"htmlSnippet\":
+        \"Mar 24, 2013\\u003cb\\u003e...\\u003c/b\\u003e unlocked phones, graphing
+        calculators, \\u003cb\\u003eMicrosoft\\u003c/b\\u003e Office, GPS systems
+        &amp; \\u003cbr\\u003e  accessories, video game consoles &amp; accessories
+        \\u003cb\\u003e...\\u003c/b\\u003e 3535 N \\u003cb\\u003eRock\\u003c/b\\u003e
+        Rd \\u003cb\\u003e...\\u003c/b\\u003e\",\n   \"cacheId\": \"N3Lsaypn6GEJ\",\n
+        \  \"formattedUrl\": \"https://www.google.com/offers/.../EJPUNACCSCXHQ-20OFFPURCH\",\n
+        \  \"htmlFormattedUrl\": \"https://www.google.com/offers/.../EJPUNACCSCXHQ-20OFFPURCH\",\n
+        \  \"pagemap\": {\n    \"cse_image\": [\n     {\n      \"src\": \"https://lh3.ggpht.com/Sg2ILqHU8cZdTBxs_v8SGQ4YMosjQ6XMoekXmzUibHBrA1uzUqViS788bWlD=s0\"\n
+        \    }\n    ],\n    \"organization\": [\n     {\n      \"name\": \"OfficeMax\"\n
+        \    }\n    ],\n    \"cse_thumbnail\": [\n     {\n      \"width\": \"258\",\n
+        \     \"height\": \"196\",\n      \"src\": \"https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ07Y9Yv-luvGCXmO_-hj-TbSg2dF0AfWPozhjoQrQF9T8BkW9J-uJWIrQ\"\n
+        \    }\n    ],\n    \"postaladdress\": [\n     {\n      \"addresscountry\":
+        \"US\",\n      \"addresslocality\": \"Joplin\",\n      \"addressregion\":
+        \"MO\",\n      \"postalcode\": \"64801\",\n      \"streetaddress\": \"440
+        S Range Line Rd\",\n      \"telephone\": \"(417) 623-1007\"\n     },\n     {\n
+        \     \"addresscountry\": \"US\",\n      \"addresslocality\": \"Wichita\",\n
+        \     \"addressregion\": \"KS\",\n      \"postalcode\": \"67207\",\n      \"streetaddress\":
+        \"8147 E Kellogg Dr\",\n      \"telephone\": \"(316) 686-1401\"\n     },\n
+        \    {\n      \"addresscountry\": \"US\",\n      \"addresslocality\": \"Witchita\",\n
+        \     \"addressregion\": \"KS\",\n      \"postalcode\": \"67226\",\n      \"streetaddress\":
+        \"3535 N Rock Rd\",\n      \"telephone\": \"(316) 634-2496\"\n     },\n     {\n
+        \     \"addresscountry\": \"US\",\n      \"addresslocality\": \"Wichita\",\n
+        \     \"addressregion\": \"KS\",\n      \"postalcode\": \"67209\",\n      \"streetaddress\":
+        \"6930 W Kellogg Dr\",\n      \"telephone\": \"(316) 945-4677\"\n     },\n
+        \    {\n      \"addresscountry\": \"US\",\n      \"addresslocality\": \"Wichita\",\n
+        \     \"addressregion\": \"KS\",\n      \"postalcode\": \"67205\",\n      \"streetaddress\":
+        \"2414 N Maize Rd\",\n      \"telephone\": \"(316) 773-3062\"\n     }\n    ],\n
+        \   \"geocoordinates\": [\n     {\n      \"latitude\": \"37.086484999999996\",\n
+        \     \"longitude\": \"-94.47785400000001\"\n     },\n     {\n      \"latitude\":
+        \"37.678208\",\n      \"longitude\": \"-97.240076\"\n     },\n     {\n      \"latitude\":
+        \"37.747426\",\n      \"longitude\": \"-97.247226\"\n     },\n     {\n      \"latitude\":
+        \"37.674822\",\n      \"longitude\": \"-97.42448399999999\"\n     },\n     {\n
+        \     \"latitude\": \"37.726729999999996\",\n      \"longitude\": \"-97.461657\"\n
+        \    }\n    ],\n    \"localbusiness\": [\n     {\n      \"name\": \"OfficeMax\",\n
+        \     \"url\": \"www.officemax.com\"\n     },\n     {\n      \"name\": \"OfficeMax\",\n
+        \     \"url\": \"www.officemax.com\"\n     },\n     {\n      \"name\": \"OfficeMax\",\n
+        \     \"url\": \"www.officemax.com\"\n     },\n     {\n      \"name\": \"OfficeMax\",\n
+        \     \"url\": \"www.officemax.com\"\n     },\n     {\n      \"name\": \"OfficeMax\",\n
+        \     \"url\": \"www.officemax.com\"\n     }\n    ],\n    \"metatags\": [\n
+        \    {\n      \"gwt:property\": \"baseUrl=https://www.google.com/offers/\",\n
+        \     \"title\": \"Google Offers - 20% off your purchase\",\n      \"og:type\":
+        \"website\",\n      \"og:url\": \"https://www.google.com/offers/savable/mc/EJPUNACCSCXHQ-20OFFPURCH?gl=US\",\n
+        \     \"og:title\": \"Google Offers - 20% off your purchase\",\n      \"og:image\":
+        \"https://lh3.ggpht.com/Sg2ILqHU8cZdTBxs_v8SGQ4YMosjQ6XMoekXmzUibHBrA1uzUqViS788bWlD=s0\"\n
+        \    }\n    ],\n    \"googleoffer\": [\n     {\n      \"description\": \"Get
+        20% off of all case paper, supplies, ink, toner, storage, software, and select
+        Print Center services..\",\n      \"url\": \"https://www.google.com/offers/savable/mc/EJPUNACCSCXHQ-20OFFPURCH?gl=US\",\n
+        \     \"name\": \"Google Offers - 20% off your purchase\",\n      \"image\":
+        \"https://lh3.ggpht.com/Sg2ILqHU8cZdTBxs_v8SGQ4YMosjQ6XMoekXmzUibHBrA1uzUqViS788bWlD=s0\",\n
+        \     \"availabilitystarts\": \"2013-03-24T05:00:00.000Z\",\n      \"availabilityends\":
+        \"2013-03-31T04:59:00.000Z\",\n      \"validfrom\": \"2013-03-24T05:00:00.000Z\",\n
+        \     \"validthrough\": \"2013-03-31T04:59:00.000Z\",\n      \"shorttitle\":
+        \"20% off your purchase\",\n      \"fineprint\": \"Valid 3/24/13 thru 3/30/13.
+        Valid in-store and online. Limit one coupon per customer. Coupons are non-transferable.
+        20% discount applies to in-stock items only. Not applicable on special orders....\",\n
+        \     \"onlineredemptionurl\": \"http://www.officemax.com/\"\n     }\n    ]\n
+        \  }\n  },\n  {\n   \"kind\": \"customsearch#result\",\n   \"title\": \"Google
+        Toolbar Button Gallery\",\n   \"htmlTitle\": \"Google Toolbar Button Gallery\",\n
+        \  \"link\": \"http://www.google.com/gadgets/directory?synd=toolbar&cat=communication\",\n
+        \  \"displayLink\": \"www.google.com\",\n   \"snippet\": \"Microsoft Outlook.
+        Microsoft Outlook Inbox, Calendar, Tasks, and Contacts ... TV   shows including
+        Family Guy, 30 Rock, and the Daily Show with Jon Stewart, etc.\",\n   \"htmlSnippet\":
+        \"\\u003cb\\u003eMicrosoft\\u003c/b\\u003e Outlook. \\u003cb\\u003eMicrosoft\\u003c/b\\u003e
+        Outlook Inbox, Calendar, Tasks, and Contacts \\u003cb\\u003e...\\u003c/b\\u003e
+        TV \\u003cbr\\u003e  shows including Family Guy, 30 \\u003cb\\u003eRock\\u003c/b\\u003e,
+        and the Daily Show with Jon Stewart, etc.\",\n   \"cacheId\": \"apnQQNi27ogJ\",\n
+        \  \"formattedUrl\": \"www.google.com/gadgets/directory?synd=toolbar&cat...\",\n
+        \  \"htmlFormattedUrl\": \"www.google.com/gadgets/directory?synd=toolbar&amp;cat...\",\n
+        \  \"pagemap\": {\n    \"cse_image\": [\n     {\n      \"src\": \"http://www.gmodules.com/gadgets/proxy?refresh=86400&url=https://lh3.googleusercontent.com/-ZPnCevrOMog/T4LqmRsXb-I/AAAAAAAABns/L57DbjqbZDc/w402/2012-04-09_1555.png&container=toolbar&gadget=http://hosting.gmodules.com/ig/gadgets/file/111950271397992844779/Hulu.xml\"\n
+        \    }\n    ],\n    \"cse_thumbnail\": [\n     {\n      \"width\": \"281\",\n
+        \     \"height\": \"179\",\n      \"src\": \"https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRENciXlbjQCo6FY_dobzsJEzDmFeK0Rvl25nZIqlHX8IHg-1N1mOAax8Y\"\n
+        \    }\n    ]\n   }\n  },\n  {\n   \"kind\": \"customsearch#result\",\n   \"title\":
+        \"Google Apps for Business | United States\",\n   \"htmlTitle\": \"Google
+        Apps for Business | United States\",\n   \"link\": \"http://www.google.com/enterprise/apps/business/\",\n
+        \  \"displayLink\": \"www.google.com\",\n   \"snippet\": \"Join the 5 million
+        businesses using Google Apps. Google Apps is a cloud-based   productivity
+        suite that helps you and your team connect and get work done from ...\",\n
+        \  \"htmlSnippet\": \"Join the 5 million businesses using Google Apps. Google
+        Apps is a cloud-based \\u003cbr\\u003e  productivity suite that helps you
+        and your team connect and get work done from \\u003cb\\u003e...\\u003c/b\\u003e\",\n
+        \  \"cacheId\": \"mFRBeI3f4kQJ\",\n   \"formattedUrl\": \"www.google.com/enterprise/apps/business/\",\n
+        \  \"htmlFormattedUrl\": \"www.google.com/enterprise/apps/business/\",\n   \"pagemap\":
+        {\n    \"metatags\": [\n     {\n      \"viewport\": \"width=990\"\n     }\n
+        \   ]\n   }\n  },\n  {\n   \"kind\": \"customsearch#result\",\n   \"title\":
+        \"Google Fonts Lobster\",\n   \"htmlTitle\": \"Google Fonts Lobster\",\n   \"link\":
+        \"http://www.google.com/fonts/specimen/Lobster\",\n   \"displayLink\": \"www.google.com\",\n
+        \  \"snippet\": \"The Lobster font took a different approach. The new Open
+        Type fonts give us the   possibility to have multiple versions of each letter,
+        and that's exactly what we ...\",\n   \"htmlSnippet\": \"The Lobster font
+        took a different approach. The new Open Type fonts give us the \\u003cbr\\u003e
+        \ possibility to have multiple versions of each letter, and that&#39;s exactly
+        what we \\u003cb\\u003e...\\u003c/b\\u003e\",\n   \"cacheId\": \"PmyX7ZxR0l0J\",\n
+        \  \"formattedUrl\": \"www.google.com/fonts/specimen/Lobster\",\n   \"htmlFormattedUrl\":
+        \"www.google.com/fonts/specimen/Lobster\",\n   \"pagemap\": {\n    \"person\":
+        [\n     {\n      \"name\": \"Pablo Impallari\"\n     }\n    ],\n    \"organization\":
+        [\n     {\n      \"url\": \"Fonts\",\n      \"logo\": \"http://www.google.com/images/logos/google_logo_41.png\"\n
+        \    }\n    ],\n    \"webpage\": [\n     {\n      \"ispartof\": \"Open Lobster
+        in Google Fonts »\",\n      \"headline\": \"Lobster\",\n      \"description\":
+        \"The Lobster font took a different approach. The new Open Type fonts give
+        us the possibility to have multiple versions of each letter, and that's exactly
+        what we are doing: Instead of compromising...\"\n     }\n    ],\n    \"webpageelement\":
+        [\n     {\n      \"text\": \"Grumpy wizards make toxic brew for the evil Queen
+        and Jack.Normal 400Grumpy wizards make toxic brew for the evil QueenOne morning,
+        when Gregor Samsa woke from troubled dreams, he found himself...\"\n     }\n
+        \   ],\n    \"contactpoint\": [\n     {\n      \"url\": \"Pablo Impallari\"\n
+        \    }\n    ]\n   }\n  },\n  {\n   \"kind\": \"customsearch#result\",\n   \"title\":
+        \"Microsoft Prime Discount - Google Maps\",\n   \"htmlTitle\": \"\\u003cb\\u003eMicrosoft\\u003c/b\\u003e
+        Prime Discount - Google Maps\",\n   \"link\": \"http://www.google.com/maps/ms?ie=UTF8&oe=UTF8&msa=0&msid=108538817742127348522.000461bc35adc6bdd26a7\",\n
+        \  \"displayLink\": \"www.google.com\",\n   \"snippet\": \"Terrain. Microsoft
+        Prime Discount. Save to My Places ... Microsoft Prime   Discounts (1/30/09)
+        new york. Public · Open .... Rock Salt on Lake Union. 1232   Westlake ...\",\n
+        \  \"htmlSnippet\": \"Terrain. \\u003cb\\u003eMicrosoft\\u003c/b\\u003e Prime
+        Discount. Save to My Places \\u003cb\\u003e...\\u003c/b\\u003e \\u003cb\\u003eMicrosoft\\u003c/b\\u003e
+        Prime \\u003cbr\\u003e  Discounts (1/30/09) new york. Public · Open \\u003cb\\u003e....\\u003c/b\\u003e
+        \\u003cb\\u003eRock\\u003c/b\\u003e Salt on Lake Union. 1232 \\u003cbr\\u003e
+        \ Westlake \\u003cb\\u003e...\\u003c/b\\u003e\",\n   \"cacheId\": \"WGStbczIlVwJ\",\n
+        \  \"formattedUrl\": \"www.google.com/maps/ms?ie=UTF8&oe=UTF8&msa=0...\",\n
+        \  \"htmlFormattedUrl\": \"www.google.com/maps/\\u003cb\\u003ems\\u003c/b\\u003e?ie=UTF8&amp;oe=UTF8&amp;msa=0...\",\n
+        \  \"pagemap\": {\n    \"webpage\": [\n     {\n      \"image\": \"http://maps.gstatic.com/mapfiles/maps-64.png\"\n
+        \    }\n    ]\n   }\n  },\n  {\n   \"kind\": \"customsearch#result\",\n   \"title\":
+        \"Dell Inc.: NASDAQ:DELL quotes & news - Google Finance\",\n   \"htmlTitle\":
+        \"Dell Inc.: NASDAQ:DELL quotes &amp; news - Google Finance\",\n   \"link\":
+        \"http://www.google.com/finance?cid=153088\",\n   \"displayLink\": \"www.google.com\",\n
+        \  \"snippet\": \"Address. One Dell Way, Round Rock ROUND ROCK, TX 78682.
+        United States -   Map +1-800-2893355 (Phone) +1-302-6365454 (Fax) ...\",\n
+        \  \"htmlSnippet\": \"Address. One Dell Way, Round \\u003cb\\u003eRock\\u003c/b\\u003e
+        ROUND \\u003cb\\u003eROCK\\u003c/b\\u003e, TX 78682. United States - \\u003cbr\\u003e
+        \ Map +1-800-2893355 (Phone) +1-302-6365454 (Fax) \\u003cb\\u003e...\\u003c/b\\u003e\",\n
+        \  \"cacheId\": \"cGI79d5qWKQJ\",\n   \"formattedUrl\": \"www.google.com/finance?cid=153088\",\n
+        \  \"htmlFormattedUrl\": \"www.google.com/finance?cid=153088\",\n   \"pagemap\":
+        {\n    \"financialquote\": [\n     {\n      \"name\": \"Dell Inc.\",\n      \"url\":
+        \"https://www.google.com/finance?cid=153088\",\n      \"imageurl\": \"https://www.google.com/finance/chart?cht=g&q=NASDAQ:DELL&tkr=1&p=1d&enddatetime=2013-05-30T14:57:17Z\",\n
+        \     \"tickersymbol\": \"DELL\",\n      \"exchange\": \"NASDAQ\",\n      \"exchangetimezone\":
+        \"America/New_York\",\n      \"price\": \"13.35\",\n      \"pricechange\":
+        \"-0.01\",\n      \"pricechangepercent\": \"-0.07\",\n      \"quotetime\":
+        \"2013-05-30T14:57:17Z\",\n      \"datasource\": \"NASDAQ real-time data\",\n
+        \     \"datasourcedisclaimerurl\": \"//www.google.com/help/stock_disclaimer.html#realtime\",\n
+        \     \"pricecurrency\": \"USD\"\n     }\n    ]\n   }\n  },\n  {\n   \"kind\":
+        \"customsearch#result\",\n   \"title\": \"Google Fonts Oswald\",\n   \"htmlTitle\":
+        \"Google Fonts Oswald\",\n   \"link\": \"http://www.google.com/fonts/specimen/Oswald\",\n
+        \  \"displayLink\": \"www.google.com\",\n   \"snippet\": \"Oswald is a reworking
+        of the classic style historically represented by the '  Alternate Gothic'
+        sans serif typefaces. The characters of Oswald have been re-  drawn ...\",\n
+        \  \"htmlSnippet\": \"Oswald is a reworking of the classic style historically
+        represented by the &#39;\\u003cbr\\u003e  Alternate Gothic&#39; sans serif
+        typefaces. The characters of Oswald have been re-\\u003cbr\\u003e  drawn \\u003cb\\u003e...\\u003c/b\\u003e\",\n
+        \  \"cacheId\": \"L6I-k5sTa5EJ\",\n   \"formattedUrl\": \"www.google.com/fonts/specimen/Oswald\",\n
+        \  \"htmlFormattedUrl\": \"www.google.com/fonts/specimen/Oswald\",\n   \"pagemap\":
+        {\n    \"person\": [\n     {\n      \"name\": \"Vernon Adams\"\n     }\n    ],\n
+        \   \"organization\": [\n     {\n      \"url\": \"Fonts\",\n      \"logo\":
+        \"http://www.google.com/images/logos/google_logo_41.png\"\n     }\n    ],\n
+        \   \"webpage\": [\n     {\n      \"ispartof\": \"Open Oswald in Google Fonts
+        »\",\n      \"headline\": \"Oswald\",\n      \"description\": \"Oswald is
+        a reworking of the classic style historically represented by the 'Alternate
+        Gothic' sans serif typefaces. The characters of Oswald have been re-drawn
+        and reformed to better fit the...\"\n     }\n    ],\n    \"webpageelement\":
+        [\n     {\n      \"text\": \"Grumpy wizards make toxic brew for the evil Queen
+        and Jack.Book 300Grumpy wizards make toxic brew for the evil QueenNormal 400Grumpy
+        wizards make toxic brew for the evil QueenBold 700Grumpy...\"\n     }\n    ],\n
+        \   \"contactpoint\": [\n     {\n      \"url\": \"Vernon Adams\"\n     }\n
+        \   ]\n   }\n  }\n ]\n}\n"
+    http_version: 
+  recorded_at: Fri, 31 May 2013 03:15:42 GMT
+- request:
+    method: get
+    uri: https://www.googleapis.com/customsearch/v1?cx=<GOGGLE SEARCH ENGINE ID>&key=<GOGGLE
+      APP ID>&num=10&q=microsoft%20sucks
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: !binary |-
+        T0s=
+    headers:
+      !binary "RXhwaXJlcw==":
+      - !binary |-
+        RnJpLCAzMSBNYXkgMjAxMyAwMzoxNTo0MyBHTVQ=
+      !binary "RGF0ZQ==":
+      - !binary |-
+        RnJpLCAzMSBNYXkgMjAxMyAwMzoxNTo0MyBHTVQ=
+      !binary "Q2FjaGUtQ29udHJvbA==":
+      - !binary |-
+        cHJpdmF0ZSwgbWF4LWFnZT0wLCBtdXN0LXJldmFsaWRhdGUsIG5vLXRyYW5z
+        Zm9ybQ==
+      !binary "RXRhZw==":
+      - !binary |-
+        InpLQUdsTDB0WFBCR2dvQ0dpMFJsdXBmLS1CWS9YcnQzZUx3VHlVdnY1X0Rm
+        RThPbXVSWjM4S3ci
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        YXBwbGljYXRpb24vanNvbjsgY2hhcnNldD1VVEYtOA==
+      !binary "WC1Db250ZW50LVR5cGUtT3B0aW9ucw==":
+      - !binary |-
+        bm9zbmlmZg==
+      !binary "WC1GcmFtZS1PcHRpb25z":
+      - !binary |-
+        U0FNRU9SSUdJTg==
+      !binary "WC1Yc3MtUHJvdGVjdGlvbg==":
+      - !binary |-
+        MTsgbW9kZT1ibG9jaw==
+      !binary "U2VydmVy":
+      - !binary |-
+        R1NF
+      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
+      - !binary |-
+        Y2h1bmtlZA==
+    body:
+      encoding: UTF-8
+      string: ! "{\n \"kind\": \"customsearch#search\",\n \"url\": {\n  \"type\":
+        \"application/json\",\n  \"template\": \"https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&cref={cref?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&relatedSite={relatedSite?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json\"\n
+        },\n \"queries\": {\n  \"nextPage\": [\n   {\n    \"title\": \"Google Custom
+        Search - microsoft sucks\",\n    \"totalResults\": \"60200\",\n    \"searchTerms\":
+        \"microsoft sucks\",\n    \"count\": 10,\n    \"startIndex\": 11,\n    \"inputEncoding\":
+        \"utf8\",\n    \"outputEncoding\": \"utf8\",\n    \"safe\": \"off\",\n    \"cx\":
+        \"<GOGGLE SEARCH ENGINE ID>\"\n   }\n  ],\n  \"request\": [\n   {\n    \"title\":
+        \"Google Custom Search - microsoft sucks\",\n    \"totalResults\": \"60200\",\n
+        \   \"searchTerms\": \"microsoft sucks\",\n    \"count\": 10,\n    \"startIndex\":
+        1,\n    \"inputEncoding\": \"utf8\",\n    \"outputEncoding\": \"utf8\",\n
+        \   \"safe\": \"off\",\n    \"cx\": \"<GOGGLE SEARCH ENGINE ID>\"\n   }\n
+        \ ]\n },\n \"context\": {\n  \"title\": \"Google\"\n },\n \"searchInformation\":
+        {\n  \"searchTime\": 0.448187,\n  \"formattedSearchTime\": \"0.45\",\n  \"totalResults\":
+        \"60200\",\n  \"formattedTotalResults\": \"60,200\"\n },\n \"items\": [\n
+        \ {\n   \"kind\": \"customsearch#result\",\n   \"title\": \"Google Fonts Inconsolata\",\n
+        \  \"htmlTitle\": \"Google Fonts Inconsolata\",\n   \"link\": \"http://www.google.com/fonts/specimen/Inconsolata\",\n
+        \  \"displayLink\": \"www.google.com\",\n   \"snippet\": \"... design for
+        Microsoft's Vista release. This font, similar to his earlier   TheSansMono,
+        demonstrated clearly to me that monospaced fonts do not have to   suck.\",\n
+        \  \"htmlSnippet\": \"\\u003cb\\u003e...\\u003c/b\\u003e design for \\u003cb\\u003eMicrosoft&#39;s\\u003c/b\\u003e
+        Vista release. This font, similar to his earlier \\u003cbr\\u003e  TheSansMono,
+        demonstrated clearly to me that monospaced fonts do not have to \\u003cbr\\u003e
+        \ \\u003cb\\u003esuck\\u003c/b\\u003e.\",\n   \"cacheId\": \"_YhjwzaJKl8J\",\n
+        \  \"formattedUrl\": \"www.google.com/fonts/specimen/Inconsolata\",\n   \"htmlFormattedUrl\":
+        \"www.google.com/fonts/specimen/Inconsolata\",\n   \"pagemap\": {\n    \"person\":
+        [\n     {\n      \"name\": \"Raph Levien\"\n     }\n    ],\n    \"organization\":
+        [\n     {\n      \"url\": \"Fonts\",\n      \"logo\": \"http://www.google.com/images/logos/google_logo_41.png\"\n
+        \    }\n    ],\n    \"webpage\": [\n     {\n      \"ispartof\": \"Open Inconsolata
+        in Google Fonts »\",\n      \"headline\": \"Inconsolata\",\n      \"description\":
+        \"Inconsolata is my first serious original font release. It is a monospace
+        font, designed for printed code listings and the like. There are a great many
+        \\\"programmer fonts,\\\" designed primarily...\"\n     }\n    ],\n    \"webpageelement\":
+        [\n     {\n      \"text\": \"Grumpy wizards make toxic brew for the evil Queen
+        and Jack.Normal 400Grumpy wizards make toxic brew for the evil QueenBold 700Grumpy
+        wizards make toxic brew for the evil QueenOne morning, when...\"\n     }\n
+        \   ]\n   }\n  },\n  {\n   \"kind\": \"customsearch#result\",\n   \"title\":
+        \"Gmail - Add to your homepage - Google\",\n   \"htmlTitle\": \"Gmail - Add
+        to your homepage - Google\",\n   \"link\": \"http://www.google.com/ig/directory?type=gadgets&url=www.gstatic.com/ig/modules/mail/sp.xml\",\n
+        \  \"displayLink\": \"www.google.com\",\n   \"snippet\": \"Sucks, but can't
+        find anything less sucky. ... What's really sad is I'm using the   same gadget
+        in both Chrome and Firefox...in Chrome, it sucks; in Firefox, it's neat, ...\",\n
+        \  \"htmlSnippet\": \"\\u003cb\\u003eSucks\\u003c/b\\u003e, but can&#39;t
+        find anything less sucky. \\u003cb\\u003e...\\u003c/b\\u003e What&#39;s really
+        sad is I&#39;m using the \\u003cbr\\u003e  same gadget in both Chrome and
+        Firefox...in Chrome, it \\u003cb\\u003esucks\\u003c/b\\u003e; in Firefox,
+        it&#39;s neat, \\u003cb\\u003e...\\u003c/b\\u003e\",\n   \"cacheId\": \"j1W6lomL1XkJ\",\n
+        \  \"formattedUrl\": \"www.google.com/ig/directory?type=gadgets&url=www.../ig/...\",\n
+        \  \"htmlFormattedUrl\": \"www.google.com/ig/directory?type=gadgets&amp;url=www.../ig/...\",\n
+        \  \"pagemap\": {\n    \"product\": [\n     {\n      \"image\": \"http://www.gstatic.com/ig/modules/mail/igoogle_mail_thumbnail.jpg\",\n
+        \     \"name\": \"Gmail\",\n      \"description\": \"Internal code for Gmail
+        iGoogle gadget.\"\n     }\n    ],\n    \"cse_image\": [\n     {\n      \"src\":
+        \"http://www.gmodules.com/gadgets/proxy?refresh=86400&url=http://www.gstatic.com/ig/modules/mail/igoogle_mail.cache.png&container=ig\"\n
+        \    }\n    ],\n    \"cse_thumbnail\": [\n     {\n      \"width\": \"277\",\n
+        \     \"height\": \"182\",\n      \"src\": \"https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRupotHZjlg-3bY6GdRWGCK9FKv1h7UREpzPnYF_jo6jU7O7igBdWd-ZPo\"\n
+        \    }\n    ],\n    \"hproduct\": [\n     {\n      \"description\": \"Internal
+        code for Gmail iGoogle gadget.\",\n      \"fn\": \"Gmail\",\n      \"photo\":
+        \"http://www.gstatic.com/ig/modules/mail/igoogle_mail_thumbnail.jpg\"\n     }\n
+        \   ]\n   }\n  },\n  {\n   \"kind\": \"customsearch#result\",\n   \"title\":
+        \"Top NBCNews headlines - Add to your homepage - Google\",\n   \"htmlTitle\":
+        \"Top NBCNews headlines - Add to your homepage - Google\",\n   \"link\": \"http://www.google.com/ig/directory?type=gadgets&url=rss.msnbc.msn.com/id/3032091/device/rss/rss.xml\",\n
+        \  \"displayLink\": \"www.google.com\",\n   \"snippet\": \"News app sucks
+        - Quang Kelly - Jul 13, 2012 - Report this comment ... Microsoft   Feeds\\\\MSNBC
+        News Gadget for Win 7 Rita Filler - Dec 26, 2010 - Report this ...\",\n   \"htmlSnippet\":
+        \"News app \\u003cb\\u003esucks\\u003c/b\\u003e - Quang Kelly - Jul 13, 2012
+        - Report this comment \\u003cb\\u003e...\\u003c/b\\u003e \\u003cb\\u003eMicrosoft\\u003c/b\\u003e
+        \\u003cbr\\u003e  Feeds\\\\MSNBC News Gadget for Win 7 Rita Filler - Dec 26,
+        2010 - Report this \\u003cb\\u003e...\\u003c/b\\u003e\",\n   \"cacheId\":
+        \"IOIid1_pmlkJ\",\n   \"formattedUrl\": \"www.google.com/ig/directory?type=gadgets&url=rss...msn...\",\n
+        \  \"htmlFormattedUrl\": \"www.google.com/ig/directory?type=gadgets&amp;url=rss...msn...\",\n
+        \  \"pagemap\": {\n    \"product\": [\n     {\n      \"image\": \"http://www.google.com/ig/directory?type=gadgets&url=rss.msnbc.msn.com/id/3032091/device/rss/rss.xml\",\n
+        \     \"name\": \"Top NBCNews headlines\",\n      \"description\": \"Top NBCNews
+        headlines\"\n     }\n    ],\n    \"cse_image\": [\n     {\n      \"src\":
+        \"http://www-ig-opensocial.googleusercontent.com/gadgets/proxy?refresh=86400&url=http://teaser-gadgets.googlecode.com/svn/trunk/illusions-gadget/thumbnail.png&container=ig&gadget=http://brainden.com/gadgets/illusions-gadget.xml\"\n
+        \    }\n    ],\n    \"cse_thumbnail\": [\n     {\n      \"width\": \"108\",\n
+        \     \"height\": \"54\",\n      \"src\": \"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ6_OHKW0wsNu9TxmL_FwQTiY3vLbJCqpgqefrrPTjwEXKpAMruMAipw\"\n
+        \    }\n    ],\n    \"hproduct\": [\n     {\n      \"description\": \"Top
+        NBCNews headlines\",\n      \"fn\": \"Top NBCNews headlines\",\n      \"photo\":
+        \"http://www.google.com/ig/directory?type=gadgets&url=rss.msnbc.msn.com/id/3032091/device/rss/rss.xml\"\n
+        \    }\n    ]\n   }\n  },\n  {\n   \"kind\": \"customsearch#result\",\n   \"title\":
+        \"Patent US4089623 - Compressor intake control - Google Patents\",\n   \"htmlTitle\":
+        \"Patent US4089623 - Compressor intake control - Google Patents\",\n   \"link\":
+        \"http://www.google.com/patents/US4089623\",\n   \"displayLink\": \"www.google.com\",\n
+        \  \"snippet\": \"Compressor 1 sucks in air through an intake pipe 2 and delivers
+        compressed air   .... May 4, 2010, Microsoft Corporation, Task-sensitive methods
+        and systems for ...\",\n   \"htmlSnippet\": \"Compressor 1 \\u003cb\\u003esucks\\u003c/b\\u003e
+        in air through an intake pipe 2 and delivers compressed air \\u003cbr\\u003e
+        \ \\u003cb\\u003e....\\u003c/b\\u003e May 4, 2010, \\u003cb\\u003eMicrosoft\\u003c/b\\u003e
+        Corporation, Task-sensitive methods and systems for \\u003cb\\u003e...\\u003c/b\\u003e\",\n
+        \  \"formattedUrl\": \"www.google.com/patents/US4089623\",\n   \"htmlFormattedUrl\":
+        \"www.google.com/patents/US4089623\",\n   \"pagemap\": {\n    \"cse_image\":
+        [\n     {\n      \"src\": \"http://www.google.com/patents?id=&printsec=frontcover&img=1&zoom=1\"\n
+        \    }\n    ],\n    \"book\": [\n     {\n      \"description\": \"A compressor
+        intake throttle valve is positioned in accordance with the inlet suction of
+        the compressor, regulating the volume of inlet air in accordance with the
+        load on the compressor. A...\",\n      \"url\": \"http://www.google.com/patents/US4089623?utm_source=gb-gplus-share\",\n
+        \     \"name\": \"Patent US4089623 - Compressor intake control\",\n      \"image\":
+        \"http://www.google.com/patents?id=&printsec=frontcover&img=1&zoom=1\"\n     }\n
+        \   ],\n    \"metatags\": [\n     {\n      \"og:url\": \"http://www.google.com/patents/US4089623\",\n
+        \     \"title\": \"Patent US4089623 - Compressor intake control\",\n      \"og:title\":
+        \"Patent US4089623 - Compressor intake control\",\n      \"og:type\": \"book\",\n
+        \     \"og:site_name\": \"Google Books\",\n      \"og:image\": \"http://www.google.com/patents?id=&printsec=frontcover&img=1&zoom=1\"\n
+        \    }\n    ]\n   }\n  },\n  {\n   \"kind\": \"customsearch#result\",\n   \"title\":
+        \"Official YouTube Gadget - Add to your homepage - Google\",\n   \"htmlTitle\":
+        \"Official YouTube Gadget - Add to your homepage - Google\",\n   \"link\":
+        \"http://www.google.com/ig/directory?q=official+youtube+gadget&root=/ig&igtab=Home&dpos=top&url=www.google.com/ig/modules/youtube_videos.xml\",\n
+        \  \"displayLink\": \"www.google.com\",\n   \"snippet\": \"Is Google becoming
+        Microsoft-like? I'm Outta Here Anonymous - Jan 12, 2009 -   Report this comment.
+        Google is doing harm so Ive deleted this gadget. Now I'm ...\",\n   \"htmlSnippet\":
+        \"Is Google becoming \\u003cb\\u003eMicrosoft\\u003c/b\\u003e-like? I&#39;m
+        Outta Here Anonymous - Jan 12, 2009 - \\u003cbr\\u003e  Report this comment.
+        Google is doing harm so Ive deleted this gadget. Now I&#39;m \\u003cb\\u003e...\\u003c/b\\u003e\",\n
+        \  \"cacheId\": \"2ZtTUc8GR2MJ\",\n   \"formattedUrl\": \"www.google.com/ig/directory?q=official...=/ig...\",\n
+        \  \"htmlFormattedUrl\": \"www.google.com/ig/directory?q=official...=/ig...\",\n
+        \  \"pagemap\": {\n    \"product\": [\n     {\n      \"image\": \"http://www.google.com/ig/modules/youtube_igoogle/v2/__MSG_thumbnail_url__\",\n
+        \     \"name\": \"Official YouTube Gadget\",\n      \"description\": \"Browse,
+        search and watch YouTube videos right inside iGoogle.\"\n     }\n    ],\n
+        \   \"hproduct\": [\n     {\n      \"description\": \"Browse, search and watch
+        YouTube videos right inside iGoogle.\",\n      \"fn\": \"Official YouTube
+        Gadget\",\n      \"photo\": \"http://www.google.com/ig/modules/youtube_igoogle/v2/__MSG_thumbnail_url__\"\n
+        \    }\n    ]\n   }\n  },\n  {\n   \"kind\": \"customsearch#result\",\n   \"title\":
+        \"Oddly Enough Blog - Add to your homepage - Google\",\n   \"htmlTitle\":
+        \"Oddly Enough Blog - Add to your homepage - Google\",\n   \"link\": \"http://www.google.com/ig/directory?type=gadgets&url=feeds.reuters.com/reuters/blogs/oddly-enough%3Firpc%3D69\",\n
+        \  \"displayLink\": \"www.google.com\",\n   \"snippet\": \"Used to be good
+        - now it sucks. Only adverts after the headline - no content   unless you
+        jump through to their website. Deleted. wow Anonymous - Mar 18,   2010 ...\",\n
+        \  \"htmlSnippet\": \"Used to be good - now it \\u003cb\\u003esucks\\u003c/b\\u003e.
+        Only adverts after the headline - no content \\u003cbr\\u003e  unless you
+        jump through to their website. Deleted. wow Anonymous - Mar 18, \\u003cbr\\u003e
+        \ 2010 \\u003cb\\u003e...\\u003c/b\\u003e\",\n   \"cacheId\": \"R_TX2UiqQXYJ\",\n
+        \  \"formattedUrl\": \"www.google.com/ig/directory?type=gadgets&url=feeds...\",\n
+        \  \"htmlFormattedUrl\": \"www.google.com/ig/directory?type=gadgets&amp;url=feeds...\",\n
+        \  \"pagemap\": {\n    \"product\": [\n     {\n      \"image\": \"http://www.google.com/ig/directory?type=gadgets&url=feeds.reuters.com/reuters/blogs/oddly-enough%3Firpc%3D69\",\n
+        \     \"name\": \"Oddly Enough Blog\",\n      \"description\": \"News, but
+        not the serious kind\"\n     }\n    ],\n    \"hproduct\": [\n     {\n      \"description\":
+        \"News, but not the serious kind\",\n      \"fn\": \"Oddly Enough Blog\",\n
+        \     \"photo\": \"http://www.google.com/ig/directory?type=gadgets&url=feeds.reuters.com/reuters/blogs/oddly-enough%3Firpc%3D69\"\n
+        \    }\n    ]\n   }\n  },\n  {\n   \"kind\": \"customsearch#result\",\n   \"title\":
+        \"Google Apps Marketplace - Google Apps Setup & Support\",\n   \"htmlTitle\":
+        \"Google Apps Marketplace - Google Apps Setup &amp; Support\",\n   \"link\":
+        \"http://www.google.com/enterprise/marketplace/viewListing?productListingId=5749+7359899912575672720\",\n
+        \  \"displayLink\": \"www.google.com\",\n   \"snippet\": \"Syncing Google
+        Apps with Microsoft Outlook - Activating Postini Security - End-  User Training
+        Contact our team today to see if your company qualifies for our   Fast ...\",\n
+        \  \"htmlSnippet\": \"Syncing Google Apps with \\u003cb\\u003eMicrosoft\\u003c/b\\u003e
+        Outlook - Activating Postini Security - End-\\u003cbr\\u003e  User Training
+        Contact our team today to see if your company qualifies for our \\u003cbr\\u003e
+        \ Fast \\u003cb\\u003e...\\u003c/b\\u003e\",\n   \"cacheId\": \"6a_RaVkdzAMJ\",\n
+        \  \"formattedUrl\": \"www.google.com/enterprise/marketplace/viewListing?...5749...\",\n
+        \  \"htmlFormattedUrl\": \"www.google.com/enterprise/marketplace/viewListing?...5749...\",\n
+        \  \"pagemap\": {\n    \"cse_image\": [\n     {\n      \"src\": \"http://lh6.googleusercontent.com/UNDTmzg34U2gb_xwdVxqtbZlWSz_gMsSbOWkPIlQzK-g1lTYhTcBubB4sy-1W3svTwj5zDJyhV8_xp94WA=s120?gr=13d82c6e04a\"\n
+        \    }\n    ],\n    \"organization\": [\n     {\n      \"url\": \"Excel Micro,
+        Inc.\",\n      \"name\": \"Excel Micro, Inc.\"\n     }\n    ],\n    \"cse_thumbnail\":
+        [\n     {\n      \"width\": \"106\",\n      \"height\": \"55\",\n      \"src\":
+        \"https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ6yRa_BH4yC9w5YV4UG4tzfmI0w-gM2ippA1m8txbxRW617f-2DSib\"\n
+        \    }\n    ],\n    \"aggregaterating\": [\n     {\n      \"ratingvalue\":
+        \"4\",\n      \"reviewcount\": \"6\"\n     }\n    ],\n    \"softwareapplication\":
+        [\n     {\n      \"softwareapplicationcategory\": \"http://schema.org/BusinessApplication\",\n
+        \     \"softwareapplicationsubcategory\": \"Small Business Implementation\",\n
+        \     \"name\": \"Google Apps Setup & Support\",\n      \"image\": \"http://lh5.googleusercontent.com/kJXgibR7j83Jq7Ju-tOT8eK5MiYsMt6fa6qk_up1eWK6rAR2San0Xo0TFgbtd_Z_zBIMMi2aYmCDydgt6A=s120?gr=130287240d4\",\n
+        \     \"description\": \"Going Google made easy through Excel Micro's Fast
+        Track Deployment for any size company. Work with our in-house Google Apps
+        Certified Deployment Specialist and team of Product Specialists today.\"\n
+        \    }\n    ]\n   }\n  },\n  {\n   \"kind\": \"customsearch#result\",\n   \"title\":
+        \"Account Options - Google Finance: Stock market quotes, news ...\",\n   \"htmlTitle\":
+        \"Account Options - Google Finance: Stock market quotes, news \\u003cb\\u003e...\\u003c/b\\u003e\",\n
+        \  \"link\": \"http://www.google.com/finance?ei=0_nEUMCKO6q0iAKUIQ\",\n   \"displayLink\":
+        \"www.google.com\",\n   \"snippet\": \"Dec 9, 2012... tentacles poised to
+        suck natural gas in a liquid state from special refrigerated   tankers up
+        to ... MSFT · Microsoft Corporation, -1.01%, 222.66B ...\",\n   \"htmlSnippet\":
+        \"Dec 9, 2012\\u003cb\\u003e...\\u003c/b\\u003e tentacles poised to \\u003cb\\u003esuck\\u003c/b\\u003e
+        natural gas in a liquid state from special refrigerated \\u003cbr\\u003e  tankers
+        up to \\u003cb\\u003e...\\u003c/b\\u003e MSFT &middot; \\u003cb\\u003eMicrosoft\\u003c/b\\u003e
+        Corporation, -1.01%, 222.66B \\u003cb\\u003e...\\u003c/b\\u003e\",\n   \"cacheId\":
+        \"3sdbnE30K0MJ\",\n   \"formattedUrl\": \"www.google.com/finance?ei=0_nEUMCKO6q0iAKUIQ\",\n
+        \  \"htmlFormattedUrl\": \"www.google.com/finance?ei=0_nEUMCKO6q0iAKUIQ\"\n
+        \ },\n  {\n   \"kind\": \"customsearch#result\",\n   \"title\": \"AFP: Digital
+        reincarnation for Dunhuang's Buddhist art - Google\",\n   \"htmlTitle\": \"AFP:
+        Digital reincarnation for Dunhuang&#39;s Buddhist art - Google\",\n   \"link\":
+        \"http://www.google.com/hostednews/afp/article/ALeqM5jZvAElok4AVG35a2ErwjySTDCP0g?docId=CNG.89628d20463c585050678359b0591203.311\",\n
+        \  \"displayLink\": \"www.google.com\",\n   \"snippet\": \"6 days ago... to
+        preserve the caves, and stepmother to Microsoft founder Bill. ... If the   humidity
+        goes above a critical value, \\\"then the salts can suck the ...\",\n   \"htmlSnippet\":
+        \"6 days ago\\u003cb\\u003e...\\u003c/b\\u003e to preserve the caves, and
+        stepmother to \\u003cb\\u003eMicrosoft\\u003c/b\\u003e founder Bill. \\u003cb\\u003e...\\u003c/b\\u003e
+        If the \\u003cbr\\u003e  humidity goes above a critical value, &quot;then
+        the salts can \\u003cb\\u003esuck\\u003c/b\\u003e the \\u003cb\\u003e...\\u003c/b\\u003e\",\n
+        \  \"formattedUrl\": \"www.google.com/.../afp/.../ALeqM5jZvAElok4AVG35a2ErwjySTDCP0g?...\",\n
+        \  \"htmlFormattedUrl\": \"www.google.com/.../afp/.../ALeqM5jZvAElok4AVG35a2ErwjySTDCP0g?...\",\n
+        \  \"pagemap\": {\n    \"cse_image\": [\n     {\n      \"src\": \"http://www.google.com/hostednews/afp/media/ALeqM5hQmW9hX_UrRAXpKUMPVHi3_5cihw?docId=photo_1369377357925-2-0&size=s3\"\n
+        \    }\n    ],\n    \"cse_thumbnail\": [\n     {\n      \"width\": \"219\",\n
+        \     \"height\": \"146\",\n      \"src\": \"https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ_3fItBoOfzX7WrM5zHXbZJQOQFw8xtbsP3gPRdHh6HRH1WK-QeWJEYkaF\"\n
+        \    }\n    ],\n    \"metatags\": [\n     {\n      \"og:title\": \"Digital
+        reincarnation for Dunhuang's Buddhist art\",\n      \"og:type\": \"article\",\n
+        \     \"og:url\": \"http://www.google.com/hostednews/afp/article/ALeqM5jZvAElok4AVG35a2ErwjySTDCP0g?docId=CNG.89628d20463c585050678359b0591203.311\",\n
+        \     \"og:site_name\": \"Google News\",\n      \"og:image\": \"http://www.google.com/hostednews/afp/media/ALeqM5hQmW9hX_UrRAXpKUMPVHi3_5cihw?docId=photo_1369377357925-2-0&size=s3\"\n
+        \    }\n    ]\n   }\n  },\n  {\n   \"kind\": \"customsearch#result\",\n   \"title\":
+        \"Patent US6084556 - Virtual computer monitor - Google Patents\",\n   \"htmlTitle\":
+        \"Patent US6084556 - Virtual computer monitor - Google Patents\",\n   \"link\":
+        \"http://www.google.com/patents/US6084556\",\n   \"displayLink\": \"www.google.com\",\n
+        \  \"snippet\": \"... enlargement modules are included in both the Microsoft
+        Windows and Apple   ...... switches with a puff & suck switch for activating
+        the mouse clicking function.\",\n   \"htmlSnippet\": \"\\u003cb\\u003e...\\u003c/b\\u003e
+        enlargement modules are included in both the \\u003cb\\u003eMicrosoft\\u003c/b\\u003e
+        Windows and Apple \\u003cbr\\u003e  \\u003cb\\u003e......\\u003c/b\\u003e
+        switches with a puff &amp; \\u003cb\\u003esuck\\u003c/b\\u003e switch for
+        activating the mouse clicking function.\",\n   \"formattedUrl\": \"www.google.com/patents/US6084556\",\n
+        \  \"htmlFormattedUrl\": \"www.google.com/patents/US6084556\",\n   \"pagemap\":
+        {\n    \"cse_image\": [\n     {\n      \"src\": \"http://www.google.com/patents?id=&printsec=frontcover&img=1&zoom=1\"\n
+        \    }\n    ],\n    \"book\": [\n     {\n      \"description\": \"A virtual
+        computer monitor is described which enables instantaneous and intuitive visual
+        access to large amounts of visual data by providing the user with a large
+        display projected virtually...\",\n      \"url\": \"http://www.google.com/patents/US6084556?utm_source=gb-gplus-share\",\n
+        \     \"name\": \"Patent US6084556 - Virtual computer monitor\",\n      \"image\":
+        \"http://www.google.com/patents?id=&printsec=frontcover&img=1&zoom=1\"\n     }\n
+        \   ],\n    \"metatags\": [\n     {\n      \"og:url\": \"http://www.google.com/patents/US6084556\",\n
+        \     \"title\": \"Patent US6084556 - Virtual computer monitor\",\n      \"og:title\":
+        \"Patent US6084556 - Virtual computer monitor\",\n      \"og:type\": \"book\",\n
+        \     \"og:site_name\": \"Google Books\",\n      \"og:image\": \"http://www.google.com/patents?id=&printsec=frontcover&img=1&zoom=1\"\n
+        \    }\n    ]\n   }\n  }\n ]\n}\n"
+    http_version: 
+  recorded_at: Fri, 31 May 2013 03:15:43 GMT
+- request:
+    method: get
+    uri: https://www.googleapis.com/customsearch/v1?cx=<GOGGLE SEARCH ENGINE ID>&key=<GOGGLE
+      APP ID>&num=10&q=microsoft%20sucks
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: !binary |-
+        T0s=
+    headers:
+      !binary "RXhwaXJlcw==":
+      - !binary |-
+        RnJpLCAzMSBNYXkgMjAxMyAwMzoxNTo0MyBHTVQ=
+      !binary "RGF0ZQ==":
+      - !binary |-
+        RnJpLCAzMSBNYXkgMjAxMyAwMzoxNTo0MyBHTVQ=
+      !binary "Q2FjaGUtQ29udHJvbA==":
+      - !binary |-
+        cHJpdmF0ZSwgbWF4LWFnZT0wLCBtdXN0LXJldmFsaWRhdGUsIG5vLXRyYW5z
+        Zm9ybQ==
+      !binary "RXRhZw==":
+      - !binary |-
+        InpLQUdsTDB0WFBCR2dvQ0dpMFJsdXBmLS1CWS9KNHJfUmdGM2hkN0oteXpH
+        R1lLLS1RcFhFSkUi
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        YXBwbGljYXRpb24vanNvbjsgY2hhcnNldD1VVEYtOA==
+      !binary "WC1Db250ZW50LVR5cGUtT3B0aW9ucw==":
+      - !binary |-
+        bm9zbmlmZg==
+      !binary "WC1GcmFtZS1PcHRpb25z":
+      - !binary |-
+        U0FNRU9SSUdJTg==
+      !binary "WC1Yc3MtUHJvdGVjdGlvbg==":
+      - !binary |-
+        MTsgbW9kZT1ibG9jaw==
+      !binary "U2VydmVy":
+      - !binary |-
+        R1NF
+      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
+      - !binary |-
+        Y2h1bmtlZA==
+    body:
+      encoding: UTF-8
+      string: ! "{\n \"kind\": \"customsearch#search\",\n \"url\": {\n  \"type\":
+        \"application/json\",\n  \"template\": \"https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&cref={cref?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&relatedSite={relatedSite?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json\"\n
+        },\n \"queries\": {\n  \"nextPage\": [\n   {\n    \"title\": \"Google Custom
+        Search - microsoft sucks\",\n    \"totalResults\": \"60200\",\n    \"searchTerms\":
+        \"microsoft sucks\",\n    \"count\": 10,\n    \"startIndex\": 11,\n    \"inputEncoding\":
+        \"utf8\",\n    \"outputEncoding\": \"utf8\",\n    \"safe\": \"off\",\n    \"cx\":
+        \"<GOGGLE SEARCH ENGINE ID>\"\n   }\n  ],\n  \"request\": [\n   {\n    \"title\":
+        \"Google Custom Search - microsoft sucks\",\n    \"totalResults\": \"60200\",\n
+        \   \"searchTerms\": \"microsoft sucks\",\n    \"count\": 10,\n    \"startIndex\":
+        1,\n    \"inputEncoding\": \"utf8\",\n    \"outputEncoding\": \"utf8\",\n
+        \   \"safe\": \"off\",\n    \"cx\": \"<GOGGLE SEARCH ENGINE ID>\"\n   }\n
+        \ ]\n },\n \"context\": {\n  \"title\": \"Google\"\n },\n \"searchInformation\":
+        {\n  \"searchTime\": 0.394748,\n  \"formattedSearchTime\": \"0.39\",\n  \"totalResults\":
+        \"60200\",\n  \"formattedTotalResults\": \"60,200\"\n },\n \"items\": [\n
+        \ {\n   \"kind\": \"customsearch#result\",\n   \"title\": \"Google Fonts Inconsolata\",\n
+        \  \"htmlTitle\": \"Google Fonts Inconsolata\",\n   \"link\": \"http://www.google.com/fonts/specimen/Inconsolata\",\n
+        \  \"displayLink\": \"www.google.com\",\n   \"snippet\": \"... design for
+        Microsoft's Vista release. This font, similar to his earlier   TheSansMono,
+        demonstrated clearly to me that monospaced fonts do not have to   suck.\",\n
+        \  \"htmlSnippet\": \"\\u003cb\\u003e...\\u003c/b\\u003e design for \\u003cb\\u003eMicrosoft&#39;s\\u003c/b\\u003e
+        Vista release. This font, similar to his earlier \\u003cbr\\u003e  TheSansMono,
+        demonstrated clearly to me that monospaced fonts do not have to \\u003cbr\\u003e
+        \ \\u003cb\\u003esuck\\u003c/b\\u003e.\",\n   \"cacheId\": \"_YhjwzaJKl8J\",\n
+        \  \"formattedUrl\": \"www.google.com/fonts/specimen/Inconsolata\",\n   \"htmlFormattedUrl\":
+        \"www.google.com/fonts/specimen/Inconsolata\",\n   \"pagemap\": {\n    \"person\":
+        [\n     {\n      \"name\": \"Raph Levien\"\n     }\n    ],\n    \"organization\":
+        [\n     {\n      \"url\": \"Fonts\",\n      \"logo\": \"http://www.google.com/images/logos/google_logo_41.png\"\n
+        \    }\n    ],\n    \"webpage\": [\n     {\n      \"ispartof\": \"Open Inconsolata
+        in Google Fonts »\",\n      \"headline\": \"Inconsolata\",\n      \"description\":
+        \"Inconsolata is my first serious original font release. It is a monospace
+        font, designed for printed code listings and the like. There are a great many
+        \\\"programmer fonts,\\\" designed primarily...\"\n     }\n    ],\n    \"webpageelement\":
+        [\n     {\n      \"text\": \"Grumpy wizards make toxic brew for the evil Queen
+        and Jack.Normal 400Grumpy wizards make toxic brew for the evil QueenBold 700Grumpy
+        wizards make toxic brew for the evil QueenOne morning, when...\"\n     }\n
+        \   ]\n   }\n  },\n  {\n   \"kind\": \"customsearch#result\",\n   \"title\":
+        \"Gmail - Add to your homepage - Google\",\n   \"htmlTitle\": \"Gmail - Add
+        to your homepage - Google\",\n   \"link\": \"http://www.google.com/ig/directory?type=gadgets&url=www.gstatic.com/ig/modules/mail/sp.xml\",\n
+        \  \"displayLink\": \"www.google.com\",\n   \"snippet\": \"Sucks, but can't
+        find anything less sucky. ... What's really sad is I'm using the   same gadget
+        in both Chrome and Firefox...in Chrome, it sucks; in Firefox, it's neat, ...\",\n
+        \  \"htmlSnippet\": \"\\u003cb\\u003eSucks\\u003c/b\\u003e, but can&#39;t
+        find anything less sucky. \\u003cb\\u003e...\\u003c/b\\u003e What&#39;s really
+        sad is I&#39;m using the \\u003cbr\\u003e  same gadget in both Chrome and
+        Firefox...in Chrome, it \\u003cb\\u003esucks\\u003c/b\\u003e; in Firefox,
+        it&#39;s neat, \\u003cb\\u003e...\\u003c/b\\u003e\",\n   \"cacheId\": \"j1W6lomL1XkJ\",\n
+        \  \"formattedUrl\": \"www.google.com/ig/directory?type=gadgets&url=www.../ig/...\",\n
+        \  \"htmlFormattedUrl\": \"www.google.com/ig/directory?type=gadgets&amp;url=www.../ig/...\",\n
+        \  \"pagemap\": {\n    \"product\": [\n     {\n      \"image\": \"http://www.gstatic.com/ig/modules/mail/igoogle_mail_thumbnail.jpg\",\n
+        \     \"name\": \"Gmail\",\n      \"description\": \"Internal code for Gmail
+        iGoogle gadget.\"\n     }\n    ],\n    \"cse_image\": [\n     {\n      \"src\":
+        \"http://www.gmodules.com/gadgets/proxy?refresh=86400&url=http://www.gstatic.com/ig/modules/mail/igoogle_mail.cache.png&container=ig\"\n
+        \    }\n    ],\n    \"cse_thumbnail\": [\n     {\n      \"width\": \"277\",\n
+        \     \"height\": \"182\",\n      \"src\": \"https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRupotHZjlg-3bY6GdRWGCK9FKv1h7UREpzPnYF_jo6jU7O7igBdWd-ZPo\"\n
+        \    }\n    ],\n    \"hproduct\": [\n     {\n      \"description\": \"Internal
+        code for Gmail iGoogle gadget.\",\n      \"fn\": \"Gmail\",\n      \"photo\":
+        \"http://www.gstatic.com/ig/modules/mail/igoogle_mail_thumbnail.jpg\"\n     }\n
+        \   ]\n   }\n  },\n  {\n   \"kind\": \"customsearch#result\",\n   \"title\":
+        \"Top NBCNews headlines - Add to your homepage - Google\",\n   \"htmlTitle\":
+        \"Top NBCNews headlines - Add to your homepage - Google\",\n   \"link\": \"http://www.google.com/ig/directory?type=gadgets&url=rss.msnbc.msn.com/id/3032091/device/rss/rss.xml\",\n
+        \  \"displayLink\": \"www.google.com\",\n   \"snippet\": \"News app sucks
+        - Quang Kelly - Jul 13, 2012 - Report this comment ... Microsoft   Feeds\\\\MSNBC
+        News Gadget for Win 7 Rita Filler - Dec 26, 2010 - Report this ...\",\n   \"htmlSnippet\":
+        \"News app \\u003cb\\u003esucks\\u003c/b\\u003e - Quang Kelly - Jul 13, 2012
+        - Report this comment \\u003cb\\u003e...\\u003c/b\\u003e \\u003cb\\u003eMicrosoft\\u003c/b\\u003e
+        \\u003cbr\\u003e  Feeds\\\\MSNBC News Gadget for Win 7 Rita Filler - Dec 26,
+        2010 - Report this \\u003cb\\u003e...\\u003c/b\\u003e\",\n   \"cacheId\":
+        \"IOIid1_pmlkJ\",\n   \"formattedUrl\": \"www.google.com/ig/directory?type=gadgets&url=rss...msn...\",\n
+        \  \"htmlFormattedUrl\": \"www.google.com/ig/directory?type=gadgets&amp;url=rss...msn...\",\n
+        \  \"pagemap\": {\n    \"product\": [\n     {\n      \"image\": \"http://www.google.com/ig/directory?type=gadgets&url=rss.msnbc.msn.com/id/3032091/device/rss/rss.xml\",\n
+        \     \"name\": \"Top NBCNews headlines\",\n      \"description\": \"Top NBCNews
+        headlines\"\n     }\n    ],\n    \"cse_image\": [\n     {\n      \"src\":
+        \"http://www-ig-opensocial.googleusercontent.com/gadgets/proxy?refresh=86400&url=http://teaser-gadgets.googlecode.com/svn/trunk/illusions-gadget/thumbnail.png&container=ig&gadget=http://brainden.com/gadgets/illusions-gadget.xml\"\n
+        \    }\n    ],\n    \"cse_thumbnail\": [\n     {\n      \"width\": \"108\",\n
+        \     \"height\": \"54\",\n      \"src\": \"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ6_OHKW0wsNu9TxmL_FwQTiY3vLbJCqpgqefrrPTjwEXKpAMruMAipw\"\n
+        \    }\n    ],\n    \"hproduct\": [\n     {\n      \"description\": \"Top
+        NBCNews headlines\",\n      \"fn\": \"Top NBCNews headlines\",\n      \"photo\":
+        \"http://www.google.com/ig/directory?type=gadgets&url=rss.msnbc.msn.com/id/3032091/device/rss/rss.xml\"\n
+        \    }\n    ]\n   }\n  },\n  {\n   \"kind\": \"customsearch#result\",\n   \"title\":
+        \"Patent US4089623 - Compressor intake control - Google Patents\",\n   \"htmlTitle\":
+        \"Patent US4089623 - Compressor intake control - Google Patents\",\n   \"link\":
+        \"http://www.google.com/patents/US4089623\",\n   \"displayLink\": \"www.google.com\",\n
+        \  \"snippet\": \"Compressor 1 sucks in air through an intake pipe 2 and delivers
+        compressed air   .... May 4, 2010, Microsoft Corporation, Task-sensitive methods
+        and systems for ...\",\n   \"htmlSnippet\": \"Compressor 1 \\u003cb\\u003esucks\\u003c/b\\u003e
+        in air through an intake pipe 2 and delivers compressed air \\u003cbr\\u003e
+        \ \\u003cb\\u003e....\\u003c/b\\u003e May 4, 2010, \\u003cb\\u003eMicrosoft\\u003c/b\\u003e
+        Corporation, Task-sensitive methods and systems for \\u003cb\\u003e...\\u003c/b\\u003e\",\n
+        \  \"formattedUrl\": \"www.google.com/patents/US4089623\",\n   \"htmlFormattedUrl\":
+        \"www.google.com/patents/US4089623\",\n   \"pagemap\": {\n    \"cse_image\":
+        [\n     {\n      \"src\": \"http://www.google.com/patents?id=&printsec=frontcover&img=1&zoom=1\"\n
+        \    }\n    ],\n    \"book\": [\n     {\n      \"description\": \"A compressor
+        intake throttle valve is positioned in accordance with the inlet suction of
+        the compressor, regulating the volume of inlet air in accordance with the
+        load on the compressor. A...\",\n      \"url\": \"http://www.google.com/patents/US4089623?utm_source=gb-gplus-share\",\n
+        \     \"name\": \"Patent US4089623 - Compressor intake control\",\n      \"image\":
+        \"http://www.google.com/patents?id=&printsec=frontcover&img=1&zoom=1\"\n     }\n
+        \   ],\n    \"metatags\": [\n     {\n      \"og:url\": \"http://www.google.com/patents/US4089623\",\n
+        \     \"title\": \"Patent US4089623 - Compressor intake control\",\n      \"og:title\":
+        \"Patent US4089623 - Compressor intake control\",\n      \"og:type\": \"book\",\n
+        \     \"og:site_name\": \"Google Books\",\n      \"og:image\": \"http://www.google.com/patents?id=&printsec=frontcover&img=1&zoom=1\"\n
+        \    }\n    ]\n   }\n  },\n  {\n   \"kind\": \"customsearch#result\",\n   \"title\":
+        \"Official YouTube Gadget - Add to your homepage - Google\",\n   \"htmlTitle\":
+        \"Official YouTube Gadget - Add to your homepage - Google\",\n   \"link\":
+        \"http://www.google.com/ig/directory?q=official+youtube+gadget&root=/ig&igtab=Home&dpos=top&url=www.google.com/ig/modules/youtube_videos.xml\",\n
+        \  \"displayLink\": \"www.google.com\",\n   \"snippet\": \"Is Google becoming
+        Microsoft-like? I'm Outta Here Anonymous - Jan 12, 2009 -   Report this comment.
+        Google is doing harm so Ive deleted this gadget. Now I'm ...\",\n   \"htmlSnippet\":
+        \"Is Google becoming \\u003cb\\u003eMicrosoft\\u003c/b\\u003e-like? I&#39;m
+        Outta Here Anonymous - Jan 12, 2009 - \\u003cbr\\u003e  Report this comment.
+        Google is doing harm so Ive deleted this gadget. Now I&#39;m \\u003cb\\u003e...\\u003c/b\\u003e\",\n
+        \  \"cacheId\": \"2ZtTUc8GR2MJ\",\n   \"formattedUrl\": \"www.google.com/ig/directory?q=official...=/ig...\",\n
+        \  \"htmlFormattedUrl\": \"www.google.com/ig/directory?q=official...=/ig...\",\n
+        \  \"pagemap\": {\n    \"product\": [\n     {\n      \"image\": \"http://www.google.com/ig/modules/youtube_igoogle/v2/__MSG_thumbnail_url__\",\n
+        \     \"name\": \"Official YouTube Gadget\",\n      \"description\": \"Browse,
+        search and watch YouTube videos right inside iGoogle.\"\n     }\n    ],\n
+        \   \"hproduct\": [\n     {\n      \"description\": \"Browse, search and watch
+        YouTube videos right inside iGoogle.\",\n      \"fn\": \"Official YouTube
+        Gadget\",\n      \"photo\": \"http://www.google.com/ig/modules/youtube_igoogle/v2/__MSG_thumbnail_url__\"\n
+        \    }\n    ]\n   }\n  },\n  {\n   \"kind\": \"customsearch#result\",\n   \"title\":
+        \"Oddly Enough Blog - Add to your homepage - Google\",\n   \"htmlTitle\":
+        \"Oddly Enough Blog - Add to your homepage - Google\",\n   \"link\": \"http://www.google.com/ig/directory?type=gadgets&url=feeds.reuters.com/reuters/blogs/oddly-enough%3Firpc%3D69\",\n
+        \  \"displayLink\": \"www.google.com\",\n   \"snippet\": \"Used to be good
+        - now it sucks. Only adverts after the headline - no content   unless you
+        jump through to their website. Deleted. wow Anonymous - Mar 18,   2010 ...\",\n
+        \  \"htmlSnippet\": \"Used to be good - now it \\u003cb\\u003esucks\\u003c/b\\u003e.
+        Only adverts after the headline - no content \\u003cbr\\u003e  unless you
+        jump through to their website. Deleted. wow Anonymous - Mar 18, \\u003cbr\\u003e
+        \ 2010 \\u003cb\\u003e...\\u003c/b\\u003e\",\n   \"cacheId\": \"R_TX2UiqQXYJ\",\n
+        \  \"formattedUrl\": \"www.google.com/ig/directory?type=gadgets&url=feeds...\",\n
+        \  \"htmlFormattedUrl\": \"www.google.com/ig/directory?type=gadgets&amp;url=feeds...\",\n
+        \  \"pagemap\": {\n    \"product\": [\n     {\n      \"image\": \"http://www.google.com/ig/directory?type=gadgets&url=feeds.reuters.com/reuters/blogs/oddly-enough%3Firpc%3D69\",\n
+        \     \"name\": \"Oddly Enough Blog\",\n      \"description\": \"News, but
+        not the serious kind\"\n     }\n    ],\n    \"hproduct\": [\n     {\n      \"description\":
+        \"News, but not the serious kind\",\n      \"fn\": \"Oddly Enough Blog\",\n
+        \     \"photo\": \"http://www.google.com/ig/directory?type=gadgets&url=feeds.reuters.com/reuters/blogs/oddly-enough%3Firpc%3D69\"\n
+        \    }\n    ]\n   }\n  },\n  {\n   \"kind\": \"customsearch#result\",\n   \"title\":
+        \"Google Apps Marketplace - Google Apps Setup & Support\",\n   \"htmlTitle\":
+        \"Google Apps Marketplace - Google Apps Setup &amp; Support\",\n   \"link\":
+        \"http://www.google.com/enterprise/marketplace/viewListing?productListingId=5749+7359899912575672720\",\n
+        \  \"displayLink\": \"www.google.com\",\n   \"snippet\": \"Syncing Google
+        Apps with Microsoft Outlook - Activating Postini Security - End-  User Training
+        Contact our team today to see if your company qualifies for our   Fast ...\",\n
+        \  \"htmlSnippet\": \"Syncing Google Apps with \\u003cb\\u003eMicrosoft\\u003c/b\\u003e
+        Outlook - Activating Postini Security - End-\\u003cbr\\u003e  User Training
+        Contact our team today to see if your company qualifies for our \\u003cbr\\u003e
+        \ Fast \\u003cb\\u003e...\\u003c/b\\u003e\",\n   \"cacheId\": \"6a_RaVkdzAMJ\",\n
+        \  \"formattedUrl\": \"www.google.com/enterprise/marketplace/viewListing?...5749...\",\n
+        \  \"htmlFormattedUrl\": \"www.google.com/enterprise/marketplace/viewListing?...5749...\",\n
+        \  \"pagemap\": {\n    \"cse_image\": [\n     {\n      \"src\": \"http://lh6.googleusercontent.com/UNDTmzg34U2gb_xwdVxqtbZlWSz_gMsSbOWkPIlQzK-g1lTYhTcBubB4sy-1W3svTwj5zDJyhV8_xp94WA=s120?gr=13d82c6e04a\"\n
+        \    }\n    ],\n    \"organization\": [\n     {\n      \"url\": \"Excel Micro,
+        Inc.\",\n      \"name\": \"Excel Micro, Inc.\"\n     }\n    ],\n    \"cse_thumbnail\":
+        [\n     {\n      \"width\": \"106\",\n      \"height\": \"55\",\n      \"src\":
+        \"https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ6yRa_BH4yC9w5YV4UG4tzfmI0w-gM2ippA1m8txbxRW617f-2DSib\"\n
+        \    }\n    ],\n    \"aggregaterating\": [\n     {\n      \"ratingvalue\":
+        \"4\",\n      \"reviewcount\": \"6\"\n     }\n    ],\n    \"softwareapplication\":
+        [\n     {\n      \"softwareapplicationcategory\": \"http://schema.org/BusinessApplication\",\n
+        \     \"softwareapplicationsubcategory\": \"Small Business Implementation\",\n
+        \     \"name\": \"Google Apps Setup & Support\",\n      \"image\": \"http://lh5.googleusercontent.com/kJXgibR7j83Jq7Ju-tOT8eK5MiYsMt6fa6qk_up1eWK6rAR2San0Xo0TFgbtd_Z_zBIMMi2aYmCDydgt6A=s120?gr=130287240d4\",\n
+        \     \"description\": \"Going Google made easy through Excel Micro's Fast
+        Track Deployment for any size company. Work with our in-house Google Apps
+        Certified Deployment Specialist and team of Product Specialists today.\"\n
+        \    }\n    ]\n   }\n  },\n  {\n   \"kind\": \"customsearch#result\",\n   \"title\":
+        \"Account Options - Google Finance: Stock market quotes, news ...\",\n   \"htmlTitle\":
+        \"Account Options - Google Finance: Stock market quotes, news \\u003cb\\u003e...\\u003c/b\\u003e\",\n
+        \  \"link\": \"http://www.google.com/finance?ei=0_nEUMCKO6q0iAKUIQ\",\n   \"displayLink\":
+        \"www.google.com\",\n   \"snippet\": \"Dec 9, 2012... tentacles poised to
+        suck natural gas in a liquid state from special refrigerated   tankers up
+        to ... MSFT · Microsoft Corporation, -1.01%, 222.66B ...\",\n   \"htmlSnippet\":
+        \"Dec 9, 2012\\u003cb\\u003e...\\u003c/b\\u003e tentacles poised to \\u003cb\\u003esuck\\u003c/b\\u003e
+        natural gas in a liquid state from special refrigerated \\u003cbr\\u003e  tankers
+        up to \\u003cb\\u003e...\\u003c/b\\u003e MSFT &middot; \\u003cb\\u003eMicrosoft\\u003c/b\\u003e
+        Corporation, -1.01%, 222.66B \\u003cb\\u003e...\\u003c/b\\u003e\",\n   \"cacheId\":
+        \"3sdbnE30K0MJ\",\n   \"formattedUrl\": \"www.google.com/finance?ei=0_nEUMCKO6q0iAKUIQ\",\n
+        \  \"htmlFormattedUrl\": \"www.google.com/finance?ei=0_nEUMCKO6q0iAKUIQ\"\n
+        \ },\n  {\n   \"kind\": \"customsearch#result\",\n   \"title\": \"AFP: Digital
+        reincarnation for Dunhuang's Buddhist art - Google\",\n   \"htmlTitle\": \"AFP:
+        Digital reincarnation for Dunhuang&#39;s Buddhist art - Google\",\n   \"link\":
+        \"http://www.google.com/hostednews/afp/article/ALeqM5jZvAElok4AVG35a2ErwjySTDCP0g?docId=CNG.89628d20463c585050678359b0591203.311\",\n
+        \  \"displayLink\": \"www.google.com\",\n   \"snippet\": \"6 days ago... to
+        preserve the caves, and stepmother to Microsoft founder Bill. ... If the   humidity
+        goes above a critical value, \\\"then the salts can suck the ...\",\n   \"htmlSnippet\":
+        \"6 days ago\\u003cb\\u003e...\\u003c/b\\u003e to preserve the caves, and
+        stepmother to \\u003cb\\u003eMicrosoft\\u003c/b\\u003e founder Bill. \\u003cb\\u003e...\\u003c/b\\u003e
+        If the \\u003cbr\\u003e  humidity goes above a critical value, &quot;then
+        the salts can \\u003cb\\u003esuck\\u003c/b\\u003e the \\u003cb\\u003e...\\u003c/b\\u003e\",\n
+        \  \"formattedUrl\": \"www.google.com/.../afp/.../ALeqM5jZvAElok4AVG35a2ErwjySTDCP0g?...\",\n
+        \  \"htmlFormattedUrl\": \"www.google.com/.../afp/.../ALeqM5jZvAElok4AVG35a2ErwjySTDCP0g?...\",\n
+        \  \"pagemap\": {\n    \"cse_image\": [\n     {\n      \"src\": \"http://www.google.com/hostednews/afp/media/ALeqM5hQmW9hX_UrRAXpKUMPVHi3_5cihw?docId=photo_1369377357925-2-0&size=s3\"\n
+        \    }\n    ],\n    \"cse_thumbnail\": [\n     {\n      \"width\": \"219\",\n
+        \     \"height\": \"146\",\n      \"src\": \"https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ_3fItBoOfzX7WrM5zHXbZJQOQFw8xtbsP3gPRdHh6HRH1WK-QeWJEYkaF\"\n
+        \    }\n    ],\n    \"metatags\": [\n     {\n      \"og:title\": \"Digital
+        reincarnation for Dunhuang's Buddhist art\",\n      \"og:type\": \"article\",\n
+        \     \"og:url\": \"http://www.google.com/hostednews/afp/article/ALeqM5jZvAElok4AVG35a2ErwjySTDCP0g?docId=CNG.89628d20463c585050678359b0591203.311\",\n
+        \     \"og:site_name\": \"Google News\",\n      \"og:image\": \"http://www.google.com/hostednews/afp/media/ALeqM5hQmW9hX_UrRAXpKUMPVHi3_5cihw?docId=photo_1369377357925-2-0&size=s3\"\n
+        \    }\n    ]\n   }\n  },\n  {\n   \"kind\": \"customsearch#result\",\n   \"title\":
+        \"Patent US6084556 - Virtual computer monitor - Google Patents\",\n   \"htmlTitle\":
+        \"Patent US6084556 - Virtual computer monitor - Google Patents\",\n   \"link\":
+        \"http://www.google.com/patents/US6084556\",\n   \"displayLink\": \"www.google.com\",\n
+        \  \"snippet\": \"... enlargement modules are included in both the Microsoft
+        Windows and Apple   ...... switches with a puff & suck switch for activating
+        the mouse clicking function.\",\n   \"htmlSnippet\": \"\\u003cb\\u003e...\\u003c/b\\u003e
+        enlargement modules are included in both the \\u003cb\\u003eMicrosoft\\u003c/b\\u003e
+        Windows and Apple \\u003cbr\\u003e  \\u003cb\\u003e......\\u003c/b\\u003e
+        switches with a puff &amp; \\u003cb\\u003esuck\\u003c/b\\u003e switch for
+        activating the mouse clicking function.\",\n   \"formattedUrl\": \"www.google.com/patents/US6084556\",\n
+        \  \"htmlFormattedUrl\": \"www.google.com/patents/US6084556\",\n   \"pagemap\":
+        {\n    \"cse_image\": [\n     {\n      \"src\": \"http://www.google.com/patents?id=&printsec=frontcover&img=1&zoom=1\"\n
+        \    }\n    ],\n    \"book\": [\n     {\n      \"description\": \"A virtual
+        computer monitor is described which enables instantaneous and intuitive visual
+        access to large amounts of visual data by providing the user with a large
+        display projected virtually...\",\n      \"url\": \"http://www.google.com/patents/US6084556?utm_source=gb-gplus-share\",\n
+        \     \"name\": \"Patent US6084556 - Virtual computer monitor\",\n      \"image\":
+        \"http://www.google.com/patents?id=&printsec=frontcover&img=1&zoom=1\"\n     }\n
+        \   ],\n    \"metatags\": [\n     {\n      \"og:url\": \"http://www.google.com/patents/US6084556\",\n
+        \     \"title\": \"Patent US6084556 - Virtual computer monitor\",\n      \"og:title\":
+        \"Patent US6084556 - Virtual computer monitor\",\n      \"og:type\": \"book\",\n
+        \     \"og:site_name\": \"Google Books\",\n      \"og:image\": \"http://www.google.com/patents?id=&printsec=frontcover&img=1&zoom=1\"\n
+        \    }\n    ]\n   }\n  }\n ]\n}\n"
+    http_version: 
+  recorded_at: Fri, 31 May 2013 03:15:43 GMT
+- request:
+    method: get
+    uri: https://www.googleapis.com/customsearch/v1?cx=<GOGGLE SEARCH ENGINE ID>&key=<GOGGLE
+      APP ID>&num=10&q=apple%20rocks
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: !binary |-
+        T0s=
+    headers:
+      !binary "RXhwaXJlcw==":
+      - !binary |-
+        RnJpLCAzMSBNYXkgMjAxMyAwMzoxNTo0NCBHTVQ=
+      !binary "RGF0ZQ==":
+      - !binary |-
+        RnJpLCAzMSBNYXkgMjAxMyAwMzoxNTo0NCBHTVQ=
+      !binary "Q2FjaGUtQ29udHJvbA==":
+      - !binary |-
+        cHJpdmF0ZSwgbWF4LWFnZT0wLCBtdXN0LXJldmFsaWRhdGUsIG5vLXRyYW5z
+        Zm9ybQ==
+      !binary "RXRhZw==":
+      - !binary |-
+        InpLQUdsTDB0WFBCR2dvQ0dpMFJsdXBmLS1CWS9wR2hrX25hck91eGFqdzNS
+        SGxrY0haUHdjV1Ui
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        YXBwbGljYXRpb24vanNvbjsgY2hhcnNldD1VVEYtOA==
+      !binary "WC1Db250ZW50LVR5cGUtT3B0aW9ucw==":
+      - !binary |-
+        bm9zbmlmZg==
+      !binary "WC1GcmFtZS1PcHRpb25z":
+      - !binary |-
+        U0FNRU9SSUdJTg==
+      !binary "WC1Yc3MtUHJvdGVjdGlvbg==":
+      - !binary |-
+        MTsgbW9kZT1ibG9jaw==
+      !binary "U2VydmVy":
+      - !binary |-
+        R1NF
+      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
+      - !binary |-
+        Y2h1bmtlZA==
+    body:
+      encoding: UTF-8
+      string: ! "{\n \"kind\": \"customsearch#search\",\n \"url\": {\n  \"type\":
+        \"application/json\",\n  \"template\": \"https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&cref={cref?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&relatedSite={relatedSite?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json\"\n
+        },\n \"queries\": {\n  \"nextPage\": [\n   {\n    \"title\": \"Google Custom
+        Search - apple rocks\",\n    \"totalResults\": \"523000\",\n    \"searchTerms\":
+        \"apple rocks\",\n    \"count\": 10,\n    \"startIndex\": 11,\n    \"inputEncoding\":
+        \"utf8\",\n    \"outputEncoding\": \"utf8\",\n    \"safe\": \"off\",\n    \"cx\":
+        \"<GOGGLE SEARCH ENGINE ID>\"\n   }\n  ],\n  \"request\": [\n   {\n    \"title\":
+        \"Google Custom Search - apple rocks\",\n    \"totalResults\": \"523000\",\n
+        \   \"searchTerms\": \"apple rocks\",\n    \"count\": 10,\n    \"startIndex\":
+        1,\n    \"inputEncoding\": \"utf8\",\n    \"outputEncoding\": \"utf8\",\n
+        \   \"safe\": \"off\",\n    \"cx\": \"<GOGGLE SEARCH ENGINE ID>\"\n   }\n
+        \ ]\n },\n \"context\": {\n  \"title\": \"Google\"\n },\n \"searchInformation\":
+        {\n  \"searchTime\": 0.348217,\n  \"formattedSearchTime\": \"0.35\",\n  \"totalResults\":
+        \"523000\",\n  \"formattedTotalResults\": \"523,000\"\n },\n \"items\": [\n
+        \ {\n   \"kind\": \"customsearch#result\",\n   \"title\": \"Google Gadgets
+        For Your Webpage\",\n   \"htmlTitle\": \"Google Gadgets For Your Webpage\",\n
+        \  \"link\": \"http://www.google.com/ig/directory?synd=open&q=MP3+player\",\n
+        \  \"displayLink\": \"www.google.com\",\n   \"snippet\": \"Results 1 - 24
+        of 359 ... This includes all types of music including rap, hip hop, rock,
+        metal, jazz, ... This   gadget contains Keyword,apple,apple support,apple
+        mac ...\",\n   \"htmlSnippet\": \"Results 1 - 24 of 359 \\u003cb\\u003e...\\u003c/b\\u003e
+        This includes all types of music including rap, hip hop, \\u003cb\\u003erock\\u003c/b\\u003e,
+        metal, jazz, \\u003cb\\u003e...\\u003c/b\\u003e This \\u003cbr\\u003e  gadget
+        contains Keyword,\\u003cb\\u003eapple\\u003c/b\\u003e,\\u003cb\\u003eapple\\u003c/b\\u003e
+        support,\\u003cb\\u003eapple\\u003c/b\\u003e mac \\u003cb\\u003e...\\u003c/b\\u003e\",\n
+        \  \"cacheId\": \"Ch3t0V_o0e8J\",\n   \"formattedUrl\": \"www.google.com/ig/directory?synd=open&q=MP3+player\",\n
+        \  \"htmlFormattedUrl\": \"www.google.com/ig/directory?synd=open&amp;q=MP3+player\"\n
+        \ },\n  {\n   \"kind\": \"customsearch#result\",\n   \"title\": \"Big Rock
+        Brewery Inc (USA): OTCMKTS:BRBMF quotes & news ...\",\n   \"htmlTitle\": \"Big
+        \\u003cb\\u003eRock\\u003c/b\\u003e Brewery Inc (USA): OTCMKTS:BRBMF quotes
+        &amp; news \\u003cb\\u003e...\\u003c/b\\u003e\",\n   \"link\": \"http://www.google.com/finance?cid=655746\",\n
+        \  \"displayLink\": \"www.google.com\",\n   \"snippet\": \"As of December
+        30, 2011, Big Rock boasts a family of 12 ales and lagers, Rock   Creek dry
+        apple cider, as well as an ongoing selection of seasonal beers.\",\n   \"htmlSnippet\":
+        \"As of December 30, 2011, Big \\u003cb\\u003eRock\\u003c/b\\u003e boasts
+        a family of 12 ales and lagers, \\u003cb\\u003eRock\\u003c/b\\u003e \\u003cbr\\u003e
+        \ Creek dry \\u003cb\\u003eapple\\u003c/b\\u003e cider, as well as an ongoing
+        selection of seasonal beers.\",\n   \"cacheId\": \"rhS0kowspyAJ\",\n   \"formattedUrl\":
+        \"www.google.com/finance?cid=655746\",\n   \"htmlFormattedUrl\": \"www.google.com/finance?cid=655746\",\n
+        \  \"pagemap\": {\n    \"financialquote\": [\n     {\n      \"name\": \"Big
+        Rock Brewery Inc (USA)\",\n      \"url\": \"https://www.google.com/finance?cid=655746\",\n
+        \     \"imageurl\": \"https://www.google.com/finance/chart?cht=g&q=OTCMKTS:BRBMF&tkr=1&p=1d&enddatetime=2013-05-24T18:51:59Z\",\n
+        \     \"tickersymbol\": \"BRBMF\",\n      \"exchange\": \"OTCMKTS\",\n      \"exchangetimezone\":
+        \"America/New_York\",\n      \"price\": \"14.77\",\n      \"pricechange\":
+        \"+0.11\",\n      \"pricechangepercent\": \"0.78\",\n      \"quotetime\":
+        \"2013-05-24T18:51:59Z\",\n      \"datasource\": \"OTCMKTS data delayed by
+        15 mins\",\n      \"datasourcedisclaimerurl\": \"//www.google.com/intl/en-US/help/stock_disclaimer.html\",\n
+        \     \"pricecurrency\": \"USD\"\n     }\n    ]\n   }\n  },\n  {\n   \"kind\":
+        \"customsearch#result\",\n   \"title\": \"Big Rock Brewery Inc: TSE:BR quotes
+        & news - Google Finance\",\n   \"htmlTitle\": \"Big \\u003cb\\u003eRock\\u003c/b\\u003e
+        Brewery Inc: TSE:BR quotes &amp; news - Google Finance\",\n   \"link\": \"http://www.google.com/finance?cid=675033\",\n
+        \  \"displayLink\": \"www.google.com\",\n   \"snippet\": \"As of December
+        30, 2011, Big Rock boasts a family of 12 ales and lagers, Rock   Creek dry
+        apple cider, as well as an ongoing selection of seasonal beers.\",\n   \"htmlSnippet\":
+        \"As of December 30, 2011, Big \\u003cb\\u003eRock\\u003c/b\\u003e boasts
+        a family of 12 ales and lagers, \\u003cb\\u003eRock\\u003c/b\\u003e \\u003cbr\\u003e
+        \ Creek dry \\u003cb\\u003eapple\\u003c/b\\u003e cider, as well as an ongoing
+        selection of seasonal beers.\",\n   \"cacheId\": \"R6TjvsZVlIsJ\",\n   \"formattedUrl\":
+        \"www.google.com/finance?cid=675033\",\n   \"htmlFormattedUrl\": \"www.google.com/finance?cid=675033\",\n
+        \  \"pagemap\": {\n    \"financialquote\": [\n     {\n      \"name\": \"Big
+        Rock Brewery Inc\",\n      \"url\": \"https://www.google.com/finance?cid=675033\",\n
+        \     \"imageurl\": \"https://www.google.com/finance/chart?cht=g&q=TSE:BR&tkr=1&p=1d&enddatetime=2013-05-28T19:12:48Z\",\n
+        \     \"tickersymbol\": \"BR\",\n      \"exchange\": \"TSE\",\n      \"exchangetimezone\":
+        \"America/Toronto\",\n      \"price\": \"15.25\",\n      \"pricechange\":
+        \"+0.09\",\n      \"pricechangepercent\": \"0.59\",\n      \"quotetime\":
+        \"2013-05-28T19:12:48Z\",\n      \"datasource\": \"TSE data delayed by 15
+        mins\",\n      \"datasourcedisclaimerurl\": \"//www.google.com/intl/en-US/help/stock_disclaimer.html\",\n
+        \     \"pricecurrency\": \"CAD\"\n     }\n    ]\n   }\n  },\n  {\n   \"kind\":
+        \"customsearch#result\",\n   \"title\": \"AFP: Apple pitches gadget security
+        to hacker crowd - Google\",\n   \"htmlTitle\": \"AFP: \\u003cb\\u003eApple\\u003c/b\\u003e
+        pitches gadget security to hacker crowd - Google\",\n   \"link\": \"http://www.google.com/hostednews/afp/article/ALeqM5hgm4F8oornuRAQHVWjSQ8qf9MxVQ?docId=CNG.f14afb390e7dda24acd026cad5111c4b.e11\",\n
+        \  \"displayLink\": \"www.google.com\",\n   \"snippet\": \"Jul 27, 2012 ...
+        \\\"The fact you can jailbreak an iPhone points to the fact that it is not
+        rock solid.\\\"   With Apple boasting of more than 650,000 applications in
+        its ...\",\n   \"htmlSnippet\": \"Jul 27, 2012 \\u003cb\\u003e...\\u003c/b\\u003e
+        &quot;The fact you can jailbreak an iPhone points to the fact that it is not
+        \\u003cb\\u003erock\\u003c/b\\u003e solid.&quot; \\u003cbr\\u003e  With \\u003cb\\u003eApple\\u003c/b\\u003e
+        boasting of more than 650,000 applications in its \\u003cb\\u003e...\\u003c/b\\u003e\",\n
+        \  \"formattedUrl\": \"www.google.com/.../ALeqM5hgm4F8oornuRAQHVWjSQ8qf9MxVQ?...\",\n
+        \  \"htmlFormattedUrl\": \"www.google.com/.../ALeqM5hgm4F8oornuRAQHVWjSQ8qf9MxVQ?...\",\n
+        \  \"pagemap\": {\n    \"cse_image\": [\n     {\n      \"src\": \"http://www.google.com/hostednews/afp/media/ALeqM5gIoJ_YhBe9O6Fjhh2nPshyHEmf4A?docId=photo_1343333772307-2-0&size=s3\"\n
+        \    }\n    ],\n    \"cse_thumbnail\": [\n     {\n      \"width\": \"209\",\n
+        \     \"height\": \"153\",\n      \"src\": \"https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSEl5KB17sze6tWa2WCqCnX750VKBQvonlRaLl7_vNKXMvsLNQ0qJAyKPOQ\"\n
+        \    }\n    ],\n    \"metatags\": [\n     {\n      \"og:title\": \"Apple pitches
+        gadget security to hacker crowd\",\n      \"og:type\": \"article\",\n      \"og:url\":
+        \"http://www.google.com/hostednews/afp/article/ALeqM5hgm4F8oornuRAQHVWjSQ8qf9MxVQ?docId=CNG.f14afb390e7dda24acd026cad5111c4b.e11\",\n
+        \     \"og:site_name\": \"Google News\",\n      \"og:image\": \"http://www.google.com/hostednews/afp/media/ALeqM5gIoJ_YhBe9O6Fjhh2nPshyHEmf4A?docId=photo_1343333772307-2-0&size=s3\"\n
+        \    }\n    ]\n   }\n  },\n  {\n   \"kind\": \"customsearch#result\",\n   \"title\":
+        \"Patent US7479949 - Touch screen device, method, and graphical ...\",\n   \"htmlTitle\":
+        \"Patent US7479949 - Touch screen device, method, and graphical \\u003cb\\u003e...\\u003c/b\\u003e\",\n
+        \  \"link\": \"http://www.google.com/patents/US7479949\",\n   \"displayLink\":
+        \"www.google.com\",\n   \"snippet\": \"Jeremy A. Wyld. Original Assignee.
+        Apple Inc. U.S. Classification. 345/173 · 715/  786 · 715/784 ...... 43W )
+        of one individual album (e.g., “Rock” in FIG. 43W ).\",\n   \"htmlSnippet\":
+        \"Jeremy A. Wyld. Original Assignee. \\u003cb\\u003eApple\\u003c/b\\u003e
+        Inc. U.S. Classification. 345/173 &middot; 715/\\u003cbr\\u003e  786 &middot;
+        715/784 \\u003cb\\u003e......\\u003c/b\\u003e 43W ) of one individual album
+        (e.g., “\\u003cb\\u003eRock\\u003c/b\\u003e” in FIG. 43W ).\",\n   \"formattedUrl\":
+        \"www.google.com/patents/US7479949\",\n   \"htmlFormattedUrl\": \"www.google.com/patents/US7479949\",\n
+        \  \"pagemap\": {\n    \"cse_image\": [\n     {\n      \"src\": \"http://patentimages.storage.googleapis.com/thumbnails/US7479949B2/US07479949-20090120-D00016.png\"\n
+        \    }\n    ],\n    \"cse_thumbnail\": [\n     {\n      \"width\": \"71\",\n
+        \     \"height\": \"96\",\n      \"src\": \"https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS9oZriqySfKnPfJHmyHcRGskF2JfNfG_9TJ38GywjYFpSUogvWitqRew\"\n
+        \    }\n    ],\n    \"book\": [\n     {\n      \"description\": \"A computer-implemented
+        method for use in conjunction with a computing device with a touch screen
+        display comprises: detecting one or more finger contacts with the touch screen
+        display, applying...\",\n      \"url\": \"http://www.google.com/patents/US7479949?utm_source=gb-gplus-share\",\n
+        \     \"name\": \"Patent US7479949 - Touch screen device, method, and graphical
+        user interface for determining commands by applying heuristics\",\n      \"image\":
+        \"http://www.google.com/patents?id=&printsec=frontcover&img=1&zoom=1\"\n     }\n
+        \   ],\n    \"metatags\": [\n     {\n      \"og:url\": \"http://www.google.com/patents/US7479949\",\n
+        \     \"title\": \"Patent US7479949 - Touch screen device, method, and graphical
+        user interface for determining commands by applying heuristics\",\n      \"og:title\":
+        \"Patent US7479949 - Touch screen device, method, and graphical user interface
+        for determining commands by applying heuristics\",\n      \"og:type\": \"book\",\n
+        \     \"og:site_name\": \"Google Books\",\n      \"og:image\": \"http://www.google.com/patents?id=&printsec=frontcover&img=1&zoom=1\"\n
+        \    }\n    ]\n   }\n  },\n  {\n   \"kind\": \"customsearch#result\",\n   \"title\":
+        \"AFP: Core business: Genome of the apple is laid bare - Google\",\n   \"htmlTitle\":
+        \"AFP: Core business: Genome of the \\u003cb\\u003eapple\\u003c/b\\u003e is
+        laid bare - Google\",\n   \"link\": \"http://www.google.com/hostednews/afp/article/ALeqM5gHpHm6d__Cz-qmZVar_ZXViusp9w\",\n
+        \  \"displayLink\": \"www.google.com\",\n   \"snippet\": \"Aug 29, 2010 ...
+        PARIS — One of the world's most popular fruits, the apple, has been ... A
+        \  commonly-aired theory pins the blame on a space rock that whacked ...\",\n
+        \  \"htmlSnippet\": \"Aug 29, 2010 \\u003cb\\u003e...\\u003c/b\\u003e PARIS
+        — One of the world&#39;s most popular fruits, the \\u003cb\\u003eapple\\u003c/b\\u003e,
+        has been \\u003cb\\u003e...\\u003c/b\\u003e A \\u003cbr\\u003e  commonly-aired
+        theory pins the blame on a space \\u003cb\\u003erock\\u003c/b\\u003e that
+        whacked \\u003cb\\u003e...\\u003c/b\\u003e\",\n   \"formattedUrl\": \"www.google.com/.../afp/.../ALeqM5gHpHm6d__Cz-qmZVar_ZXViusp9w\",\n
+        \  \"htmlFormattedUrl\": \"www.google.com/.../afp/.../ALeqM5gHpHm6d__Cz-qmZVar_ZXViusp9w\",\n
+        \  \"pagemap\": {\n    \"cse_image\": [\n     {\n      \"src\": \"http://www.google.com/hostednews/afp/media/ALeqM5iOQ2mdLvaO0PzlvUTnM_PwNLiGng?size=s3\"\n
+        \    }\n    ],\n    \"cse_thumbnail\": [\n     {\n      \"width\": \"223\",\n
+        \     \"height\": \"144\",\n      \"src\": \"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcST3bpFC87HlnY4w29CS3DaaKf_qQSIb1IcrwLBS4i-b6irb-a73iYgf3kl\"\n
+        \    }\n    ],\n    \"metatags\": [\n     {\n      \"og:title\": \"Core business:
+        Genome of the apple is laid bare\",\n      \"og:type\": \"article\",\n      \"og:url\":
+        \"http://www.google.com/hostednews/afp/article/ALeqM5gHpHm6d__Cz-qmZVar_ZXViusp9w\",\n
+        \     \"og:site_name\": \"Google News\",\n      \"og:image\": \"http://www.google.com/hostednews/afp/media/ALeqM5iOQ2mdLvaO0PzlvUTnM_PwNLiGng?size=s3\"\n
+        \    }\n    ]\n   }\n  },\n  {\n   \"kind\": \"customsearch#result\",\n   \"title\":
+        \"Google Mobile\",\n   \"htmlTitle\": \"Google Mobile\",\n   \"link\": \"http://www.google.com/mobile/maps/\",\n
+        \  \"displayLink\": \"www.google.com\",\n   \"snippet\": \"Get turn-by-turn
+        GPS navigation to your destination. Google Maps for Android   shows you where
+        you are and gets you to where you want to go. Get free ...\",\n   \"htmlSnippet\":
+        \"Get turn-by-turn GPS navigation to your destination. Google Maps for Android
+        \\u003cbr\\u003e  shows you where you are and gets you to where you want to
+        go. Get free \\u003cb\\u003e...\\u003c/b\\u003e\",\n   \"cacheId\": \"MlOp8J2VucMJ\",\n
+        \  \"formattedUrl\": \"www.google.com/mobile/maps/\",\n   \"htmlFormattedUrl\":
+        \"www.google.com/mobile/maps/\",\n   \"pagemap\": {\n    \"cse_image\": [\n
+        \    {\n      \"src\": \"http://www.google.com/mobile/maps/images/c5.png\"\n
+        \    }\n    ],\n    \"cse_thumbnail\": [\n     {\n      \"width\": \"318\",\n
+        \     \"height\": \"158\",\n      \"src\": \"https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQOwy7uFcjejssBXX2UjV90q28Y9s0697qR_l0OmDZ5wWDjOOOHvnab2vY\"\n
+        \    }\n    ],\n    \"metatags\": [\n     {\n      \"viewport\": \"initial-scale=1,
+        minimum-scale=1, width=device-width\"\n     }\n    ]\n   }\n  },\n  {\n   \"kind\":
+        \"customsearch#result\",\n   \"title\": \"AFP: Good prognosis for Apple's
+        Jobs but questions remain - Google\",\n   \"htmlTitle\": \"AFP: Good prognosis
+        for \\u003cb\\u003eApple&#39;s\\u003c/b\\u003e Jobs but questions remain -
+        Google\",\n   \"link\": \"http://www.google.com/hostednews/afp/article/ALeqM5hzARbI7MvnlGVYQE8Fn9l6kV-Luw\",\n
+        \  \"displayLink\": \"www.google.com\",\n   \"snippet\": \"Jun 24, 2009 ...
+        WASHINGTON (AFP) — The prognosis for Apple chief executive Steve Jobs ...
+        \\\"  They're probably between a rock and a hard place on this one.\",\n   \"htmlSnippet\":
+        \"Jun 24, 2009 \\u003cb\\u003e...\\u003c/b\\u003e WASHINGTON (AFP) — The prognosis
+        for \\u003cb\\u003eApple\\u003c/b\\u003e chief executive Steve Jobs \\u003cb\\u003e...\\u003c/b\\u003e
+        &quot;\\u003cbr\\u003e  They&#39;re probably between a \\u003cb\\u003erock\\u003c/b\\u003e
+        and a hard place on this one.\",\n   \"formattedUrl\": \"www.google.com/.../afp/.../ALeqM5hzARbI7MvnlGVYQE8Fn9l6kV-Luw\",\n
+        \  \"htmlFormattedUrl\": \"www.google.com/.../afp/.../ALeqM5hzARbI7MvnlGVYQE8Fn9l6kV-Luw\",\n
+        \  \"pagemap\": {\n    \"cse_image\": [\n     {\n      \"src\": \"http://www.google.com/hostednews/afp/media/ALeqM5izydDCZvQFzQXW8qemdLqvtiw2JA?size=s3\"\n
+        \    }\n    ],\n    \"cse_thumbnail\": [\n     {\n      \"width\": \"184\",\n
+        \     \"height\": \"173\",\n      \"src\": \"https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSEKfFGEZrgy8lAwxSiXOTNM1_c0XY74Uq8I0zhb2_SZOEZLZ-dIEIA7NU\"\n
+        \    }\n    ],\n    \"metatags\": [\n     {\n      \"og:title\": \"Good prognosis
+        for Apple's Jobs but questions remain\",\n      \"og:type\": \"article\",\n
+        \     \"og:url\": \"http://www.google.com/hostednews/afp/article/ALeqM5hzARbI7MvnlGVYQE8Fn9l6kV-Luw\",\n
+        \     \"og:site_name\": \"Google News\",\n      \"og:image\": \"http://www.google.com/hostednews/afp/media/ALeqM5izydDCZvQFzQXW8qemdLqvtiw2JA?size=s3\"\n
+        \    }\n    ]\n   }\n  },\n  {\n   \"kind\": \"customsearch#result\",\n   \"title\":
+        \"20 Year Archive on Google Groups\",\n   \"htmlTitle\": \"20 Year Archive
+        on Google Groups\",\n   \"link\": \"http://www.google.com/googlegroups/archive_announce_20.html\",\n
+        \  \"displayLink\": \"www.google.com\",\n   \"snippet\": \"... of the Commodore
+        64 | -------- Aug 1982 First mention of Apple's Lisa and   Macintosh products
+        | -------- Nov 1982 Early reference to emoticons | -------- Dec   1982 ...\",\n
+        \  \"htmlSnippet\": \"\\u003cb\\u003e...\\u003c/b\\u003e of the Commodore
+        64 | -------- Aug 1982 First mention of \\u003cb\\u003eApple&#39;s\\u003c/b\\u003e
+        Lisa and \\u003cbr\\u003e  Macintosh products | -------- Nov 1982 Early reference
+        to emoticons | -------- Dec \\u003cbr\\u003e  1982 \\u003cb\\u003e...\\u003c/b\\u003e\",\n
+        \  \"cacheId\": \"OEsFXj_XbWUJ\",\n   \"formattedUrl\": \"www.google.com/googlegroups/archive_announce_20.html\",\n
+        \  \"htmlFormattedUrl\": \"www.google.com/googlegroups/archive_announce_20.html\"\n
+        \ },\n  {\n   \"kind\": \"customsearch#result\",\n   \"title\": \"Dell Inc.:
+        NASDAQ:DELL quotes & news - Google Finance\",\n   \"htmlTitle\": \"Dell Inc.:
+        NASDAQ:DELL quotes &amp; news - Google Finance\",\n   \"link\": \"http://www.google.com/finance?cid=153088\",\n
+        \  \"displayLink\": \"www.google.com\",\n   \"snippet\": \"Address. One Dell
+        Way, Round Rock ROUND ROCK, TX 78682. United States -   Map +1-800-2893355
+        (Phone) +1-302-6365454 (Fax) ...\",\n   \"htmlSnippet\": \"Address. One Dell
+        Way, Round \\u003cb\\u003eRock\\u003c/b\\u003e ROUND \\u003cb\\u003eROCK\\u003c/b\\u003e,
+        TX 78682. United States - \\u003cbr\\u003e  Map +1-800-2893355 (Phone) +1-302-6365454
+        (Fax) \\u003cb\\u003e...\\u003c/b\\u003e\",\n   \"cacheId\": \"cGI79d5qWKQJ\",\n
+        \  \"formattedUrl\": \"www.google.com/finance?cid=153088\",\n   \"htmlFormattedUrl\":
+        \"www.google.com/finance?cid=153088\",\n   \"pagemap\": {\n    \"financialquote\":
+        [\n     {\n      \"name\": \"Dell Inc.\",\n      \"url\": \"https://www.google.com/finance?cid=153088\",\n
+        \     \"imageurl\": \"https://www.google.com/finance/chart?cht=g&q=NASDAQ:DELL&tkr=1&p=1d&enddatetime=2013-05-30T14:57:17Z\",\n
+        \     \"tickersymbol\": \"DELL\",\n      \"exchange\": \"NASDAQ\",\n      \"exchangetimezone\":
+        \"America/New_York\",\n      \"price\": \"13.35\",\n      \"pricechange\":
+        \"-0.01\",\n      \"pricechangepercent\": \"-0.07\",\n      \"quotetime\":
+        \"2013-05-30T14:57:17Z\",\n      \"datasource\": \"NASDAQ real-time data\",\n
+        \     \"datasourcedisclaimerurl\": \"//www.google.com/help/stock_disclaimer.html#realtime\",\n
+        \     \"pricecurrency\": \"USD\"\n     }\n    ]\n   }\n  }\n ]\n}\n"
+    http_version: 
+  recorded_at: Fri, 31 May 2013 03:15:44 GMT
+- request:
+    method: get
+    uri: https://www.googleapis.com/customsearch/v1?cx=<GOGGLE SEARCH ENGINE ID>&key=<GOGGLE
+      APP ID>&num=10&q=apple%20rocks
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: !binary |-
+        T0s=
+    headers:
+      !binary "RXhwaXJlcw==":
+      - !binary |-
+        RnJpLCAzMSBNYXkgMjAxMyAwMzoxNTo0NCBHTVQ=
+      !binary "RGF0ZQ==":
+      - !binary |-
+        RnJpLCAzMSBNYXkgMjAxMyAwMzoxNTo0NCBHTVQ=
+      !binary "Q2FjaGUtQ29udHJvbA==":
+      - !binary |-
+        cHJpdmF0ZSwgbWF4LWFnZT0wLCBtdXN0LXJldmFsaWRhdGUsIG5vLXRyYW5z
+        Zm9ybQ==
+      !binary "RXRhZw==":
+      - !binary |-
+        InpLQUdsTDB0WFBCR2dvQ0dpMFJsdXBmLS1CWS84M1BxVUNnZHNBS0prWXl0
+        c2YzbGc0UF9GT00i
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        YXBwbGljYXRpb24vanNvbjsgY2hhcnNldD1VVEYtOA==
+      !binary "WC1Db250ZW50LVR5cGUtT3B0aW9ucw==":
+      - !binary |-
+        bm9zbmlmZg==
+      !binary "WC1GcmFtZS1PcHRpb25z":
+      - !binary |-
+        U0FNRU9SSUdJTg==
+      !binary "WC1Yc3MtUHJvdGVjdGlvbg==":
+      - !binary |-
+        MTsgbW9kZT1ibG9jaw==
+      !binary "U2VydmVy":
+      - !binary |-
+        R1NF
+      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
+      - !binary |-
+        Y2h1bmtlZA==
+    body:
+      encoding: UTF-8
+      string: ! "{\n \"kind\": \"customsearch#search\",\n \"url\": {\n  \"type\":
+        \"application/json\",\n  \"template\": \"https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&cref={cref?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&relatedSite={relatedSite?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json\"\n
+        },\n \"queries\": {\n  \"nextPage\": [\n   {\n    \"title\": \"Google Custom
+        Search - apple rocks\",\n    \"totalResults\": \"524000\",\n    \"searchTerms\":
+        \"apple rocks\",\n    \"count\": 10,\n    \"startIndex\": 11,\n    \"inputEncoding\":
+        \"utf8\",\n    \"outputEncoding\": \"utf8\",\n    \"safe\": \"off\",\n    \"cx\":
+        \"<GOGGLE SEARCH ENGINE ID>\"\n   }\n  ],\n  \"request\": [\n   {\n    \"title\":
+        \"Google Custom Search - apple rocks\",\n    \"totalResults\": \"524000\",\n
+        \   \"searchTerms\": \"apple rocks\",\n    \"count\": 10,\n    \"startIndex\":
+        1,\n    \"inputEncoding\": \"utf8\",\n    \"outputEncoding\": \"utf8\",\n
+        \   \"safe\": \"off\",\n    \"cx\": \"<GOGGLE SEARCH ENGINE ID>\"\n   }\n
+        \ ]\n },\n \"context\": {\n  \"title\": \"Google\"\n },\n \"searchInformation\":
+        {\n  \"searchTime\": 0.256726,\n  \"formattedSearchTime\": \"0.26\",\n  \"totalResults\":
+        \"524000\",\n  \"formattedTotalResults\": \"524,000\"\n },\n \"items\": [\n
+        \ {\n   \"kind\": \"customsearch#result\",\n   \"title\": \"Google Gadgets
+        For Your Webpage\",\n   \"htmlTitle\": \"Google Gadgets For Your Webpage\",\n
+        \  \"link\": \"http://www.google.com/ig/directory?synd=open&q=MP3+player\",\n
+        \  \"displayLink\": \"www.google.com\",\n   \"snippet\": \"Results 1 - 24
+        of 359 ... This includes all types of music including rap, hip hop, rock,
+        metal, jazz, ... This   gadget contains Keyword,apple,apple support,apple
+        mac ...\",\n   \"htmlSnippet\": \"Results 1 - 24 of 359 \\u003cb\\u003e...\\u003c/b\\u003e
+        This includes all types of music including rap, hip hop, \\u003cb\\u003erock\\u003c/b\\u003e,
+        metal, jazz, \\u003cb\\u003e...\\u003c/b\\u003e This \\u003cbr\\u003e  gadget
+        contains Keyword,\\u003cb\\u003eapple\\u003c/b\\u003e,\\u003cb\\u003eapple\\u003c/b\\u003e
+        support,\\u003cb\\u003eapple\\u003c/b\\u003e mac \\u003cb\\u003e...\\u003c/b\\u003e\",\n
+        \  \"cacheId\": \"Ch3t0V_o0e8J\",\n   \"formattedUrl\": \"www.google.com/ig/directory?synd=open&q=MP3+player\",\n
+        \  \"htmlFormattedUrl\": \"www.google.com/ig/directory?synd=open&amp;q=MP3+player\"\n
+        \ },\n  {\n   \"kind\": \"customsearch#result\",\n   \"title\": \"Big Rock
+        Brewery Inc (USA): OTCMKTS:BRBMF quotes & news ...\",\n   \"htmlTitle\": \"Big
+        \\u003cb\\u003eRock\\u003c/b\\u003e Brewery Inc (USA): OTCMKTS:BRBMF quotes
+        &amp; news \\u003cb\\u003e...\\u003c/b\\u003e\",\n   \"link\": \"http://www.google.com/finance?cid=655746\",\n
+        \  \"displayLink\": \"www.google.com\",\n   \"snippet\": \"As of December
+        30, 2011, Big Rock boasts a family of 12 ales and lagers, Rock   Creek dry
+        apple cider, as well as an ongoing selection of seasonal beers.\",\n   \"htmlSnippet\":
+        \"As of December 30, 2011, Big \\u003cb\\u003eRock\\u003c/b\\u003e boasts
+        a family of 12 ales and lagers, \\u003cb\\u003eRock\\u003c/b\\u003e \\u003cbr\\u003e
+        \ Creek dry \\u003cb\\u003eapple\\u003c/b\\u003e cider, as well as an ongoing
+        selection of seasonal beers.\",\n   \"cacheId\": \"rhS0kowspyAJ\",\n   \"formattedUrl\":
+        \"www.google.com/finance?cid=655746\",\n   \"htmlFormattedUrl\": \"www.google.com/finance?cid=655746\",\n
+        \  \"pagemap\": {\n    \"financialquote\": [\n     {\n      \"name\": \"Big
+        Rock Brewery Inc (USA)\",\n      \"url\": \"https://www.google.com/finance?cid=655746\",\n
+        \     \"imageurl\": \"https://www.google.com/finance/chart?cht=g&q=OTCMKTS:BRBMF&tkr=1&p=1d&enddatetime=2013-05-24T18:51:59Z\",\n
+        \     \"tickersymbol\": \"BRBMF\",\n      \"exchange\": \"OTCMKTS\",\n      \"exchangetimezone\":
+        \"America/New_York\",\n      \"price\": \"14.77\",\n      \"pricechange\":
+        \"+0.11\",\n      \"pricechangepercent\": \"0.78\",\n      \"quotetime\":
+        \"2013-05-24T18:51:59Z\",\n      \"datasource\": \"OTCMKTS data delayed by
+        15 mins\",\n      \"datasourcedisclaimerurl\": \"//www.google.com/intl/en-US/help/stock_disclaimer.html\",\n
+        \     \"pricecurrency\": \"USD\"\n     }\n    ]\n   }\n  },\n  {\n   \"kind\":
+        \"customsearch#result\",\n   \"title\": \"Big Rock Brewery Inc: TSE:BR quotes
+        & news - Google Finance\",\n   \"htmlTitle\": \"Big \\u003cb\\u003eRock\\u003c/b\\u003e
+        Brewery Inc: TSE:BR quotes &amp; news - Google Finance\",\n   \"link\": \"http://www.google.com/finance?cid=675033\",\n
+        \  \"displayLink\": \"www.google.com\",\n   \"snippet\": \"As of December
+        30, 2011, Big Rock boasts a family of 12 ales and lagers, Rock   Creek dry
+        apple cider, as well as an ongoing selection of seasonal beers.\",\n   \"htmlSnippet\":
+        \"As of December 30, 2011, Big \\u003cb\\u003eRock\\u003c/b\\u003e boasts
+        a family of 12 ales and lagers, \\u003cb\\u003eRock\\u003c/b\\u003e \\u003cbr\\u003e
+        \ Creek dry \\u003cb\\u003eapple\\u003c/b\\u003e cider, as well as an ongoing
+        selection of seasonal beers.\",\n   \"cacheId\": \"R6TjvsZVlIsJ\",\n   \"formattedUrl\":
+        \"www.google.com/finance?cid=675033\",\n   \"htmlFormattedUrl\": \"www.google.com/finance?cid=675033\",\n
+        \  \"pagemap\": {\n    \"financialquote\": [\n     {\n      \"name\": \"Big
+        Rock Brewery Inc\",\n      \"url\": \"https://www.google.com/finance?cid=675033\",\n
+        \     \"imageurl\": \"https://www.google.com/finance/chart?cht=g&q=TSE:BR&tkr=1&p=1d&enddatetime=2013-05-28T19:12:48Z\",\n
+        \     \"tickersymbol\": \"BR\",\n      \"exchange\": \"TSE\",\n      \"exchangetimezone\":
+        \"America/Toronto\",\n      \"price\": \"15.25\",\n      \"pricechange\":
+        \"+0.09\",\n      \"pricechangepercent\": \"0.59\",\n      \"quotetime\":
+        \"2013-05-28T19:12:48Z\",\n      \"datasource\": \"TSE data delayed by 15
+        mins\",\n      \"datasourcedisclaimerurl\": \"//www.google.com/intl/en-US/help/stock_disclaimer.html\",\n
+        \     \"pricecurrency\": \"CAD\"\n     }\n    ]\n   }\n  },\n  {\n   \"kind\":
+        \"customsearch#result\",\n   \"title\": \"AFP: Apple pitches gadget security
+        to hacker crowd - Google\",\n   \"htmlTitle\": \"AFP: \\u003cb\\u003eApple\\u003c/b\\u003e
+        pitches gadget security to hacker crowd - Google\",\n   \"link\": \"http://www.google.com/hostednews/afp/article/ALeqM5hgm4F8oornuRAQHVWjSQ8qf9MxVQ?docId=CNG.f14afb390e7dda24acd026cad5111c4b.e11\",\n
+        \  \"displayLink\": \"www.google.com\",\n   \"snippet\": \"Jul 27, 2012 ...
+        \\\"The fact you can jailbreak an iPhone points to the fact that it is not
+        rock solid.\\\"   With Apple boasting of more than 650,000 applications in
+        its ...\",\n   \"htmlSnippet\": \"Jul 27, 2012 \\u003cb\\u003e...\\u003c/b\\u003e
+        &quot;The fact you can jailbreak an iPhone points to the fact that it is not
+        \\u003cb\\u003erock\\u003c/b\\u003e solid.&quot; \\u003cbr\\u003e  With \\u003cb\\u003eApple\\u003c/b\\u003e
+        boasting of more than 650,000 applications in its \\u003cb\\u003e...\\u003c/b\\u003e\",\n
+        \  \"formattedUrl\": \"www.google.com/.../ALeqM5hgm4F8oornuRAQHVWjSQ8qf9MxVQ?...\",\n
+        \  \"htmlFormattedUrl\": \"www.google.com/.../ALeqM5hgm4F8oornuRAQHVWjSQ8qf9MxVQ?...\",\n
+        \  \"pagemap\": {\n    \"cse_image\": [\n     {\n      \"src\": \"http://www.google.com/hostednews/afp/media/ALeqM5gIoJ_YhBe9O6Fjhh2nPshyHEmf4A?docId=photo_1343333772307-2-0&size=s3\"\n
+        \    }\n    ],\n    \"cse_thumbnail\": [\n     {\n      \"width\": \"209\",\n
+        \     \"height\": \"153\",\n      \"src\": \"https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSEl5KB17sze6tWa2WCqCnX750VKBQvonlRaLl7_vNKXMvsLNQ0qJAyKPOQ\"\n
+        \    }\n    ],\n    \"metatags\": [\n     {\n      \"og:title\": \"Apple pitches
+        gadget security to hacker crowd\",\n      \"og:type\": \"article\",\n      \"og:url\":
+        \"http://www.google.com/hostednews/afp/article/ALeqM5hgm4F8oornuRAQHVWjSQ8qf9MxVQ?docId=CNG.f14afb390e7dda24acd026cad5111c4b.e11\",\n
+        \     \"og:site_name\": \"Google News\",\n      \"og:image\": \"http://www.google.com/hostednews/afp/media/ALeqM5gIoJ_YhBe9O6Fjhh2nPshyHEmf4A?docId=photo_1343333772307-2-0&size=s3\"\n
+        \    }\n    ]\n   }\n  },\n  {\n   \"kind\": \"customsearch#result\",\n   \"title\":
+        \"Patent US7479949 - Touch screen device, method, and graphical ...\",\n   \"htmlTitle\":
+        \"Patent US7479949 - Touch screen device, method, and graphical \\u003cb\\u003e...\\u003c/b\\u003e\",\n
+        \  \"link\": \"http://www.google.com/patents/US7479949\",\n   \"displayLink\":
+        \"www.google.com\",\n   \"snippet\": \"Jeremy A. Wyld. Original Assignee.
+        Apple Inc. U.S. Classification. 345/173 · 715/  786 · 715/784 ...... 43W )
+        of one individual album (e.g., “Rock” in FIG. 43W ).\",\n   \"htmlSnippet\":
+        \"Jeremy A. Wyld. Original Assignee. \\u003cb\\u003eApple\\u003c/b\\u003e
+        Inc. U.S. Classification. 345/173 &middot; 715/\\u003cbr\\u003e  786 &middot;
+        715/784 \\u003cb\\u003e......\\u003c/b\\u003e 43W ) of one individual album
+        (e.g., “\\u003cb\\u003eRock\\u003c/b\\u003e” in FIG. 43W ).\",\n   \"formattedUrl\":
+        \"www.google.com/patents/US7479949\",\n   \"htmlFormattedUrl\": \"www.google.com/patents/US7479949\",\n
+        \  \"pagemap\": {\n    \"cse_image\": [\n     {\n      \"src\": \"http://patentimages.storage.googleapis.com/thumbnails/US7479949B2/US07479949-20090120-D00016.png\"\n
+        \    }\n    ],\n    \"cse_thumbnail\": [\n     {\n      \"width\": \"71\",\n
+        \     \"height\": \"96\",\n      \"src\": \"https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS9oZriqySfKnPfJHmyHcRGskF2JfNfG_9TJ38GywjYFpSUogvWitqRew\"\n
+        \    }\n    ],\n    \"book\": [\n     {\n      \"description\": \"A computer-implemented
+        method for use in conjunction with a computing device with a touch screen
+        display comprises: detecting one or more finger contacts with the touch screen
+        display, applying...\",\n      \"url\": \"http://www.google.com/patents/US7479949?utm_source=gb-gplus-share\",\n
+        \     \"name\": \"Patent US7479949 - Touch screen device, method, and graphical
+        user interface for determining commands by applying heuristics\",\n      \"image\":
+        \"http://www.google.com/patents?id=&printsec=frontcover&img=1&zoom=1\"\n     }\n
+        \   ],\n    \"metatags\": [\n     {\n      \"og:url\": \"http://www.google.com/patents/US7479949\",\n
+        \     \"title\": \"Patent US7479949 - Touch screen device, method, and graphical
+        user interface for determining commands by applying heuristics\",\n      \"og:title\":
+        \"Patent US7479949 - Touch screen device, method, and graphical user interface
+        for determining commands by applying heuristics\",\n      \"og:type\": \"book\",\n
+        \     \"og:site_name\": \"Google Books\",\n      \"og:image\": \"http://www.google.com/patents?id=&printsec=frontcover&img=1&zoom=1\"\n
+        \    }\n    ]\n   }\n  },\n  {\n   \"kind\": \"customsearch#result\",\n   \"title\":
+        \"AFP: Core business: Genome of the apple is laid bare - Google\",\n   \"htmlTitle\":
+        \"AFP: Core business: Genome of the \\u003cb\\u003eapple\\u003c/b\\u003e is
+        laid bare - Google\",\n   \"link\": \"http://www.google.com/hostednews/afp/article/ALeqM5gHpHm6d__Cz-qmZVar_ZXViusp9w\",\n
+        \  \"displayLink\": \"www.google.com\",\n   \"snippet\": \"Aug 29, 2010 ...
+        PARIS — One of the world's most popular fruits, the apple, has been ... A
+        \  commonly-aired theory pins the blame on a space rock that whacked ...\",\n
+        \  \"htmlSnippet\": \"Aug 29, 2010 \\u003cb\\u003e...\\u003c/b\\u003e PARIS
+        — One of the world&#39;s most popular fruits, the \\u003cb\\u003eapple\\u003c/b\\u003e,
+        has been \\u003cb\\u003e...\\u003c/b\\u003e A \\u003cbr\\u003e  commonly-aired
+        theory pins the blame on a space \\u003cb\\u003erock\\u003c/b\\u003e that
+        whacked \\u003cb\\u003e...\\u003c/b\\u003e\",\n   \"formattedUrl\": \"www.google.com/.../afp/.../ALeqM5gHpHm6d__Cz-qmZVar_ZXViusp9w\",\n
+        \  \"htmlFormattedUrl\": \"www.google.com/.../afp/.../ALeqM5gHpHm6d__Cz-qmZVar_ZXViusp9w\",\n
+        \  \"pagemap\": {\n    \"cse_image\": [\n     {\n      \"src\": \"http://www.google.com/hostednews/afp/media/ALeqM5iOQ2mdLvaO0PzlvUTnM_PwNLiGng?size=s3\"\n
+        \    }\n    ],\n    \"cse_thumbnail\": [\n     {\n      \"width\": \"223\",\n
+        \     \"height\": \"144\",\n      \"src\": \"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcST3bpFC87HlnY4w29CS3DaaKf_qQSIb1IcrwLBS4i-b6irb-a73iYgf3kl\"\n
+        \    }\n    ],\n    \"metatags\": [\n     {\n      \"og:title\": \"Core business:
+        Genome of the apple is laid bare\",\n      \"og:type\": \"article\",\n      \"og:url\":
+        \"http://www.google.com/hostednews/afp/article/ALeqM5gHpHm6d__Cz-qmZVar_ZXViusp9w\",\n
+        \     \"og:site_name\": \"Google News\",\n      \"og:image\": \"http://www.google.com/hostednews/afp/media/ALeqM5iOQ2mdLvaO0PzlvUTnM_PwNLiGng?size=s3\"\n
+        \    }\n    ]\n   }\n  },\n  {\n   \"kind\": \"customsearch#result\",\n   \"title\":
+        \"Google Mobile\",\n   \"htmlTitle\": \"Google Mobile\",\n   \"link\": \"http://www.google.com/mobile/maps/\",\n
+        \  \"displayLink\": \"www.google.com\",\n   \"snippet\": \"Get turn-by-turn
+        GPS navigation to your destination. Google Maps for Android   shows you where
+        you are and gets you to where you want to go. Get free ...\",\n   \"htmlSnippet\":
+        \"Get turn-by-turn GPS navigation to your destination. Google Maps for Android
+        \\u003cbr\\u003e  shows you where you are and gets you to where you want to
+        go. Get free \\u003cb\\u003e...\\u003c/b\\u003e\",\n   \"cacheId\": \"MlOp8J2VucMJ\",\n
+        \  \"formattedUrl\": \"www.google.com/mobile/maps/\",\n   \"htmlFormattedUrl\":
+        \"www.google.com/mobile/maps/\",\n   \"pagemap\": {\n    \"cse_image\": [\n
+        \    {\n      \"src\": \"http://www.google.com/mobile/maps/images/c5.png\"\n
+        \    }\n    ],\n    \"cse_thumbnail\": [\n     {\n      \"width\": \"318\",\n
+        \     \"height\": \"158\",\n      \"src\": \"https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQOwy7uFcjejssBXX2UjV90q28Y9s0697qR_l0OmDZ5wWDjOOOHvnab2vY\"\n
+        \    }\n    ],\n    \"metatags\": [\n     {\n      \"viewport\": \"initial-scale=1,
+        minimum-scale=1, width=device-width\"\n     }\n    ]\n   }\n  },\n  {\n   \"kind\":
+        \"customsearch#result\",\n   \"title\": \"AFP: Good prognosis for Apple's
+        Jobs but questions remain - Google\",\n   \"htmlTitle\": \"AFP: Good prognosis
+        for \\u003cb\\u003eApple&#39;s\\u003c/b\\u003e Jobs but questions remain -
+        Google\",\n   \"link\": \"http://www.google.com/hostednews/afp/article/ALeqM5hzARbI7MvnlGVYQE8Fn9l6kV-Luw\",\n
+        \  \"displayLink\": \"www.google.com\",\n   \"snippet\": \"Jun 24, 2009 ...
+        WASHINGTON (AFP) — The prognosis for Apple chief executive Steve Jobs ...
+        \\\"  They're probably between a rock and a hard place on this one.\",\n   \"htmlSnippet\":
+        \"Jun 24, 2009 \\u003cb\\u003e...\\u003c/b\\u003e WASHINGTON (AFP) — The prognosis
+        for \\u003cb\\u003eApple\\u003c/b\\u003e chief executive Steve Jobs \\u003cb\\u003e...\\u003c/b\\u003e
+        &quot;\\u003cbr\\u003e  They&#39;re probably between a \\u003cb\\u003erock\\u003c/b\\u003e
+        and a hard place on this one.\",\n   \"formattedUrl\": \"www.google.com/.../afp/.../ALeqM5hzARbI7MvnlGVYQE8Fn9l6kV-Luw\",\n
+        \  \"htmlFormattedUrl\": \"www.google.com/.../afp/.../ALeqM5hzARbI7MvnlGVYQE8Fn9l6kV-Luw\",\n
+        \  \"pagemap\": {\n    \"cse_image\": [\n     {\n      \"src\": \"http://www.google.com/hostednews/afp/media/ALeqM5izydDCZvQFzQXW8qemdLqvtiw2JA?size=s3\"\n
+        \    }\n    ],\n    \"cse_thumbnail\": [\n     {\n      \"width\": \"184\",\n
+        \     \"height\": \"173\",\n      \"src\": \"https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSEKfFGEZrgy8lAwxSiXOTNM1_c0XY74Uq8I0zhb2_SZOEZLZ-dIEIA7NU\"\n
+        \    }\n    ],\n    \"metatags\": [\n     {\n      \"og:title\": \"Good prognosis
+        for Apple's Jobs but questions remain\",\n      \"og:type\": \"article\",\n
+        \     \"og:url\": \"http://www.google.com/hostednews/afp/article/ALeqM5hzARbI7MvnlGVYQE8Fn9l6kV-Luw\",\n
+        \     \"og:site_name\": \"Google News\",\n      \"og:image\": \"http://www.google.com/hostednews/afp/media/ALeqM5izydDCZvQFzQXW8qemdLqvtiw2JA?size=s3\"\n
+        \    }\n    ]\n   }\n  },\n  {\n   \"kind\": \"customsearch#result\",\n   \"title\":
+        \"20 Year Archive on Google Groups\",\n   \"htmlTitle\": \"20 Year Archive
+        on Google Groups\",\n   \"link\": \"http://www.google.com/googlegroups/archive_announce_20.html\",\n
+        \  \"displayLink\": \"www.google.com\",\n   \"snippet\": \"... of the Commodore
+        64 | -------- Aug 1982 First mention of Apple's Lisa and   Macintosh products
+        | -------- Nov 1982 Early reference to emoticons | -------- Dec   1982 ...\",\n
+        \  \"htmlSnippet\": \"\\u003cb\\u003e...\\u003c/b\\u003e of the Commodore
+        64 | -------- Aug 1982 First mention of \\u003cb\\u003eApple&#39;s\\u003c/b\\u003e
+        Lisa and \\u003cbr\\u003e  Macintosh products | -------- Nov 1982 Early reference
+        to emoticons | -------- Dec \\u003cbr\\u003e  1982 \\u003cb\\u003e...\\u003c/b\\u003e\",\n
+        \  \"cacheId\": \"OEsFXj_XbWUJ\",\n   \"formattedUrl\": \"www.google.com/googlegroups/archive_announce_20.html\",\n
+        \  \"htmlFormattedUrl\": \"www.google.com/googlegroups/archive_announce_20.html\"\n
+        \ },\n  {\n   \"kind\": \"customsearch#result\",\n   \"title\": \"Dell Inc.:
+        NASDAQ:DELL quotes & news - Google Finance\",\n   \"htmlTitle\": \"Dell Inc.:
+        NASDAQ:DELL quotes &amp; news - Google Finance\",\n   \"link\": \"http://www.google.com/finance?cid=153088\",\n
+        \  \"displayLink\": \"www.google.com\",\n   \"snippet\": \"Address. One Dell
+        Way, Round Rock ROUND ROCK, TX 78682. United States -   Map +1-800-2893355
+        (Phone) +1-302-6365454 (Fax) ...\",\n   \"htmlSnippet\": \"Address. One Dell
+        Way, Round \\u003cb\\u003eRock\\u003c/b\\u003e ROUND \\u003cb\\u003eROCK\\u003c/b\\u003e,
+        TX 78682. United States - \\u003cbr\\u003e  Map +1-800-2893355 (Phone) +1-302-6365454
+        (Fax) \\u003cb\\u003e...\\u003c/b\\u003e\",\n   \"cacheId\": \"cGI79d5qWKQJ\",\n
+        \  \"formattedUrl\": \"www.google.com/finance?cid=153088\",\n   \"htmlFormattedUrl\":
+        \"www.google.com/finance?cid=153088\",\n   \"pagemap\": {\n    \"financialquote\":
+        [\n     {\n      \"name\": \"Dell Inc.\",\n      \"url\": \"https://www.google.com/finance?cid=153088\",\n
+        \     \"imageurl\": \"https://www.google.com/finance/chart?cht=g&q=NASDAQ:DELL&tkr=1&p=1d&enddatetime=2013-05-30T14:57:17Z\",\n
+        \     \"tickersymbol\": \"DELL\",\n      \"exchange\": \"NASDAQ\",\n      \"exchangetimezone\":
+        \"America/New_York\",\n      \"price\": \"13.35\",\n      \"pricechange\":
+        \"-0.01\",\n      \"pricechangepercent\": \"-0.07\",\n      \"quotetime\":
+        \"2013-05-30T14:57:17Z\",\n      \"datasource\": \"NASDAQ real-time data\",\n
+        \     \"datasourcedisclaimerurl\": \"//www.google.com/help/stock_disclaimer.html#realtime\",\n
+        \     \"pricecurrency\": \"USD\"\n     }\n    ]\n   }\n  }\n ]\n}\n"
+    http_version: 
+  recorded_at: Fri, 31 May 2013 03:15:44 GMT
+- request:
+    method: get
+    uri: https://www.googleapis.com/customsearch/v1?cx=<GOGGLE SEARCH ENGINE ID>&key=<GOGGLE
+      APP ID>&num=10&q=apple%20sucks
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: !binary |-
+        T0s=
+    headers:
+      !binary "RXhwaXJlcw==":
+      - !binary |-
+        RnJpLCAzMSBNYXkgMjAxMyAwMzoxNTo0NSBHTVQ=
+      !binary "RGF0ZQ==":
+      - !binary |-
+        RnJpLCAzMSBNYXkgMjAxMyAwMzoxNTo0NSBHTVQ=
+      !binary "Q2FjaGUtQ29udHJvbA==":
+      - !binary |-
+        cHJpdmF0ZSwgbWF4LWFnZT0wLCBtdXN0LXJldmFsaWRhdGUsIG5vLXRyYW5z
+        Zm9ybQ==
+      !binary "RXRhZw==":
+      - !binary |-
+        InpLQUdsTDB0WFBCR2dvQ0dpMFJsdXBmLS1CWS9LZ3d4QmFkOWZURW9sTzRX
+        QXQtZk45Q1RtTkki
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        YXBwbGljYXRpb24vanNvbjsgY2hhcnNldD1VVEYtOA==
+      !binary "WC1Db250ZW50LVR5cGUtT3B0aW9ucw==":
+      - !binary |-
+        bm9zbmlmZg==
+      !binary "WC1GcmFtZS1PcHRpb25z":
+      - !binary |-
+        U0FNRU9SSUdJTg==
+      !binary "WC1Yc3MtUHJvdGVjdGlvbg==":
+      - !binary |-
+        MTsgbW9kZT1ibG9jaw==
+      !binary "U2VydmVy":
+      - !binary |-
+        R1NF
+      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
+      - !binary |-
+        Y2h1bmtlZA==
+    body:
+      encoding: UTF-8
+      string: ! "{\n \"kind\": \"customsearch#search\",\n \"url\": {\n  \"type\":
+        \"application/json\",\n  \"template\": \"https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&cref={cref?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&relatedSite={relatedSite?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json\"\n
+        },\n \"queries\": {\n  \"nextPage\": [\n   {\n    \"title\": \"Google Custom
+        Search - apple sucks\",\n    \"totalResults\": \"117000\",\n    \"searchTerms\":
+        \"apple sucks\",\n    \"count\": 10,\n    \"startIndex\": 11,\n    \"inputEncoding\":
+        \"utf8\",\n    \"outputEncoding\": \"utf8\",\n    \"safe\": \"off\",\n    \"cx\":
+        \"<GOGGLE SEARCH ENGINE ID>\"\n   }\n  ],\n  \"request\": [\n   {\n    \"title\":
+        \"Google Custom Search - apple sucks\",\n    \"totalResults\": \"117000\",\n
+        \   \"searchTerms\": \"apple sucks\",\n    \"count\": 10,\n    \"startIndex\":
+        1,\n    \"inputEncoding\": \"utf8\",\n    \"outputEncoding\": \"utf8\",\n
+        \   \"safe\": \"off\",\n    \"cx\": \"<GOGGLE SEARCH ENGINE ID>\"\n   }\n
+        \ ]\n },\n \"context\": {\n  \"title\": \"Google\"\n },\n \"searchInformation\":
+        {\n  \"searchTime\": 0.477748,\n  \"formattedSearchTime\": \"0.48\",\n  \"totalResults\":
+        \"117000\",\n  \"formattedTotalResults\": \"117,000\"\n },\n \"items\": [\n
+        \ {\n   \"kind\": \"customsearch#result\",\n   \"title\": \"AFP: Apple's Jobs
+        involved in iPhone prototype search - Google\",\n   \"htmlTitle\": \"AFP:
+        \\u003cb\\u003eApple&#39;s\\u003c/b\\u003e Jobs involved in iPhone prototype
+        search - Google\",\n   \"link\": \"http://www.google.com/hostednews/afp/article/ALeqM5gKxeKNxNjMkGCVUTC2cZn6giJtEw\",\n
+        \  \"displayLink\": \"www.google.com\",\n   \"snippet\": \"May 14, 2010 ...
+        Apple's Jobs involved in iPhone prototype search ... WASHINGTON — Apple   chief
+        executive Steve Jobs personally contacted ... \\\"Sucks for him.\",\n   \"htmlSnippet\":
+        \"May 14, 2010 \\u003cb\\u003e...\\u003c/b\\u003e \\u003cb\\u003eApple&#39;s\\u003c/b\\u003e
+        Jobs involved in iPhone prototype search \\u003cb\\u003e...\\u003c/b\\u003e
+        WASHINGTON — \\u003cb\\u003eApple\\u003c/b\\u003e \\u003cbr\\u003e  chief
+        executive Steve Jobs personally contacted \\u003cb\\u003e...\\u003c/b\\u003e
+        &quot;\\u003cb\\u003eSucks\\u003c/b\\u003e for him.\",\n   \"formattedUrl\":
+        \"www.google.com/.../afp/.../ALeqM5gKxeKNxNjMkGCVUTC2cZn6giJtEw\",\n   \"htmlFormattedUrl\":
+        \"www.google.com/.../afp/.../ALeqM5gKxeKNxNjMkGCVUTC2cZn6giJtEw\",\n   \"pagemap\":
+        {\n    \"cse_image\": [\n     {\n      \"src\": \"http://www.google.com/hostednews/afp/media/ALeqM5hFxLxu3_0t6kGYLgu0ArQCk16GAQ?size=s3\"\n
+        \    }\n    ],\n    \"cse_thumbnail\": [\n     {\n      \"width\": \"212\",\n
+        \     \"height\": \"151\",\n      \"src\": \"https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ9SPuBoAPWoyJ0s6KDfgpm1OdxvJxoBjPQTxIUM6vXQ2jVG846M8EdmjI\"\n
+        \    }\n    ],\n    \"metatags\": [\n     {\n      \"og:title\": \"Apple's
+        Jobs involved in iPhone prototype search\",\n      \"og:type\": \"article\",\n
+        \     \"og:url\": \"http://www.google.com/hostednews/afp/article/ALeqM5gKxeKNxNjMkGCVUTC2cZn6giJtEw\",\n
+        \     \"og:site_name\": \"Google News\",\n      \"og:image\": \"http://www.google.com/hostednews/afp/media/ALeqM5hFxLxu3_0t6kGYLgu0ArQCk16GAQ?size=s3\"\n
+        \    }\n    ]\n   }\n  },\n  {\n   \"kind\": \"customsearch#result\",\n   \"title\":
+        \"Sony | Vaio - Add to your homepage - Google\",\n   \"htmlTitle\": \"Sony
+        | Vaio - Add to your homepage - Google\",\n   \"link\": \"http://www.google.com/ig/directory?type=themes&url=www.learningcenter.sony.us/assets/iGoogle/VaioTheme.xml\",\n
+        \  \"displayLink\": \"www.google.com\",\n   \"snippet\": \"i keep changing
+        the theme and it keeps coming back to the sony theme. this   really sucks.
+        I wander Jordan Christopher - Apr 12, 2012 - Report this comment ...\",\n
+        \  \"htmlSnippet\": \"i keep changing the theme and it keeps coming back to
+        the sony theme. this \\u003cbr\\u003e  really \\u003cb\\u003esucks\\u003c/b\\u003e.
+        I wander Jordan Christopher - Apr 12, 2012 - Report this comment \\u003cb\\u003e...\\u003c/b\\u003e\",\n
+        \  \"cacheId\": \"nTH7r8bRorkJ\",\n   \"formattedUrl\": \"www.google.com/ig/directory?type=themes&url=www...us/...\",\n
+        \  \"htmlFormattedUrl\": \"www.google.com/ig/directory?type=themes&amp;url=www...us/...\",\n
+        \  \"pagemap\": {\n    \"product\": [\n     {\n      \"image\": \"http://igoogle-skins.googleusercontent.com/ig/skin_fetch?type=2&sfkey=http://www.learningcenter.sony.us/assets/iGoogle/img/VAIO_thumbnail.jpg\",\n
+        \     \"description\": \"Sony Vaio theme\"\n     }\n    ]\n   }\n  },\n  {\n
+        \  \"kind\": \"customsearch#result\",\n   \"title\": \"Free iTunes Store Downloads
+        - Add to your homepage - Google\",\n   \"htmlTitle\": \"Free iTunes Store
+        Downloads - Add to your homepage - Google\",\n   \"link\": \"http://www.google.com/ig/directory?type=gadgets&url=freeitunessongs.blogspot.com/atom.xml\",\n
+        \  \"displayLink\": \"www.google.com\",\n   \"snippet\": \"richardriner@ymail.com
+        - May 17, 2011. gadgets sucks Maximo Andres-Miguel -   Jan 2, 2011. Anonymous
+        - Aug 2, 2009. - Stephen Tatasciore - Jan 22, 2009 ...\",\n   \"htmlSnippet\":
+        \"richardriner@ymail.com - May 17, 2011. gadgets \\u003cb\\u003esucks\\u003c/b\\u003e
+        Maximo Andres-Miguel - \\u003cbr\\u003e  Jan 2, 2011. Anonymous - Aug 2, 2009.
+        - Stephen Tatasciore - Jan 22, 2009 \\u003cb\\u003e...\\u003c/b\\u003e\",\n
+        \  \"cacheId\": \"Ran7Ybo7BCsJ\",\n   \"formattedUrl\": \"www.google.com/ig/directory?type=gadgets&url...blogspot...\",\n
+        \  \"htmlFormattedUrl\": \"www.google.com/ig/directory?type=gadgets&amp;url...blogspot...\",\n
+        \  \"pagemap\": {\n    \"product\": [\n     {\n      \"image\": \"http://www.google.com/ig/directory?type=gadgets&url=freeitunessongs.blogspot.com/atom.xml\",\n
+        \     \"name\": \"Free iTunes Store Downloads\",\n      \"description\": \"Every
+        week, Free iTunes Downloads delivers the free TV, video, music, audiobook
+        and iPod game downloads available from the US iTunes Store to your feed reader.
+        Read the full descriptions of the fre...\"\n     }\n    ],\n    \"cse_image\":
+        [\n     {\n      \"src\": \"http://www-ig-opensocial.googleusercontent.com/gadgets/proxy?refresh=86400&url=http://abwaters.googlecode.com/svn/trunk/lib/images/freeitunes21-th.jpg&container=ig&gadget=http://abwaters.googlecode.com/svn/trunk/gadgets/freeitunes22.xml\"\n
+        \    }\n    ],\n    \"cse_thumbnail\": [\n     {\n      \"width\": \"108\",\n
+        \     \"height\": \"54\",\n      \"src\": \"https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTKQJf_wNmob9x-zmCJU_UHvAOGJ4FjSS6R2t31jCMlC9EebG-e5vlV9Q\"\n
+        \    }\n    ],\n    \"hproduct\": [\n     {\n      \"description\": \"Every
+        week, Free iTunes Downloads delivers the free TV, video, music, audiobook
+        and iPod game downloads available from the US iTunes Store to your feed reader.
+        Read the full descriptions of the fre...\",\n      \"fn\": \"Free iTunes Store
+        Downloads\",\n      \"photo\": \"http://www.google.com/ig/directory?type=gadgets&url=freeitunessongs.blogspot.com/atom.xml\"\n
+        \    }\n    ]\n   }\n  },\n  {\n   \"kind\": \"customsearch#result\",\n   \"title\":
+        \"Google I/O 2013\",\n   \"htmlTitle\": \"Google I/O 2013\",\n   \"link\":
+        \"https://www.google.com/io/\",\n   \"displayLink\": \"www.google.com\",\n
+        \  \"snippet\": \"The Week on GDL: Startups, Meetings that Don't Suck and
+        More. #gdl #  developers #startups #wtm. https://developers.google.com/live/.
+        Welcome back to   +GDL.\",\n   \"htmlSnippet\": \"The Week on GDL: Startups,
+        Meetings that Don&#39;t \\u003cb\\u003eSuck\\u003c/b\\u003e and More. #gdl
+        #\\u003cbr\\u003e  developers #startups #wtm. https://developers.google.com/live/.
+        Welcome back to \\u003cbr\\u003e  +GDL.\",\n   \"cacheId\": \"3tvmPgXuLuoJ\",\n
+        \  \"formattedUrl\": \"https://www.google.com/io/\",\n   \"htmlFormattedUrl\":
+        \"https://www.google.com/io/\",\n   \"pagemap\": {\n    \"cse_image\": [\n
+        \    {\n      \"src\": \"https://developers.google.com/_static/images/16x9.png\"\n
+        \    }\n    ],\n    \"cse_thumbnail\": [\n     {\n      \"width\": \"16\",\n
+        \     \"height\": \"9\",\n      \"src\": \"https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRHKpdJ0QTRcGgoMxYZPWaSN3yY66Ynzk54uDEjNXSMAfu_6qCAMUbgUg\"\n
+        \    }\n    ],\n    \"metatags\": [\n     {\n      \"viewport\": \"width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0\",\n
+        \     \"author\": \"Google\",\n      \"og:title\": \"Google I/O 2013\",\n
+        \     \"og:description\": \"Google I/O 2013 brings together thousands of developers
+        for three days of deep technical content focused           on building the
+        next generation of web, mobile, and enterprise applications with Google and
+        \          open web technologies such as Android, Google Chrome, Google APIs,
+        Google Web Toolkit, App Engine, and more.\",\n      \"og:image\": \"https://developers.google.com/apps/images/io_2013/io-schema-logo.png\"\n
+        \    }\n    ]\n   }\n  },\n  {\n   \"kind\": \"customsearch#result\",\n   \"title\":
+        \"Google Bookmarks - Add to your homepage\",\n   \"htmlTitle\": \"Google Bookmarks
+        - Add to your homepage\",\n   \"link\": \"http://www.google.com/ig/directory?type=gadgets&url=www.google.com/ig/modules/bookmarks.xml\",\n
+        \  \"displayLink\": \"www.google.com\",\n   \"snippet\": \"The \\\"improvements\\\"
+        to Google SUCK. I think I will be moving to another browser.   ... Google
+        Chrome sucks. Search Engine Marketing Rajeev Gupta - Apr 26, ...\",\n   \"htmlSnippet\":
+        \"The &quot;improvements&quot; to Google \\u003cb\\u003eSUCK\\u003c/b\\u003e.
+        I think I will be moving to another browser. \\u003cbr\\u003e  \\u003cb\\u003e...\\u003c/b\\u003e
+        Google Chrome \\u003cb\\u003esucks\\u003c/b\\u003e. Search Engine Marketing
+        Rajeev Gupta - Apr 26, \\u003cb\\u003e...\\u003c/b\\u003e\",\n   \"cacheId\":
+        \"c4RUM3kFyZQJ\",\n   \"formattedUrl\": \"www.google.com/ig/directory?type=gadgets&url=www.../ig/...\",\n
+        \  \"htmlFormattedUrl\": \"www.google.com/ig/directory?type=gadgets&amp;url=www.../ig/...\",\n
+        \  \"pagemap\": {\n    \"product\": [\n     {\n      \"image\": \"http://www.google.com/ig/modules/bookmarks2/content/en_bookmarks-thm.png\",\n
+        \     \"name\": \"Google Bookmarks\",\n      \"description\": \"Easily access
+        and organize your favorite bookmarks on your homepage.\"\n     }\n    ],\n
+        \   \"cse_image\": [\n     {\n      \"src\": \"http://www-ig-opensocial.googleusercontent.com/gadgets/proxy?refresh=86400&url=http://img.tfd.com/modules/thm_hangman.png&container=ig&gadget=http://www.thefreedictionary.com/_/WoD/hangman-module.xml\"\n
+        \    }\n    ],\n    \"cse_thumbnail\": [\n     {\n      \"width\": \"108\",\n
+        \     \"height\": \"54\",\n      \"src\": \"https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRh0LBQw2jhzCX0WftPUbDZHEk2XizPhYNBYF2w2dAJ63nhJgqnaIrrqg\"\n
+        \    }\n    ],\n    \"hproduct\": [\n     {\n      \"description\": \"Easily
+        access and organize your favorite bookmarks on your homepage.\",\n      \"fn\":
+        \"Google Bookmarks\",\n      \"photo\": \"http://www.google.com/ig/modules/bookmarks2/content/en_bookmarks-thm.png\"\n
+        \    }\n    ]\n   }\n  },\n  {\n   \"kind\": \"customsearch#result\",\n   \"title\":
+        \"Black UI - Add to your homepage - Google\",\n   \"htmlTitle\": \"Black UI
+        - Add to your homepage - Google\",\n   \"link\": \"http://www.google.com/ig/directory?url=joesworks.com/igoogle/themes/ui/black-ui-theme.xml&type=themes\",\n
+        \  \"displayLink\": \"www.google.com\",\n   \"snippet\": \"you suck liked
+        it then you tricked me and changed it why Du corporations %#&@  ing Du this
+        ?????? Theme looks good in 1080p~! - victor ulloa - Nov 24, 2011 ...\",\n
+        \  \"htmlSnippet\": \"you \\u003cb\\u003esuck\\u003c/b\\u003e liked it then
+        you tricked me and changed it why Du corporations %#&amp;@\\u003cbr\\u003e
+        \ ing Du this ?????? Theme looks good in 1080p~! - victor ulloa - Nov 24,
+        2011 \\u003cb\\u003e...\\u003c/b\\u003e\",\n   \"cacheId\": \"cpQa1zgboj8J\",\n
+        \  \"formattedUrl\": \"www.google.com/ig/directory?url=joesworks.com/igoogle/...\",\n
+        \  \"htmlFormattedUrl\": \"www.google.com/ig/directory?url=joesworks.com/igoogle/...\",\n
+        \  \"pagemap\": {\n    \"product\": [\n     {\n      \"image\": \"http://igoogle-skins.googleusercontent.com/ig/skin_fetch?type=2&sfkey=http://joesworks.com/igoogle/themes/ui/black-ui-thumb.jpg\",\n
+        \     \"description\": \"Black UI theme for iGoogle.\"\n     }\n    ]\n   }\n
+        \ },\n  {\n   \"kind\": \"customsearch#result\",\n   \"title\": \"Google Latitude
+        - Add to your homepage\",\n   \"htmlTitle\": \"Google Latitude - Add to your
+        homepage\",\n   \"link\": \"http://www.google.com/ig/directory?type=gadgets&url=www.google.com/ig/modules/fv.xml\",\n
+        \  \"displayLink\": \"www.google.com\",\n   \"snippet\": \"OK a lot of the
+        stuff is free so I have no right to complain but, Not happy Jan (  That's
+        Australian for - this sucks) ... Combining this app with the maps app   SUCKED!\",\n
+        \  \"htmlSnippet\": \"OK a lot of the stuff is free so I have no right to
+        complain but, Not happy Jan (\\u003cbr\\u003e  That&#39;s Australian for -
+        this \\u003cb\\u003esucks\\u003c/b\\u003e) \\u003cb\\u003e...\\u003c/b\\u003e
+        Combining this app with the maps app \\u003cbr\\u003e  \\u003cb\\u003eSUCKED\\u003c/b\\u003e!\",\n
+        \  \"cacheId\": \"oM9M2DGLk9gJ\",\n   \"formattedUrl\": \"www.google.com/ig/directory?type=gadgets&url=www.../ig/...\",\n
+        \  \"htmlFormattedUrl\": \"www.google.com/ig/directory?type=gadgets&amp;url=www.../ig/...\",\n
+        \  \"pagemap\": {\n    \"product\": [\n     {\n      \"image\": \"http://www.gstatic.com/ig/modules/friendview/fv_content/latitude-thm.jpg\",\n
+        \     \"name\": \"Google Latitude\",\n      \"description\": \"Google Latitude:
+        See your friends on a map\"\n     }\n    ],\n    \"cse_image\": [\n     {\n
+        \     \"src\": \"http://www.gmodules.com/gadgets/proxy?refresh=86400&url=http://www.gstatic.com/ig/modules/friendview/fv_content/latitude.jpg&container=ig\"\n
+        \    }\n    ],\n    \"cse_thumbnail\": [\n     {\n      \"width\": \"196\",\n
+        \     \"height\": \"211\",\n      \"src\": \"https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSwMQJRw8jH6Bp-WBb2eoTtCcIAca__oMBC9UVF1EHmqaAie3fiPYXlEI8\"\n
+        \    }\n    ],\n    \"hproduct\": [\n     {\n      \"description\": \"Google
+        Latitude: See your friends on a map\",\n      \"fn\": \"Google Latitude\",\n
+        \     \"photo\": \"http://www.gstatic.com/ig/modules/friendview/fv_content/latitude-thm.jpg\"\n
+        \    }\n    ]\n   }\n  },\n  {\n   \"kind\": \"customsearch#result\",\n   \"title\":
+        \"Scientific American - Add to your homepage - Google\",\n   \"htmlTitle\":
+        \"Scientific American - Add to your homepage - Google\",\n   \"link\": \"http://www.google.com/ig/directory?type=gadgets&url=rss.sciam.com/ScientificAmerican-Global\",\n
+        \  \"displayLink\": \"www.google.com\",\n   \"snippet\": \"E-Tailers Want
+        Amazon and Apple To Set Readers Free. At this early stage in the   ... Why
+        the Internet Sucks You in Like a Black Hole. More stories ». « Back to ...\",\n
+        \  \"htmlSnippet\": \"E-Tailers Want Amazon and \\u003cb\\u003eApple\\u003c/b\\u003e
+        To Set Readers Free. At this early stage in the \\u003cbr\\u003e  \\u003cb\\u003e...\\u003c/b\\u003e
+        Why the Internet \\u003cb\\u003eSucks\\u003c/b\\u003e You in Like a Black
+        Hole. More stories ». « Back to \\u003cb\\u003e...\\u003c/b\\u003e\",\n   \"cacheId\":
+        \"EKSXuYH-lZoJ\",\n   \"formattedUrl\": \"www.google.com/ig/directory?type=gadgets&url=rss.sciam...\",\n
+        \  \"htmlFormattedUrl\": \"www.google.com/ig/directory?type=gadgets&amp;url=rss.sciam...\",\n
+        \  \"pagemap\": {\n    \"product\": [\n     {\n      \"image\": \"http://www.google.com/ig/directory?type=gadgets&url=rss.sciam.com/ScientificAmerican-Global\",\n
+        \     \"name\": \"Scientific American\",\n      \"description\": \"Science
+        news and technology updates from Scientific American\"\n     }\n    ],\n    \"hproduct\":
+        [\n     {\n      \"description\": \"Science news and technology updates from
+        Scientific American\",\n      \"fn\": \"Scientific American\",\n      \"photo\":
+        \"http://www.google.com/ig/directory?type=gadgets&url=rss.sciam.com/ScientificAmerican-Global\"\n
+        \    }\n    ]\n   }\n  },\n  {\n   \"kind\": \"customsearch#result\",\n   \"title\":
+        \"Pinky Pig Virtual Pet (Customizable) - Add to your homepage - Google\",\n
+        \  \"htmlTitle\": \"Pinky Pig Virtual Pet (Customizable) - Add to your homepage
+        - Google\",\n   \"link\": \"http://www.google.com/ig/directory?type=gadgets&url=hosting.gmodules.com/ig/gadgets/file/109548057311228444554/pig.xml\",\n
+        \  \"displayLink\": \"www.google.com\",\n   \"snippet\": \"this so sucks...
+        Charles ... It sucks so good when he is in the mud :) ... MY PIG   JUST STOLE
+        THE APPLE Sharon Mondrik - May 20, 2011 - Report this comment ...\",\n   \"htmlSnippet\":
+        \"this so \\u003cb\\u003esucks\\u003c/b\\u003e... Charles \\u003cb\\u003e...\\u003c/b\\u003e
+        It \\u003cb\\u003esucks\\u003c/b\\u003e so good when he is in the mud :) \\u003cb\\u003e...\\u003c/b\\u003e
+        MY PIG \\u003cbr\\u003e  JUST STOLE THE \\u003cb\\u003eAPPLE\\u003c/b\\u003e
+        Sharon Mondrik - May 20, 2011 - Report this comment \\u003cb\\u003e...\\u003c/b\\u003e\",\n
+        \  \"cacheId\": \"vgSEuVRlml0J\",\n   \"formattedUrl\": \"www.google.com/ig/directory?type=gadgets&url=hosting...\",\n
+        \  \"htmlFormattedUrl\": \"www.google.com/ig/directory?type=gadgets&amp;url=hosting...\",\n
+        \  \"pagemap\": {\n    \"product\": [\n     {\n      \"image\": \"http://hosting.gmodules.com/ig/gadgets/file/109548057311228444554/pinkyt.png\",\n
+        \     \"name\": \"Pinky Pig Virtual Pet (Customizable)\",\n      \"description\":
+        \"A little pink pig for you to feed and look after. Watch him follow your
+        cursor around. Click him and he jumps, keep clicking and he may roll in the
+        mud for you! Spray him clean with water or trea...\"\n     }\n    ],\n    \"cse_image\":
+        [\n     {\n      \"src\": \"http://www-ig-opensocial.googleusercontent.com/gadgets/proxy?refresh=86400&url=http://sites.google.com/site/najartsist/pets-1/herbiet.png&container=ig&gadget=http://hosting.gmodules.com/ig/gadgets/file/109548057311228444554/hamster.xml\"\n
+        \    }\n    ],\n    \"cse_thumbnail\": [\n     {\n      \"width\": \"108\",\n
+        \     \"height\": \"54\",\n      \"src\": \"https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT9DAg46nhmDSyNP0j8VGH8O_EXkMD0WXBOgOEQ-cqbV7DI8ZnsgGeS\"\n
+        \    }\n    ],\n    \"hproduct\": [\n     {\n      \"description\": \"A little
+        pink pig for you to feed and look after. Watch him follow your cursor around.
+        Click him and he jumps, keep clicking and he may roll in the mud for you!
+        Spray him clean with water or trea...\",\n      \"fn\": \"Pinky Pig Virtual
+        Pet (Customizable)\",\n      \"photo\": \"http://hosting.gmodules.com/ig/gadgets/file/109548057311228444554/pinkyt.png\"\n
+        \    }\n    ]\n   }\n  },\n  {\n   \"kind\": \"customsearch#result\",\n   \"title\":
+        \"SNAKE Game - Top 20 Weekly Challenge - Add to your homepage\",\n   \"htmlTitle\":
+        \"SNAKE Game - Top 20 Weekly Challenge - Add to your homepage\",\n   \"link\":
+        \"http://www.google.com/ig/directory?type=gadgets&url=www.cheap-parking.net/snake.xml&hl=en\",\n
+        \  \"displayLink\": \"www.google.com\",\n   \"snippet\": \"Use the cursor
+        keys to direct the snake to the apples. The snake eats apples to   score points,
+        avoiding the walls and its own tail. If your score is good enough   then ...\",\n
+        \  \"htmlSnippet\": \"Use the cursor keys to direct the snake to the \\u003cb\\u003eapples\\u003c/b\\u003e.
+        The snake eats \\u003cb\\u003eapples\\u003c/b\\u003e to \\u003cbr\\u003e  score
+        points, avoiding the walls and its own tail. If your score is good enough
+        \\u003cbr\\u003e  then \\u003cb\\u003e...\\u003c/b\\u003e\",\n   \"cacheId\":
+        \"UZFEJVI070cJ\",\n   \"formattedUrl\": \"www.google.com/ig/directory?type=gadgets&url=www...\",\n
+        \  \"htmlFormattedUrl\": \"www.google.com/ig/directory?type=gadgets&amp;url=www...\",\n
+        \  \"pagemap\": {\n    \"product\": [\n     {\n      \"image\": \"http://www.cheap-parking.net/i/goo-thumbnail-snake.png\",\n
+        \     \"name\": \"SNAKE Game - Top 20 Weekly Challenge\",\n      \"description\":
+        \"The classic snake game. Use the cursor keys to direct the snake to the apples.
+        The snake eats apples to score points, avoiding the walls and its own tail.
+        If your score is good enough then submit ...\"\n     }\n    ],\n    \"cse_image\":
+        [\n     {\n      \"src\": \"http://www-ig-opensocial.googleusercontent.com/gadgets/proxy?refresh=86400&url=http://www.theweather.tk/googlegadgets/drawplay.jpg&container=ig&gadget=http://www.theweather.tk/googlegadgets/drawplay.xml\"\n
+        \    }\n    ],\n    \"cse_thumbnail\": [\n     {\n      \"width\": \"206\",\n
+        \     \"height\": \"168\",\n      \"src\": \"https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcShSvf3ZYNim2hEvKcq9FnCtG1sB1unY6TLbPIaScXvv2cuUnerEgybS54q\"\n
+        \    }\n    ],\n    \"hproduct\": [\n     {\n      \"description\": \"The
+        classic snake game. Use the cursor keys to direct the snake to the apples.
+        The snake eats apples to score points, avoiding the walls and its own tail.
+        If your score is good enough then submit ...\",\n      \"fn\": \"SNAKE Game
+        - Top 20 Weekly Challenge\",\n      \"photo\": \"http://www.cheap-parking.net/i/goo-thumbnail-snake.png\"\n
+        \    }\n    ]\n   }\n  }\n ]\n}\n"
+    http_version: 
+  recorded_at: Fri, 31 May 2013 03:15:45 GMT
+- request:
+    method: get
+    uri: https://www.googleapis.com/customsearch/v1?cx=<GOGGLE SEARCH ENGINE ID>&key=<GOGGLE
+      APP ID>&num=10&q=apple%20sucks
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: !binary |-
+        T0s=
+    headers:
+      !binary "RXhwaXJlcw==":
+      - !binary |-
+        RnJpLCAzMSBNYXkgMjAxMyAwMzoxNTo0NSBHTVQ=
+      !binary "RGF0ZQ==":
+      - !binary |-
+        RnJpLCAzMSBNYXkgMjAxMyAwMzoxNTo0NSBHTVQ=
+      !binary "Q2FjaGUtQ29udHJvbA==":
+      - !binary |-
+        cHJpdmF0ZSwgbWF4LWFnZT0wLCBtdXN0LXJldmFsaWRhdGUsIG5vLXRyYW5z
+        Zm9ybQ==
+      !binary "RXRhZw==":
+      - !binary |-
+        InpLQUdsTDB0WFBCR2dvQ0dpMFJsdXBmLS1CWS9qa2VhMl9oejJLTHZ0S0F1
+        YVZPdlJsM0JhSkEi
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        YXBwbGljYXRpb24vanNvbjsgY2hhcnNldD1VVEYtOA==
+      !binary "WC1Db250ZW50LVR5cGUtT3B0aW9ucw==":
+      - !binary |-
+        bm9zbmlmZg==
+      !binary "WC1GcmFtZS1PcHRpb25z":
+      - !binary |-
+        U0FNRU9SSUdJTg==
+      !binary "WC1Yc3MtUHJvdGVjdGlvbg==":
+      - !binary |-
+        MTsgbW9kZT1ibG9jaw==
+      !binary "U2VydmVy":
+      - !binary |-
+        R1NF
+      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
+      - !binary |-
+        Y2h1bmtlZA==
+    body:
+      encoding: UTF-8
+      string: ! "{\n \"kind\": \"customsearch#search\",\n \"url\": {\n  \"type\":
+        \"application/json\",\n  \"template\": \"https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&cref={cref?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&relatedSite={relatedSite?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json\"\n
+        },\n \"queries\": {\n  \"nextPage\": [\n   {\n    \"title\": \"Google Custom
+        Search - apple sucks\",\n    \"totalResults\": \"117000\",\n    \"searchTerms\":
+        \"apple sucks\",\n    \"count\": 10,\n    \"startIndex\": 11,\n    \"inputEncoding\":
+        \"utf8\",\n    \"outputEncoding\": \"utf8\",\n    \"safe\": \"off\",\n    \"cx\":
+        \"<GOGGLE SEARCH ENGINE ID>\"\n   }\n  ],\n  \"request\": [\n   {\n    \"title\":
+        \"Google Custom Search - apple sucks\",\n    \"totalResults\": \"117000\",\n
+        \   \"searchTerms\": \"apple sucks\",\n    \"count\": 10,\n    \"startIndex\":
+        1,\n    \"inputEncoding\": \"utf8\",\n    \"outputEncoding\": \"utf8\",\n
+        \   \"safe\": \"off\",\n    \"cx\": \"<GOGGLE SEARCH ENGINE ID>\"\n   }\n
+        \ ]\n },\n \"context\": {\n  \"title\": \"Google\"\n },\n \"searchInformation\":
+        {\n  \"searchTime\": 0.416579,\n  \"formattedSearchTime\": \"0.42\",\n  \"totalResults\":
+        \"117000\",\n  \"formattedTotalResults\": \"117,000\"\n },\n \"items\": [\n
+        \ {\n   \"kind\": \"customsearch#result\",\n   \"title\": \"AFP: Apple's Jobs
+        involved in iPhone prototype search - Google\",\n   \"htmlTitle\": \"AFP:
+        \\u003cb\\u003eApple&#39;s\\u003c/b\\u003e Jobs involved in iPhone prototype
+        search - Google\",\n   \"link\": \"http://www.google.com/hostednews/afp/article/ALeqM5gKxeKNxNjMkGCVUTC2cZn6giJtEw\",\n
+        \  \"displayLink\": \"www.google.com\",\n   \"snippet\": \"May 14, 2010 ...
+        Apple's Jobs involved in iPhone prototype search ... WASHINGTON — Apple   chief
+        executive Steve Jobs personally contacted ... \\\"Sucks for him.\",\n   \"htmlSnippet\":
+        \"May 14, 2010 \\u003cb\\u003e...\\u003c/b\\u003e \\u003cb\\u003eApple&#39;s\\u003c/b\\u003e
+        Jobs involved in iPhone prototype search \\u003cb\\u003e...\\u003c/b\\u003e
+        WASHINGTON — \\u003cb\\u003eApple\\u003c/b\\u003e \\u003cbr\\u003e  chief
+        executive Steve Jobs personally contacted \\u003cb\\u003e...\\u003c/b\\u003e
+        &quot;\\u003cb\\u003eSucks\\u003c/b\\u003e for him.\",\n   \"formattedUrl\":
+        \"www.google.com/.../afp/.../ALeqM5gKxeKNxNjMkGCVUTC2cZn6giJtEw\",\n   \"htmlFormattedUrl\":
+        \"www.google.com/.../afp/.../ALeqM5gKxeKNxNjMkGCVUTC2cZn6giJtEw\",\n   \"pagemap\":
+        {\n    \"cse_image\": [\n     {\n      \"src\": \"http://www.google.com/hostednews/afp/media/ALeqM5hFxLxu3_0t6kGYLgu0ArQCk16GAQ?size=s3\"\n
+        \    }\n    ],\n    \"cse_thumbnail\": [\n     {\n      \"width\": \"212\",\n
+        \     \"height\": \"151\",\n      \"src\": \"https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ9SPuBoAPWoyJ0s6KDfgpm1OdxvJxoBjPQTxIUM6vXQ2jVG846M8EdmjI\"\n
+        \    }\n    ],\n    \"metatags\": [\n     {\n      \"og:title\": \"Apple's
+        Jobs involved in iPhone prototype search\",\n      \"og:type\": \"article\",\n
+        \     \"og:url\": \"http://www.google.com/hostednews/afp/article/ALeqM5gKxeKNxNjMkGCVUTC2cZn6giJtEw\",\n
+        \     \"og:site_name\": \"Google News\",\n      \"og:image\": \"http://www.google.com/hostednews/afp/media/ALeqM5hFxLxu3_0t6kGYLgu0ArQCk16GAQ?size=s3\"\n
+        \    }\n    ]\n   }\n  },\n  {\n   \"kind\": \"customsearch#result\",\n   \"title\":
+        \"Sony | Vaio - Add to your homepage - Google\",\n   \"htmlTitle\": \"Sony
+        | Vaio - Add to your homepage - Google\",\n   \"link\": \"http://www.google.com/ig/directory?type=themes&url=www.learningcenter.sony.us/assets/iGoogle/VaioTheme.xml\",\n
+        \  \"displayLink\": \"www.google.com\",\n   \"snippet\": \"i keep changing
+        the theme and it keeps coming back to the sony theme. this   really sucks.
+        I wander Jordan Christopher - Apr 12, 2012 - Report this comment ...\",\n
+        \  \"htmlSnippet\": \"i keep changing the theme and it keeps coming back to
+        the sony theme. this \\u003cbr\\u003e  really \\u003cb\\u003esucks\\u003c/b\\u003e.
+        I wander Jordan Christopher - Apr 12, 2012 - Report this comment \\u003cb\\u003e...\\u003c/b\\u003e\",\n
+        \  \"cacheId\": \"nTH7r8bRorkJ\",\n   \"formattedUrl\": \"www.google.com/ig/directory?type=themes&url=www...us/...\",\n
+        \  \"htmlFormattedUrl\": \"www.google.com/ig/directory?type=themes&amp;url=www...us/...\",\n
+        \  \"pagemap\": {\n    \"product\": [\n     {\n      \"image\": \"http://igoogle-skins.googleusercontent.com/ig/skin_fetch?type=2&sfkey=http://www.learningcenter.sony.us/assets/iGoogle/img/VAIO_thumbnail.jpg\",\n
+        \     \"description\": \"Sony Vaio theme\"\n     }\n    ]\n   }\n  },\n  {\n
+        \  \"kind\": \"customsearch#result\",\n   \"title\": \"Free iTunes Store Downloads
+        - Add to your homepage - Google\",\n   \"htmlTitle\": \"Free iTunes Store
+        Downloads - Add to your homepage - Google\",\n   \"link\": \"http://www.google.com/ig/directory?type=gadgets&url=freeitunessongs.blogspot.com/atom.xml\",\n
+        \  \"displayLink\": \"www.google.com\",\n   \"snippet\": \"richardriner@ymail.com
+        - May 17, 2011. gadgets sucks Maximo Andres-Miguel -   Jan 2, 2011. Anonymous
+        - Aug 2, 2009. - Stephen Tatasciore - Jan 22, 2009 ...\",\n   \"htmlSnippet\":
+        \"richardriner@ymail.com - May 17, 2011. gadgets \\u003cb\\u003esucks\\u003c/b\\u003e
+        Maximo Andres-Miguel - \\u003cbr\\u003e  Jan 2, 2011. Anonymous - Aug 2, 2009.
+        - Stephen Tatasciore - Jan 22, 2009 \\u003cb\\u003e...\\u003c/b\\u003e\",\n
+        \  \"cacheId\": \"Ran7Ybo7BCsJ\",\n   \"formattedUrl\": \"www.google.com/ig/directory?type=gadgets&url...blogspot...\",\n
+        \  \"htmlFormattedUrl\": \"www.google.com/ig/directory?type=gadgets&amp;url...blogspot...\",\n
+        \  \"pagemap\": {\n    \"product\": [\n     {\n      \"image\": \"http://www.google.com/ig/directory?type=gadgets&url=freeitunessongs.blogspot.com/atom.xml\",\n
+        \     \"name\": \"Free iTunes Store Downloads\",\n      \"description\": \"Every
+        week, Free iTunes Downloads delivers the free TV, video, music, audiobook
+        and iPod game downloads available from the US iTunes Store to your feed reader.
+        Read the full descriptions of the fre...\"\n     }\n    ],\n    \"cse_image\":
+        [\n     {\n      \"src\": \"http://www-ig-opensocial.googleusercontent.com/gadgets/proxy?refresh=86400&url=http://abwaters.googlecode.com/svn/trunk/lib/images/freeitunes21-th.jpg&container=ig&gadget=http://abwaters.googlecode.com/svn/trunk/gadgets/freeitunes22.xml\"\n
+        \    }\n    ],\n    \"cse_thumbnail\": [\n     {\n      \"width\": \"108\",\n
+        \     \"height\": \"54\",\n      \"src\": \"https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTKQJf_wNmob9x-zmCJU_UHvAOGJ4FjSS6R2t31jCMlC9EebG-e5vlV9Q\"\n
+        \    }\n    ],\n    \"hproduct\": [\n     {\n      \"description\": \"Every
+        week, Free iTunes Downloads delivers the free TV, video, music, audiobook
+        and iPod game downloads available from the US iTunes Store to your feed reader.
+        Read the full descriptions of the fre...\",\n      \"fn\": \"Free iTunes Store
+        Downloads\",\n      \"photo\": \"http://www.google.com/ig/directory?type=gadgets&url=freeitunessongs.blogspot.com/atom.xml\"\n
+        \    }\n    ]\n   }\n  },\n  {\n   \"kind\": \"customsearch#result\",\n   \"title\":
+        \"Google I/O 2013\",\n   \"htmlTitle\": \"Google I/O 2013\",\n   \"link\":
+        \"https://www.google.com/io/\",\n   \"displayLink\": \"www.google.com\",\n
+        \  \"snippet\": \"The Week on GDL: Startups, Meetings that Don't Suck and
+        More. #gdl #  developers #startups #wtm. https://developers.google.com/live/.
+        Welcome back to   +GDL.\",\n   \"htmlSnippet\": \"The Week on GDL: Startups,
+        Meetings that Don&#39;t \\u003cb\\u003eSuck\\u003c/b\\u003e and More. #gdl
+        #\\u003cbr\\u003e  developers #startups #wtm. https://developers.google.com/live/.
+        Welcome back to \\u003cbr\\u003e  +GDL.\",\n   \"cacheId\": \"3tvmPgXuLuoJ\",\n
+        \  \"formattedUrl\": \"https://www.google.com/io/\",\n   \"htmlFormattedUrl\":
+        \"https://www.google.com/io/\",\n   \"pagemap\": {\n    \"cse_image\": [\n
+        \    {\n      \"src\": \"https://developers.google.com/_static/images/16x9.png\"\n
+        \    }\n    ],\n    \"cse_thumbnail\": [\n     {\n      \"width\": \"16\",\n
+        \     \"height\": \"9\",\n      \"src\": \"https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRHKpdJ0QTRcGgoMxYZPWaSN3yY66Ynzk54uDEjNXSMAfu_6qCAMUbgUg\"\n
+        \    }\n    ],\n    \"metatags\": [\n     {\n      \"viewport\": \"width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0\",\n
+        \     \"author\": \"Google\",\n      \"og:title\": \"Google I/O 2013\",\n
+        \     \"og:description\": \"Google I/O 2013 brings together thousands of developers
+        for three days of deep technical content focused           on building the
+        next generation of web, mobile, and enterprise applications with Google and
+        \          open web technologies such as Android, Google Chrome, Google APIs,
+        Google Web Toolkit, App Engine, and more.\",\n      \"og:image\": \"https://developers.google.com/apps/images/io_2013/io-schema-logo.png\"\n
+        \    }\n    ]\n   }\n  },\n  {\n   \"kind\": \"customsearch#result\",\n   \"title\":
+        \"Google Bookmarks - Add to your homepage\",\n   \"htmlTitle\": \"Google Bookmarks
+        - Add to your homepage\",\n   \"link\": \"http://www.google.com/ig/directory?type=gadgets&url=www.google.com/ig/modules/bookmarks.xml\",\n
+        \  \"displayLink\": \"www.google.com\",\n   \"snippet\": \"The \\\"improvements\\\"
+        to Google SUCK. I think I will be moving to another browser.   ... Google
+        Chrome sucks. Search Engine Marketing Rajeev Gupta - Apr 26, ...\",\n   \"htmlSnippet\":
+        \"The &quot;improvements&quot; to Google \\u003cb\\u003eSUCK\\u003c/b\\u003e.
+        I think I will be moving to another browser. \\u003cbr\\u003e  \\u003cb\\u003e...\\u003c/b\\u003e
+        Google Chrome \\u003cb\\u003esucks\\u003c/b\\u003e. Search Engine Marketing
+        Rajeev Gupta - Apr 26, \\u003cb\\u003e...\\u003c/b\\u003e\",\n   \"cacheId\":
+        \"c4RUM3kFyZQJ\",\n   \"formattedUrl\": \"www.google.com/ig/directory?type=gadgets&url=www.../ig/...\",\n
+        \  \"htmlFormattedUrl\": \"www.google.com/ig/directory?type=gadgets&amp;url=www.../ig/...\",\n
+        \  \"pagemap\": {\n    \"product\": [\n     {\n      \"image\": \"http://www.google.com/ig/modules/bookmarks2/content/en_bookmarks-thm.png\",\n
+        \     \"name\": \"Google Bookmarks\",\n      \"description\": \"Easily access
+        and organize your favorite bookmarks on your homepage.\"\n     }\n    ],\n
+        \   \"cse_image\": [\n     {\n      \"src\": \"http://www-ig-opensocial.googleusercontent.com/gadgets/proxy?refresh=86400&url=http://img.tfd.com/modules/thm_hangman.png&container=ig&gadget=http://www.thefreedictionary.com/_/WoD/hangman-module.xml\"\n
+        \    }\n    ],\n    \"cse_thumbnail\": [\n     {\n      \"width\": \"108\",\n
+        \     \"height\": \"54\",\n      \"src\": \"https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRh0LBQw2jhzCX0WftPUbDZHEk2XizPhYNBYF2w2dAJ63nhJgqnaIrrqg\"\n
+        \    }\n    ],\n    \"hproduct\": [\n     {\n      \"description\": \"Easily
+        access and organize your favorite bookmarks on your homepage.\",\n      \"fn\":
+        \"Google Bookmarks\",\n      \"photo\": \"http://www.google.com/ig/modules/bookmarks2/content/en_bookmarks-thm.png\"\n
+        \    }\n    ]\n   }\n  },\n  {\n   \"kind\": \"customsearch#result\",\n   \"title\":
+        \"Black UI - Add to your homepage - Google\",\n   \"htmlTitle\": \"Black UI
+        - Add to your homepage - Google\",\n   \"link\": \"http://www.google.com/ig/directory?url=joesworks.com/igoogle/themes/ui/black-ui-theme.xml&type=themes\",\n
+        \  \"displayLink\": \"www.google.com\",\n   \"snippet\": \"you suck liked
+        it then you tricked me and changed it why Du corporations %#&@  ing Du this
+        ?????? Theme looks good in 1080p~! - victor ulloa - Nov 24, 2011 ...\",\n
+        \  \"htmlSnippet\": \"you \\u003cb\\u003esuck\\u003c/b\\u003e liked it then
+        you tricked me and changed it why Du corporations %#&amp;@\\u003cbr\\u003e
+        \ ing Du this ?????? Theme looks good in 1080p~! - victor ulloa - Nov 24,
+        2011 \\u003cb\\u003e...\\u003c/b\\u003e\",\n   \"cacheId\": \"cpQa1zgboj8J\",\n
+        \  \"formattedUrl\": \"www.google.com/ig/directory?url=joesworks.com/igoogle/...\",\n
+        \  \"htmlFormattedUrl\": \"www.google.com/ig/directory?url=joesworks.com/igoogle/...\",\n
+        \  \"pagemap\": {\n    \"product\": [\n     {\n      \"image\": \"http://igoogle-skins.googleusercontent.com/ig/skin_fetch?type=2&sfkey=http://joesworks.com/igoogle/themes/ui/black-ui-thumb.jpg\",\n
+        \     \"description\": \"Black UI theme for iGoogle.\"\n     }\n    ]\n   }\n
+        \ },\n  {\n   \"kind\": \"customsearch#result\",\n   \"title\": \"Google Latitude
+        - Add to your homepage\",\n   \"htmlTitle\": \"Google Latitude - Add to your
+        homepage\",\n   \"link\": \"http://www.google.com/ig/directory?type=gadgets&url=www.google.com/ig/modules/fv.xml\",\n
+        \  \"displayLink\": \"www.google.com\",\n   \"snippet\": \"OK a lot of the
+        stuff is free so I have no right to complain but, Not happy Jan (  That's
+        Australian for - this sucks) ... Combining this app with the maps app   SUCKED!\",\n
+        \  \"htmlSnippet\": \"OK a lot of the stuff is free so I have no right to
+        complain but, Not happy Jan (\\u003cbr\\u003e  That&#39;s Australian for -
+        this \\u003cb\\u003esucks\\u003c/b\\u003e) \\u003cb\\u003e...\\u003c/b\\u003e
+        Combining this app with the maps app \\u003cbr\\u003e  \\u003cb\\u003eSUCKED\\u003c/b\\u003e!\",\n
+        \  \"cacheId\": \"oM9M2DGLk9gJ\",\n   \"formattedUrl\": \"www.google.com/ig/directory?type=gadgets&url=www.../ig/...\",\n
+        \  \"htmlFormattedUrl\": \"www.google.com/ig/directory?type=gadgets&amp;url=www.../ig/...\",\n
+        \  \"pagemap\": {\n    \"product\": [\n     {\n      \"image\": \"http://www.gstatic.com/ig/modules/friendview/fv_content/latitude-thm.jpg\",\n
+        \     \"name\": \"Google Latitude\",\n      \"description\": \"Google Latitude:
+        See your friends on a map\"\n     }\n    ],\n    \"cse_image\": [\n     {\n
+        \     \"src\": \"http://www.gmodules.com/gadgets/proxy?refresh=86400&url=http://www.gstatic.com/ig/modules/friendview/fv_content/latitude.jpg&container=ig\"\n
+        \    }\n    ],\n    \"cse_thumbnail\": [\n     {\n      \"width\": \"196\",\n
+        \     \"height\": \"211\",\n      \"src\": \"https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSwMQJRw8jH6Bp-WBb2eoTtCcIAca__oMBC9UVF1EHmqaAie3fiPYXlEI8\"\n
+        \    }\n    ],\n    \"hproduct\": [\n     {\n      \"description\": \"Google
+        Latitude: See your friends on a map\",\n      \"fn\": \"Google Latitude\",\n
+        \     \"photo\": \"http://www.gstatic.com/ig/modules/friendview/fv_content/latitude-thm.jpg\"\n
+        \    }\n    ]\n   }\n  },\n  {\n   \"kind\": \"customsearch#result\",\n   \"title\":
+        \"Scientific American - Add to your homepage - Google\",\n   \"htmlTitle\":
+        \"Scientific American - Add to your homepage - Google\",\n   \"link\": \"http://www.google.com/ig/directory?type=gadgets&url=rss.sciam.com/ScientificAmerican-Global\",\n
+        \  \"displayLink\": \"www.google.com\",\n   \"snippet\": \"E-Tailers Want
+        Amazon and Apple To Set Readers Free. At this early stage in the   ... Why
+        the Internet Sucks You in Like a Black Hole. More stories ». « Back to ...\",\n
+        \  \"htmlSnippet\": \"E-Tailers Want Amazon and \\u003cb\\u003eApple\\u003c/b\\u003e
+        To Set Readers Free. At this early stage in the \\u003cbr\\u003e  \\u003cb\\u003e...\\u003c/b\\u003e
+        Why the Internet \\u003cb\\u003eSucks\\u003c/b\\u003e You in Like a Black
+        Hole. More stories ». « Back to \\u003cb\\u003e...\\u003c/b\\u003e\",\n   \"cacheId\":
+        \"EKSXuYH-lZoJ\",\n   \"formattedUrl\": \"www.google.com/ig/directory?type=gadgets&url=rss.sciam...\",\n
+        \  \"htmlFormattedUrl\": \"www.google.com/ig/directory?type=gadgets&amp;url=rss.sciam...\",\n
+        \  \"pagemap\": {\n    \"product\": [\n     {\n      \"image\": \"http://www.google.com/ig/directory?type=gadgets&url=rss.sciam.com/ScientificAmerican-Global\",\n
+        \     \"name\": \"Scientific American\",\n      \"description\": \"Science
+        news and technology updates from Scientific American\"\n     }\n    ],\n    \"hproduct\":
+        [\n     {\n      \"description\": \"Science news and technology updates from
+        Scientific American\",\n      \"fn\": \"Scientific American\",\n      \"photo\":
+        \"http://www.google.com/ig/directory?type=gadgets&url=rss.sciam.com/ScientificAmerican-Global\"\n
+        \    }\n    ]\n   }\n  },\n  {\n   \"kind\": \"customsearch#result\",\n   \"title\":
+        \"Pinky Pig Virtual Pet (Customizable) - Add to your homepage - Google\",\n
+        \  \"htmlTitle\": \"Pinky Pig Virtual Pet (Customizable) - Add to your homepage
+        - Google\",\n   \"link\": \"http://www.google.com/ig/directory?type=gadgets&url=hosting.gmodules.com/ig/gadgets/file/109548057311228444554/pig.xml\",\n
+        \  \"displayLink\": \"www.google.com\",\n   \"snippet\": \"this so sucks...
+        Charles ... It sucks so good when he is in the mud :) ... MY PIG   JUST STOLE
+        THE APPLE Sharon Mondrik - May 20, 2011 - Report this comment ...\",\n   \"htmlSnippet\":
+        \"this so \\u003cb\\u003esucks\\u003c/b\\u003e... Charles \\u003cb\\u003e...\\u003c/b\\u003e
+        It \\u003cb\\u003esucks\\u003c/b\\u003e so good when he is in the mud :) \\u003cb\\u003e...\\u003c/b\\u003e
+        MY PIG \\u003cbr\\u003e  JUST STOLE THE \\u003cb\\u003eAPPLE\\u003c/b\\u003e
+        Sharon Mondrik - May 20, 2011 - Report this comment \\u003cb\\u003e...\\u003c/b\\u003e\",\n
+        \  \"cacheId\": \"vgSEuVRlml0J\",\n   \"formattedUrl\": \"www.google.com/ig/directory?type=gadgets&url=hosting...\",\n
+        \  \"htmlFormattedUrl\": \"www.google.com/ig/directory?type=gadgets&amp;url=hosting...\",\n
+        \  \"pagemap\": {\n    \"product\": [\n     {\n      \"image\": \"http://hosting.gmodules.com/ig/gadgets/file/109548057311228444554/pinkyt.png\",\n
+        \     \"name\": \"Pinky Pig Virtual Pet (Customizable)\",\n      \"description\":
+        \"A little pink pig for you to feed and look after. Watch him follow your
+        cursor around. Click him and he jumps, keep clicking and he may roll in the
+        mud for you! Spray him clean with water or trea...\"\n     }\n    ],\n    \"cse_image\":
+        [\n     {\n      \"src\": \"http://www-ig-opensocial.googleusercontent.com/gadgets/proxy?refresh=86400&url=http://sites.google.com/site/najartsist/pets-1/herbiet.png&container=ig&gadget=http://hosting.gmodules.com/ig/gadgets/file/109548057311228444554/hamster.xml\"\n
+        \    }\n    ],\n    \"cse_thumbnail\": [\n     {\n      \"width\": \"108\",\n
+        \     \"height\": \"54\",\n      \"src\": \"https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT9DAg46nhmDSyNP0j8VGH8O_EXkMD0WXBOgOEQ-cqbV7DI8ZnsgGeS\"\n
+        \    }\n    ],\n    \"hproduct\": [\n     {\n      \"description\": \"A little
+        pink pig for you to feed and look after. Watch him follow your cursor around.
+        Click him and he jumps, keep clicking and he may roll in the mud for you!
+        Spray him clean with water or trea...\",\n      \"fn\": \"Pinky Pig Virtual
+        Pet (Customizable)\",\n      \"photo\": \"http://hosting.gmodules.com/ig/gadgets/file/109548057311228444554/pinkyt.png\"\n
+        \    }\n    ]\n   }\n  },\n  {\n   \"kind\": \"customsearch#result\",\n   \"title\":
+        \"SNAKE Game - Top 20 Weekly Challenge - Add to your homepage\",\n   \"htmlTitle\":
+        \"SNAKE Game - Top 20 Weekly Challenge - Add to your homepage\",\n   \"link\":
+        \"http://www.google.com/ig/directory?type=gadgets&url=www.cheap-parking.net/snake.xml&hl=en\",\n
+        \  \"displayLink\": \"www.google.com\",\n   \"snippet\": \"Use the cursor
+        keys to direct the snake to the apples. The snake eats apples to   score points,
+        avoiding the walls and its own tail. If your score is good enough   then ...\",\n
+        \  \"htmlSnippet\": \"Use the cursor keys to direct the snake to the \\u003cb\\u003eapples\\u003c/b\\u003e.
+        The snake eats \\u003cb\\u003eapples\\u003c/b\\u003e to \\u003cbr\\u003e  score
+        points, avoiding the walls and its own tail. If your score is good enough
+        \\u003cbr\\u003e  then \\u003cb\\u003e...\\u003c/b\\u003e\",\n   \"cacheId\":
+        \"UZFEJVI070cJ\",\n   \"formattedUrl\": \"www.google.com/ig/directory?type=gadgets&url=www...\",\n
+        \  \"htmlFormattedUrl\": \"www.google.com/ig/directory?type=gadgets&amp;url=www...\",\n
+        \  \"pagemap\": {\n    \"product\": [\n     {\n      \"image\": \"http://www.cheap-parking.net/i/goo-thumbnail-snake.png\",\n
+        \     \"name\": \"SNAKE Game - Top 20 Weekly Challenge\",\n      \"description\":
+        \"The classic snake game. Use the cursor keys to direct the snake to the apples.
+        The snake eats apples to score points, avoiding the walls and its own tail.
+        If your score is good enough then submit ...\"\n     }\n    ],\n    \"cse_image\":
+        [\n     {\n      \"src\": \"http://www-ig-opensocial.googleusercontent.com/gadgets/proxy?refresh=86400&url=http://www.theweather.tk/googlegadgets/drawplay.jpg&container=ig&gadget=http://www.theweather.tk/googlegadgets/drawplay.xml\"\n
+        \    }\n    ],\n    \"cse_thumbnail\": [\n     {\n      \"width\": \"206\",\n
+        \     \"height\": \"168\",\n      \"src\": \"https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcShSvf3ZYNim2hEvKcq9FnCtG1sB1unY6TLbPIaScXvv2cuUnerEgybS54q\"\n
+        \    }\n    ],\n    \"hproduct\": [\n     {\n      \"description\": \"The
+        classic snake game. Use the cursor keys to direct the snake to the apples.
+        The snake eats apples to score points, avoiding the walls and its own tail.
+        If your score is good enough then submit ...\",\n      \"fn\": \"SNAKE Game
+        - Top 20 Weekly Challenge\",\n      \"photo\": \"http://www.cheap-parking.net/i/goo-thumbnail-snake.png\"\n
+        \    }\n    ]\n   }\n  }\n ]\n}\n"
+    http_version: 
+  recorded_at: Fri, 31 May 2013 03:15:46 GMT
+recorded_with: VCR 2.5.0

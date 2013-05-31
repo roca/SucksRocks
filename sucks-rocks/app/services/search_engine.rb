@@ -8,10 +8,9 @@ private
 
 	def self.search(query)
 
-		google_books_engine = BentoSearch.get_engine("gbs")
+		google_site_search_engine = BentoSearch.get_engine("gsse")
 
-		t = google_books_engine.search(query, :semantic_search_field => :title).pagination.count
-		s = google_books_engine.search(query, :semantic_search_field => :subject).pagination.count
-        return s + t
+		google_site_search_engine.search(query, :semantic_search_field => :title).pagination.count
+        
 	end
 end
